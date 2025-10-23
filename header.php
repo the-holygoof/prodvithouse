@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
-    <link rel="icon" type="image/png" href="https://vithouse.gameisrigged.pl/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="https://vithouse.gameisrigged.pl/favicon.svg" />
-    <link rel="shortcut icon" href="https://vithouse.gameisrigged.pl/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="https://vithouse.gameisrigged.pl/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri(); ?>/favicon.svg" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Vit-House" />
     <script src="<?php echo get_template_directory_uri(); ?>/dist/squircle-init.js" type="module" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/init-tilt-glare.js" type="module" defer></script>
     <meta name="description" content="Profesjonalne leczenie uzależnień - VitHouse. Kroplówki, detoksykacja, ozonoterapia. Dostępni 24/7">
     <meta property="og:title" content="VitHouse - Profesjonalne leczenie uzależnień">
     <meta property="og:description" content="Skuteczne metody leczenia uzależnień. Kroplówki, detoksykacja, wsparcie 24/7">
-    <meta property="og:url" content="https://vithouse.gameisrigged.pl/">
+    <meta property="og:url" content="https://vit-house.pl/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="VitHouse - Profesjonalne leczenie uzależnień">
@@ -76,52 +76,46 @@
                     </a>
                     <div class="hidden grow md:flex justify-center text-sm gap-8 items-center relative">
                         <div class="dropdown dropdown-hover dropdown-center dropdown-bottom cursor-pointer">
-                            <a href="<?php echo esc_url( home_url( '/detoksykacje/' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Detoksykacje</a>
+                            <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Leczenie uzależnień</a>
                             <ul class="cloth-corner gap-0 dropdown-content bg-white/8 menu menu-vertical backdrop-blur-2xl lg:min-w-max backface-hidden">
+                              
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/detoksykacje/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Detoksykacje</a>
+                                    <a href="<?php echo esc_url( home_url( '/odtrucia-od-alkoholu' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucia alkoholowe</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/detoksykacje/odtrucie-od-alkoholu' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucia alkoholowe</a>
+                                    <a href="<?php echo esc_url( home_url( '/odtrucia-po-narkotykach' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucie od narkotyków</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/detoksykacje/odtrucie-od-narkotykow' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucie od narkotyków</a>
+                                    <a href="<?php echo esc_url( home_url( '/lekomania' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucie od leków</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/detoksykacje/odtrucie-od-lekow' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucie od leków</a>
-                                </li>
-                                <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/detoksykacje/wszywka-alkoholowa' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Wszywki alkoholowe</a>
+                                    <a href="<?php echo esc_url( home_url( '/wszywka-alkoholowa' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Wszywki alkoholowe</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="dropdown dropdown-hover dropdown-bottom  cursor-pointer ">
-                            <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Kroplówki</a>
+                            <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Kroplówki</a>
                             <ul class="cloth-corner gap-0 dropdown-content bg-white/8 menu menu-vertical backdrop-blur-2xl lg:min-w-max backface-hidden transition-all duration-350 ease-in-out">
+                                
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Kroplówki witaminowe</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/dla-sportowcow' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Dla sportowców</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-dla-sportowcow/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Dla sportowców</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/oczyszczajaca' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Oczyszczające</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-oczyszczajaca/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Oczyszczające</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/wzmacniajaca/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Wzmacniające</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-wzmacniajaca/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Wzmacniające</a>
-                                </li>
-                                <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-na-kaca/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Na kaca</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/na-kaca' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Na kaca</a>
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo esc_url( home_url( '/ozonoterapia-4/' ) ); ?>" class="m-1 self-center">Ozonoterapia</a>
+                        <a href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>" class="m-1 self-center">Ozonoterapia</a>
                         <div class="dropdown dropdown-hover dropdown-center dropdown-bottom cursor-pointer">
-                            <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Badania laboratoryjne</a>
+                            <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Badania laboratoryjne</a>
                             <ul class="cloth-corner gap-0 dropdown-content bg-white/8 menu menu-vertical backdrop-blur-2xl lg:min-w-max backface-hidden">
-                                <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Badania laboratoryjne</a>
-                                </li>
+
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
                                     <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/crp' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">CRP</a>
                                 </li>
@@ -130,8 +124,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo esc_url( home_url( '/eliksir-mlodosci/' ) ); ?>" class="m-1 self-center">Eliksir młodości</a>
-                        <a href="<?php echo esc_url( home_url( '/o-nas/' ) ); ?>" class="m-1 self-center">O nas</a>
+                        <a href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>" class="m-1 self-center">Eliksir młodości</a>
+                        <a href="<?php echo esc_url( home_url( '/o-nas' ) ); ?>" class="m-1 self-center">O nas</a>
                     </div>
                     <div class="flex-none z-9999 relative">
                         <a href="https://www.halodoctor.pl/lekarze/iwona-zaborowska-internista-warszawa" target="_blank" class="z-9999 cursor-pointer">
@@ -146,33 +140,33 @@
                 <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
                 <ul class="menu min-h-full w-fit justify-center delay-0 font-bold hover:delay-200 transition-all duration-75  bg-surface/8">
                     <li>
-                        <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien/' ) ); ?>">Detoksykacje</a>
+                        <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>">Detoksykacje</a>
                         <ul class="menu">
-                            <li><a href="<?php echo esc_url( home_url( '/odtrucia-po-alkoholu/' ) ); ?>">Odtrucia alkoholowe</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/odtrucia-po-narkotykach/' ) ); ?>">Odtrucie od narkotyków</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/lekomania/' ) ); ?>">Odtrucie od leków</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/wszywka-alkoholowa/' ) ); ?>">Wszywki alkoholowe</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/odtrucia-po-alkoholu' ) ); ?>">Odtrucia alkoholowe</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/odtrucia-po-narkotykach' ) ); ?>">Odtrucie od narkotyków</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/lekomania' ) ); ?>">Odtrucie od leków</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/wszywka-alkoholowa' ) ); ?>">Wszywki alkoholowe</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo esc_url( home_url( '/witaminoterapia/' ) ); ?>">Witaminoterapia</a>
+                        <a href="<?php echo esc_url( home_url( '/witaminoterapia' ) ); ?>">Witaminoterapia</a>
                         <ul class="menu">
-                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/dla-sportowcow/' ) ); ?>">Dla sportowców</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/oczyszczajaca/' ) ); ?>">Oczyszczające</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/wzmacniajaca/' ) ); ?>">Wzmacniające</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/na-kaca/' ) ); ?>">Na kaca</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/dla-sportowcow' ) ); ?>">Dla sportowców</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/oczyszczajaca' ) ); ?>">Oczyszczające</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/wzmacniajaca' ) ); ?>">Wzmacniające</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/na-kaca' ) ); ?>">Na kaca</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo esc_url( home_url( '/ozonoterapia/' ) ); ?>">Ozonoterapia</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>">Ozonoterapia</a></li>
                     <li>
-                        <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/' ) ); ?>">Badania laboratoryjne</a>
+                        <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne' ) ); ?>">Badania laboratoryjne</a>
                         <ul class="menu">
                             <li><a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/crp' ) ); ?>">CRP</a></li>
                             <li><a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/szybki-test-na-paciorkowca' ) ); ?>">Szybki test na paciorkowca</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo esc_url( home_url( '/eliksir-mlodosci/' ) ); ?>">Eliksir młodości</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/o-nas/' ) ); ?>">O nas</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>">Eliksir młodości</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/o-nas' ) ); ?>">O nas</a></li>
                 </ul>
             </div>
         </div>
