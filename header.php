@@ -10,8 +10,6 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Vit-House" />
-    <script src="<?php echo get_template_directory_uri(); ?>/dist/squircle-init.js" type="module" defer></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/init-tilt-glare.js" type="module" defer></script>
     <meta name="description" content="Profesjonalne leczenie uzależnień - VitHouse. Kroplówki, detoksykacja, ozonoterapia. Dostępni 24/7">
     <meta property="og:title" content="VitHouse - Profesjonalne leczenie uzależnień">
     <meta property="og:description" content="Skuteczne metody leczenia uzależnień. Kroplówki, detoksykacja, wsparcie 24/7">

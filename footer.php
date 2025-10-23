@@ -1,7 +1,7 @@
         <section class="overflow-x-clip max-w-screen">
             <div class="wrapper">
                 <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-                            <!-- Left Section - Contact Form -->
+                            
                             <div class="card cloth-border size-fit bg-card flex justify-center content-center items-center">
                                 <div class="p-8 cloth-corner" style="background: linear-gradient(135deg, var(--surface), var(--card));">
                                     <h2 class="mb-6 text-3xl font-bold lg:text-4xl" style=" color: var(--text);">
@@ -11,7 +11,7 @@
                                     tel. 516 516 133 i 533 732 802<br />
                                     ul. Radecka 8, 01-986 Warszawa<br /><br />
                                     <form class="space-y-6">
-                                        <!-- Name and Email Row -->
+                                        
                                         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
                                             <div>
                                                 <input type="text" placeholder="Full Name" class="cloth-button w-full px-4 py-3 transition-colors focus:ring-2 focus:border-transparent" style=" border: 1px solid var(--border); background-color: var(--surface); color: var(--text);" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
@@ -21,12 +21,12 @@
                                             </div>
                                         </div>
 
-                                        <!-- Message Textarea -->
+                                        
                                         <div>
                                             <textarea placeholder="Write your message here..." rows="6" class="cloth-button w-full px-4 py-3 transition-colors resize-none focus:ring-2 focus:border-transparent" style=" border: 1px solid var(--border); background-color: var(--surface); color: var(--text);" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'"></textarea>
                                         </div>
 
-                                        <!-- Submit Button -->
+                                        
                                         <button type="submit" class="flex items-center justify-center w-full gap-2 px-8 py-4 font-semibold text-white transition-all duration-300 cloth-button" style=" background: linear-gradient(to right, var(--primary), var(--secondary));" onmouseover="this.style.background='linear-gradient(to right, var(--secondary), var(--primary))'" onmouseout="this.style.background='linear-gradient(to right, var(--primary), var(--secondary))'">
                                             Wyślij
                                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -42,11 +42,11 @@
 
 
 
-                            <!-- Right Section - Scientific Image -->
+                            
                             <div class="relative">
                                 
 <div class="squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl mb-9 flex items-center justify-center relative">
-                                    <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/outside1.webp" alt="Kroplówki witaminowe" width="1360" height="1020" class="object-cover -m-2 relative"/>
+                                    <img src="/assets/outside.webp" alt="Kroplówki witaminowe" width="1360" height="1020" class="object-cover relative"/>
                                             </div>
                                     
 
@@ -876,9 +876,12 @@
     </div>
 
         
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <script src="<?php echo get_template_directory_uri(); ?>/js/carousels.js" defer> </script>
+      <script src="<?php echo get_template_directory_uri(); ?>/dist/squircle-init.js" type="module" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/init-tilt-glare.js" type="module" defer></script>
+        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    
+<script src="<?php echo get_template_directory_uri(); ?>/js/carousels.js" defer> </script>
 
 
 

@@ -25,17 +25,27 @@
             <div class="absolute inset-0 z-1 pointer-events-none bg-gradient-to-r from-0% from-[var(--surface)] to-70% to-[var(--bg)/0]" ></div>    
             
             <div class="carousel-item slide">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero-detox.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-mlodosci.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
                 <div class="heroslider-content">
-                    <h1>Twój pierwszy krok w&nbsp;stronę wolności</h1>
-                    <p class="slider-subtitle">Pomagamy wyjść z nałogu, łącząc terapię, odtrucia po alkoholu, narkotykach i lekach. <span class="hidden md:inline">Gwarantujemy prywatność, komfortowe pokoje  i opiekę medyczną.</span>
+                    <h1>NAD+ i Glutation – eliksiry młodości</h1>
+                    <p class="slider-subtitle">Nowość w VIT-HOUSE. Dwa wyjątkowe preparaty: NAD+ i Glutation – eliksiry młodości, energii i detoksykacji!</span>
                     </p>
-                    <button class="button-slider" href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
+                    <button class="button-slider" href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
                 </div>          
             </div>
 
             <div class="carousel-item slide">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero-kroplowki.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-detox.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
+                <div class="heroslider-content">
+                    <h1>Twój pierwszy krok w&nbsp;stronę wolności</h1>
+                    <p class="slider-subtitle">Pomagamy wyjść z nałogu, łącząc terapię, odtrucia po alkoholu, narkotykach i lekach. <span class="hidden md:inline">Gwarantujemy prywatność, komfortowe pokoje  i opiekę medyczną.</span>
+                    </p>
+                    <button class="button-slider" href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
+                </div>          
+            </div>
+
+            <div class="carousel-item slide">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
             
                 <div class="heroslider-content">
                     <h1>Kroplówki witaminowe</h1>
@@ -45,12 +55,12 @@
             </div>
 
             <div class="carousel-item slide">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero-ozono.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozono.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
             
                 <div class="heroslider-content">
                     <h1>Ozonoterapia</h1>
                     
-                    <p class="slider-subtitle">Skuteczna i efektywna metoda leczenia wielu schorzeń, zaburzeń i urazów. <span class="hidden md:inline">Poprawia parametry przepływu krwi, zwiększa uwalnianie tlenu z erytrocytów, korzystnie wpływa na układ odpornościowy.</span></p>
+                    <p class="slider-subtitle">Skuteczna i efektywna metoda leczenia wielu schorzeń, zaburzeń i&nbsp;urazów. <span class="hidden md:inline">Poprawia parametry przepływu krwi, zwiększa uwalnianie tlenu z erytrocytów, korzystnie wpływa na układ odpornościowy.</span></p>
                     <button class="button-slider" href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
                 </div>          
             </div>
@@ -76,12 +86,12 @@
                         <div class="flex flex-row-reverse md:flex-row items-center justify-start gap-8 sm:scale-100 scale-75 origin-right md:mb-10">
                             
                             <div class="squircle squircle-4xl squircle-smooth-md squircle-amber-100 squircle-border-1 squircle-border-amber-200  w-[140px] relative ">
-                            <img src="/wp-content/themes/vithouse/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover squircle-mask  squircle-4xl squircle-smooth-lg" style=" image-resolution: 2;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover squircle-mask  squircle-4xl squircle-smooth-lg" style=" image-resolution: 2;">
                             </div>
 
 
                             <a href="https://www.orlymedycyny.pl/profile-942794-vit-house-pl-sp-z-o-o" target="_blank">
-                                <img src="/wp-content/themes/vithouse/assets/app_laureate_110_gold_113.webp" width="110" height="110" style="width:110px; height:110px; border:0;" alt="VIT-HOUSE.PL Sp. z o.o. - Warszawa" title="VIT-HOUSE.PL Sp. z o.o. - Warszawa">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/app_laureate_110_gold_113.webp" width="110" height="110" style="width:110px; height:110px; border:0;" alt="VIT-HOUSE.PL Sp. z o.o. - Warszawa" title="VIT-HOUSE.PL Sp. z o.o. - Warszawa">
                             </a>
                                 
                         </div>
@@ -223,57 +233,57 @@
 
                         <!-- Forward strip: composited wrapper + paint containment -->
                         <div class="testim-container-forward col-span-1 row-span-1 md:col-span-2 relative gap-3 flex flex-row sm:flex-col  md:w-full md:h-max ">
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                         </div>
 
                         <!-- Backward strip: same setup -->
                         <div class="testim-container-backward col-span-1 row-span-1 md:col-span-2 relative gap-3 flex flex-row sm:flex-col md:w-full md:h-max ">
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-2.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="https://vithouse.gameisrigged.pl/assets/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-2.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                         </div>
 
 
@@ -507,10 +517,10 @@
 
                                     <div class="card kolumna1-1 sm:col-span-1 col-span-3 sm:col-start-1 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start ">
                                             <div class="cloth-corner relative  cursor-pointer group ">
-                                                <a href="https://vithouse.gameisrigged.pl/detoksykacje/">
+                                                <a href="/leczenie-uzaleznien">
                                                     <div class="relative  transition-all duration-300">
                                                         <img
-                                                        src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/detoksykacja-1.webp" alt="" alt="Klinika leczenia uzależnień Warszawa" class="object-cover w-full h-full transition-transform duration-300 ">
+                                                        src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-detoksykacja.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover w-full h-full transition-transform duration-300 ">
 
                                                         
                                                         <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -536,12 +546,12 @@
 
                                     <div class="card kolumna1-2 sm:col-span-1 col-span-3 sm:col-start-1 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
                                         <div class="cloth-corner relative  cursor-pointer group">
-                                            <a href="https://vithouse.gameisrigged.pl/eliksir-mlodosci/">
+                                            <a href="/eliksir-mlodosci">
                                                 <div class="relative  transition-all duration-300">
                                                     <img
-                                                    src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/zastrzyk-mlodosci.webp" alt="" alt="Klinika leczenia uzależnień Warszawa" class="object-cover w-full h-full transition-transform duration-300 ">
+                                                    src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-zastrzyk-mlodosci.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover w-full h-full transition-transform duration-300 ">
 
-                                                    <!-- Overlay with Service Info -->
+                                                    
                                                     <div class="absolute bottom-0 left-0 right-0 p-6 ">
                                                         <div class="text-white">
 
@@ -564,10 +574,10 @@
 
                                     <div class="card kolumna2 sm:col-span-1 col-span-3 sm:col-start-2 row-span-2 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
                                         <div class="cloth-corner relative cursor-pointer group">
-                                            <a href="https://vithouse.gameisrigged.pl/detoksykacje/wszywka-alkoholowa">
+                                            <a href="/wszywka-alkoholowa">
                                                 <div class="relative  transition-all duration-300">
                                                     <img
-                                                        src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/wszywka@2x-alt1.webp" alt="" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                        src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-wszywka.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
                                                         <!-- Overlay with Service Info -->
                                                         <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -592,10 +602,10 @@
 
                                         <div class="card kolumna3 sm:col-span-1 col-span-3 sm:col-start-2 row-span-3 sm:row-start-3 cloth-border-nobg flex items-center justify-center self-end">
                                             <div class="cloth-corner relative  cursor-pointer group">
-                                                <a href="https://vithouse.gameisrigged.pl/detoksykacje/">
+                                                <a href="/leczenie-uzaleznien">
                                                     <div class="relative transition-all duration-300">
                                                         <img
-                                                            src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/regeneracja@2x.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-regeneracja.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
                                                             
                                                             <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -620,10 +630,10 @@
 
                                             <div class="card kolumna4 sm:col-span-1 col-span-3 sm:col-start-3 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
                                                 <div class="cloth-corner relative  cursor-pointer group">
-                                                    <a href="https://vithouse.gameisrigged.pl/badania-laboratoryjne/">
+                                                    <a href="/badania-laboratoryjne">
                                                         <div class="relative transition-all duration-300">
                                                             <img
-                                                                src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/badania-laboratoryjne@2x-1.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                                src="<?php echo get_template_directory_uri(); ?><?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-badania-laboratoryjne.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
                                                                 
                                                                 <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -648,10 +658,10 @@
 
                                                     <div class="card kolumna5 sm:col-span-1 col-span-3 sm:col-start-3 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
                                                         <div class="cloth-corner relative  cursor-pointer group">
-                                                            <a href="https://vithouse.gameisrigged.pl/ozonoterapia/">
+                                                            <a href="<?php echo get_template_directory_uri(); ?>/ozonoterapia/">
                                                                 <div class="relative  transition-all duration-300">
                                                                     <img
-                                                                    src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/ozonoterapia@2x.webp" alt="" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                                    src="<?php echo get_template_directory_uri(); ?><?php echo get_template_directory_uri(); ?>/assets/ozonoterapia@2x.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
                                                                     
                                                                     <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -711,12 +721,12 @@
 
                                                         </p>
 
-                                                        <img src="/wp-content/themes/vithouse/assets/onas-vithouse.webp" alt="Kroplówki witaminowe" width="1126" height="1190" class="object-cover relative"></div>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/onas-vithouse.webp" alt="Kroplówki witaminowe" width="1126" height="1190" class="object-cover relative"></div>
 
                                                         <div class="flex flex-col ">
                                                             <div class="squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl mb-9 flex items-center justify-center">
 
-                                                            <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/onas-2-2.webp" alt="Kroplówki witaminowe" width="1280" height="909" class="object-cover -m-2"/>
+                                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/onas-2-2.webp" alt="Kroplówki witaminowe" width="1280" height="909" class="object-cover -m-2"/>
                                                             </div>
                                                             
                                                             <div class="content">
@@ -757,7 +767,7 @@
                                                                 </div>
                                                             </div>
 
-                                                            <a href="https://vithouse.gameisrigged.pl/o-nas/">
+                                                            <a href="<?php echo get_template_directory_uri(); ?>/o-nas/">
                                                                 <div class="cloth-button-border p-0.5 flex justify-end self-end w-fit " style="background: linear-gradient(135deg, var(--primary), var(--secondary));">
                                                                     <button class="flex  text-sm items-end gap-3 px-5 py-3  cloth-button bg-surface">
                                                                         Dowiedz się więcej
