@@ -59,7 +59,7 @@
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
 
-                <div class="w-full flex justify-between content-between items-center">
+                <div class="w-full flex justify-between content-between">
                     <div class="flex-none lg:hidden self-center">
                         <label for="my-drawer-3" aria-label="open sidebar" class=" bg-transparent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-7 w-7 stroke-current">
@@ -67,11 +67,13 @@
                             </svg>
                         </label>
                     </div>
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                        <div class="mx-2 flex-none px-2 hover:scale-110 transition-transform duration-250 ease-in-out">
+                    
+                        <div class="mx-2 flex-1 px-2 hover:scale-110 transition-transform duration-250 ease-in-out">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">    
                             <img class="h-9 opacity-95" src="<?php echo get_template_directory_uri(); ?>/assets/vit-house-logo.svg" alt="Vit-House">
+                            </a>
                         </div>
-                    </a>
+                    
                     <div class="hidden grow md:flex justify-center text-sm gap-8 items-center relative">
                         <div class="dropdown dropdown-hover dropdown-center dropdown-bottom cursor-pointer">
                             <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Leczenie uzależnień</a>
