@@ -46,7 +46,7 @@
                             <div class="relative">
                                 
 <div class="squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl mb-9 flex items-center justify-center relative">
-                                    <img src="/assets/outside.webp" alt="Kroplówki witaminowe" width="1360" height="1020" class="object-cover relative"/>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/outside.webp" alt="Kroplówki witaminowe" width="1360" height="1020" class="object-cover relative"/>
                                             </div>
                                     
 
@@ -888,7 +888,14 @@
 
 
         <?php wp_footer(); ?>
-    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-217789183-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-217789183-1');
+</script>    
     
     
     </body>

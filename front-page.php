@@ -661,7 +661,7 @@
                                                             <a href="/ozonoterapia">
                                                                 <div class="relative  transition-all duration-300">
                                                                     <img
-                                                                    src="<?php echo get_template_directory_uri(); ?>/assets/ozonoterapia@2x.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                                    src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-ozonoterapia.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
                                                                     
                                                                     <div class="absolute bottom-0 left-0 right-0 p-6 ">
