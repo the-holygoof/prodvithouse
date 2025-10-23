@@ -17,7 +17,7 @@
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-wzmacniajaca')); ?>">
         <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki-wzmacniajace-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
-                <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/kroplowki-wzmacniajace.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-wzmacniajace.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            
             <div class="glare pointer-events-none  absolute inset-0 opacity-0 transition-opacity duration-150 ease-out" aria-hidden="true"></div>
             <div class="relative cardcontent w-full h-full flex flex-col justify-end px-4 py-7 group-hover:px-6 transition-all duration-100">
@@ -51,7 +51,7 @@
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-oczyszczajaca')); ?>">
         <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki-oczyszczajace-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
-                <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/kroplowki-oczyszczajace.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-oczyszczajace.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            
             <div class="glare pointer-events-none  absolute inset-0 opacity-0 transition-opacity duration-150 ease-out" aria-hidden="true"></div>
             <div class="relative cardcontent w-full h-full flex flex-col justify-end px-4 py-7 group-hover:px-6 transition-all duration-100">
@@ -87,7 +87,7 @@
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-dla-sportowcow')); ?>">
         <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki-dla-sportowcow-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
-                <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/kroplowki-dla_sportowcow.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-dla_sportowcow.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            
             <div class="glare pointer-events-none  absolute inset-0 opacity-0 transition-opacity duration-150 ease-out" aria-hidden="true"></div>
             <div class="relative cardcontent w-full h-full flex flex-col justify-end px-4 py-7 group-hover:px-6 transition-all duration-100">
@@ -123,7 +123,7 @@
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-na-kaca')); ?>">
         <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki-na-kaca-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
-                <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/09/kroplowki-na_kaca.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-na_kaca.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            
             <div class="glare pointer-events-none  absolute inset-0 opacity-0 transition-opacity duration-150 ease-out" aria-hidden="true"></div>
             <div class="relative cardcontent w-full h-full flex flex-col justify-end px-4 py-7 group-hover:px-6 transition-all duration-100">

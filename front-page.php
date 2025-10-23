@@ -233,57 +233,57 @@
 
                         <!-- Forward strip: composited wrapper + paint containment -->
                         <div class="testim-container-forward col-span-1 row-span-1 md:col-span-2 relative gap-3 flex flex-row sm:flex-col  md:w-full md:h-max ">
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                         </div>
 
                         <!-- Backward strip: same setup -->
                         <div class="testim-container-backward col-span-1 row-span-1 md:col-span-2 relative gap-3 flex flex-row sm:flex-col md:w-full md:h-max ">
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-2.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
-                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-14.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-15.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-16.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-17.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-18.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-20.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-21.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-22.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-23.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-2.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-6.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-7.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-8.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-9.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-10.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-11.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-12.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                            <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-13.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                         </div>
 
 
@@ -560,7 +560,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <!-- Action Button -->
+                                                    
                                                     <button class="absolute rounded-full flex items-center justify-center w-12 h-12 transition-all duration-300 bg-card top-4 right-4 hover:bg-blue-600 hover:text-white group-hover:scale-110">
                                                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
@@ -579,7 +579,7 @@
                                                     <img
                                                         src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-wszywka.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
-                                                        <!-- Overlay with Service Info -->
+                                                        
                                                         <div class="absolute bottom-0 left-0 right-0 p-6 ">
                                                             <div class="text-white">
 
@@ -588,7 +588,7 @@
                                                             </div>
                                                         </div>
 
-                                                        <!-- Action Button -->
+                                                        
                                                         <button class="absolute rounded-full flex items-center justify-center w-12 h-12 transition-all duration-300 bg-card top-4 right-4 hover:bg-blue-600 hover:text-white group-hover:scale-110">
                                                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
@@ -633,7 +633,7 @@
                                                     <a href="/badania-laboratoryjne">
                                                         <div class="relative transition-all duration-300">
                                                             <img
-                                                                src="<?php echo get_template_directory_uri(); ?><?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-badania-laboratoryjne.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-badania-laboratoryjne.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
                                                                 
                                                                 <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -658,10 +658,10 @@
 
                                                     <div class="card kolumna5 sm:col-span-1 col-span-3 sm:col-start-3 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
                                                         <div class="cloth-corner relative  cursor-pointer group">
-                                                            <a href="<?php echo get_template_directory_uri(); ?>/ozonoterapia/">
+                                                            <a href="/ozonoterapia">
                                                                 <div class="relative  transition-all duration-300">
                                                                     <img
-                                                                    src="<?php echo get_template_directory_uri(); ?><?php echo get_template_directory_uri(); ?>/assets/ozonoterapia@2x.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                                    src="<?php echo get_template_directory_uri(); ?>/assets/ozonoterapia@2x.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
 
                                                                     
                                                                     <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -726,7 +726,7 @@
                                                         <div class="flex flex-col ">
                                                             <div class="squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl mb-9 flex items-center justify-center">
 
-                                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/onas-2-2.webp" alt="Kroplówki witaminowe" width="1280" height="909" class="object-cover -m-2"/>
+                                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/onas.webp" alt="Kroplówki witaminowe" width="1280" height="909" class="object-cover"/>
                                                             </div>
                                                             
                                                             <div class="content">
@@ -767,9 +767,9 @@
                                                                 </div>
                                                             </div>
 
-                                                            <a href="<?php echo get_template_directory_uri(); ?>/o-nas/">
+                                                            <a href="<?php echo get_template_directory_uri(); ?>/o-nas">
                                                                 <div class="cloth-button-border p-0.5 flex justify-end self-end w-fit " style="background: linear-gradient(135deg, var(--primary), var(--secondary));">
-                                                                    <button class="flex  text-sm items-end gap-3 px-5 py-3  cloth-button bg-surface">
+                                                                    <button class="flex btn text-sm items-end gap-3 px-5 py-3  cloth-button bg-surface">
                                                                         Dowiedz się więcej
                                                                     </button>
                                                                 </div>

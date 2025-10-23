@@ -109,9 +109,9 @@
 
    
 
-        <!---- fab --->
+        
     <div
-        class="fab fab-flower bottom-4 right-4 z-998 hover:transform-gpu hover:will-change-transform contain-layout-style" style="position: fixed !important; display: flex !important; contain: layout style">
+        class="fab fab-flower bottom-4 right-4 z-9998 isolate hover:transform-gpu hover:will-change-transform contain-layout-style" style="position: fixed !important; display: flex !important;">
         <!-- a focusable div with tabindex is necessary to work on all browsers. role="button" is necessary for accessibility -->
         <div tabindex="0" role="button" class=" btn btn-circle btn-lg bg-linear-to-br from-secondary to-accent">
             <svg aria-label="New" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-6">
