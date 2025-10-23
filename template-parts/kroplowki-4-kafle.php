@@ -15,7 +15,7 @@
 
     <!--- wzmacniajaca --->
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-wzmacniajaca')); ?>">
-        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki/kroplowki-wzmacniajace-bg.webp')">
+        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-wzmacniajace-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-wzmacniajace.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            
@@ -49,7 +49,7 @@
 
         <!--- oczyszczajaca --->
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-oczyszczajaca')); ?>">
-        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki/kroplowki-oczyszczajace-bg.webp')">
+        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-oczyszczajace-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-oczyszczajace.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            
@@ -59,7 +59,7 @@
                     <h3 class="text-lg sm:text-xl font-extrabold text-white">Oczyszczająca</h3>
                     <div class="px-3 py-1 bg-white rounded-xl text-sm font-bold text-black">550 zł</div>
                 </div>
-                <p class="text-sm font-semibold text-black/80 mb-3 group-hover:mb-6 duration-500 delay-75">Kompleksowy detoks organizmu, usunięcie toksyn, wsparcie wątroby i nerek</p>
+                <p class="text-sm font-semibold text-black/80 mb-3 group-hover:mb-6 duration-500 delay-75">Kompleksowy detoks organizmu, usunięcie toksyn, wsparcie wątroby i nerek</p>
                 <div class="-mb-12 group-hover:mb-0 opacity-0 group-hover:opacity-100 duration-300 hover:scale-95">
                     <button class=" w-full py-3 px-4 bg-white/20 cloth-button text-white font-semibold  group-hover:bg-white group-hover:text-black group-hover:delay-500 duration-300 ease-in shadow-none cursor-pointer ">
                         Zarezerwuj
@@ -85,7 +85,7 @@
 
         <!--- sportowcy --->
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-dla-sportowcow')); ?>">
-        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki/kroplowki-dla-sportowcow-bg.webp')">
+        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-dla-sportowcow-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-dla_sportowcow.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            
@@ -95,7 +95,7 @@
                     <h3 class="text-lg sm:text-xl font-extrabold text-white">Sportowcy</h3>
                     <div class="px-3 py-1 bg-white rounded-xl text-sm font-bold text-black">550 zł</div>
                 </div>
-                <p class="text-sm font-semibold text-black/80 mb-3 group-hover:mb-6 duration-500 delay-75">Elektrolity, aminokwasy, antyoksydanty - maksymalna wydolność i regeneracja</p>
+                <p class="text-sm font-semibold text-black/80 mb-3 group-hover:mb-6 duration-500 delay-75">Elektrolity, aminokwasy,<br/>antyoksydanty - maksymalna<br/>wydolność i regeneracja</p>
                 <div class="-mb-12 group-hover:mb-0 opacity-0 group-hover:opacity-100 duration-300 hover:scale-95">
                     <button class=" w-full py-3 px-4 bg-white/20 cloth-button text-white font-semibold  group-hover:bg-white group-hover:text-black group-hover:delay-500 duration-300 ease-in shadow-none cursor-pointer ">
                         Zarezerwuj
@@ -121,7 +121,7 @@
 
     <!--- na kaca --->
     <a href="<?php echo esc_url(home_url('/kroplowki-witaminowe/kroplowka-na-kaca')); ?>">
-        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('/wp-content/themes/vithouse/assets/kroplowki/kroplowki-na-kaca-bg.webp')">
+        <div class="card cloth-border relative flex items-end justify-end cursor-pointer group min-h-[430px] bg-cover bg-no-repeat transform-3d" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-na-kaca-bg.webp')">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-na_kaca.webp" width="459" height="612" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 transform-3d">
             </div>            

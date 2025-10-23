@@ -6,7 +6,7 @@
     scaleY: 7,
     glareRx: 230,
     glareRy: 240,
-    glareAlphaOuter: 0.20,
+    glareAlphaOuter: 0.10,
     innerGlare: false,
     resumeDelayMs: 220,      // pause a bit longer after scroll
     pointerThrottleMs: 16,   // ~60fps
@@ -17,10 +17,10 @@
     .card { transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0); transition: transform 160ms ease; }
     .card.is-hovering { transition: all 36ms linear; }
     .glare { opacity: 0; transition: opacity 140ms ease; }
-    .card.is-hovering .glare, .card:hover .glare { opacity: 0.7; }
+    .card.is-hovering .glare, .card:hover .glare { opacity: 0.5; }
 
     .card { position: relative; z-index: 20; }
-    .card > .glare { z-index: 160; }
+    .card > .glare { z-index: 180; }
     .card > .cloth-corner { z-index: 140; }
     .card > .cloth-corner > *:not(.glare) { z-index: 150; }
 

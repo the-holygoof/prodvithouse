@@ -1486,6 +1486,12 @@
   .z-9999 {
     z-index: 9999;
   }
+  .z-99999 {
+    z-index: 99999;
+  }
+  .z-999999 {
+    z-index: 999999;
+  }
   .z-\[310\] {
     z-index: 310;
   }
@@ -3359,6 +3365,17 @@
   }
   .will-change-transform {
     will-change: transform;
+  }
+  .contain-layout {
+    --tw-contain-layout: layout;
+    contain: var(--tw-contain-size,) var(--tw-contain-layout,) var(--tw-contain-paint,) var(--tw-contain-style,);
+  }
+  .contain-style {
+    --tw-contain-style: style;
+    contain: var(--tw-contain-size,) var(--tw-contain-layout,) var(--tw-contain-paint,) var(--tw-contain-style,);
+  }
+  .contain-layout {
+    contain: layout;
   }
   .contain-layout-style {
     contain: layout style;
@@ -5568,6 +5585,22 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-contain-size {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contain-layout {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contain-paint {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contain-style {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
@@ -5647,6 +5680,10 @@
       --tw-backdrop-opacity: initial;
       --tw-backdrop-saturate: initial;
       --tw-backdrop-sepia: initial;
+      --tw-contain-size: initial;
+      --tw-contain-layout: initial;
+      --tw-contain-paint: initial;
+      --tw-contain-style: initial;
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;

@@ -30,6 +30,7 @@
     
       <!-- Slide 1 -->
       <div class="carousel-item relative gap-x-6 pl-2" tabindex="0">
+        
         <div class="w-1/3 cloth-border max-w-[96svw]">
           <div class="opinie-item">
             <p class="leading-relaxed">"Super obsługa! Zaproponowali termin najwygodniejszy dla mnie czasowo. Kawka, wygodne fotele i przyjemna atmosfera. Po wlewie witaminowym czuje się super. Polecam!"</p>
@@ -38,6 +39,16 @@
             </div>
           </div>
         </div>
+
+        <div class="w-1/3 cloth-border max-w-[96svw]">
+          <div class="opinie-item">
+            <p class="leading-relaxed">"Korzystałam z kroplówki witaminowej z dojazdem. Bardzo polecam! Przemiła obsługa, ekspresowy dojazd, Pani pielęgniarka bardzo profesjonalna i miła, wkłucie bezbolesne. Od razu poczułam się lepiej :)"</p>
+            <div class="text-right">
+              <h4>Ewa Rosińska</h4><h5>Pacjent</h5>
+            </div>
+          </div>
+        </div>
+        
         <div class="w-1/3 cloth-border">
           <div class="opinie-item ">
             <p class="leading-relaxed">"Byłem sceptycznie nastawiony  Po operacji nogi pod narkozą - spróbowałem i nie żałuje  Czuję się młodszy o 10 lat, pełen energii oraz sił witalnych  Szczerze POLECAM!!!!!!!"</p>
@@ -132,13 +143,20 @@
         </div>
         <div class="w-1/3 cloth-border ">
           <div class="opinie-item">
-            <p class="leading-relaxed">"Miałem okazję skorzystać z wlewów witaminowych… Pani Gosia to prawdziwa specjalistka: wyjaśnia cały proces i dba o komfort — dzięki niej zabieg bez stresu. Serdecznie polecam!"</p>
-            <div class="text-right">
+            <p class="leading-relaxed">"Miałem okazję skorzystać z wlewów witaminowych w Vit-House w Warszawie — pełen profesjonalizm, wysoka higiena i miła atmosfera. Pani Gosia to prawdziwa specjalistka: nie tylko dokładnie wyjaśnia cały proces, ale też dba o komfort i dobre samopoczucie — dzięki niej cały zabieg przebiegł bez stresu. Serdecznie polecam!"</p>
+            <div class="text-right">   
+              
               <h4>Łukasz Pośnik</h4><h5>Pacjent</h5>
             </div>
           </div>
         </div>
       </div>
+
+
+
+      
+                     
+              
     </div><!-- /.carousel -->
   </div>
 </section>
