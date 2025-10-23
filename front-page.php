@@ -27,8 +27,8 @@
             <div class="carousel-item slide">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-mlodosci.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
                 <div class="heroslider-content">
-                    <h1>NAD+ i Glutation – eliksiry młodości</h1>
-                    <p class="slider-subtitle">Nowość w VIT-HOUSE. Dwa wyjątkowe preparaty: NAD+ i Glutation – eliksiry młodości, energii i detoksykacji!</span>
+                    <h1>NAD+ i Glutation <br/>eliksiry młodości</h1>
+                    <p class="slider-subtitle">Nowość w VIT-HOUSE. Dwa wyjątkowe preparaty:<br/>NAD+ i Glutation - eliksiry młodości, energii i detoksykacji!</span>
                     </p>
                     <button class="button-slider" href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
                 </div>          
