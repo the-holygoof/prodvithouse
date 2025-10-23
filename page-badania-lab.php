@@ -65,7 +65,7 @@ get_template_part('template-parts/title-section', null, [
                             </div>
 
                         </div>
-                        <button class="absolute z-200 top-5 right-5 w-10 h-10 bg-(--card) rounded-full flex items-center justify-center transition-all duration-300 shadow-none  group-hover:scale-110">
+                        <button class="absolute z-200 top-5 right-5 w-10 h-10 bg-card rounded-full flex items-center justify-center transition-all duration-300 shadow-none  group-hover:scale-110">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
 
@@ -93,7 +93,7 @@ get_template_part('template-parts/title-section', null, [
                             </div>
 
                         </div>
-                        <button class="absolute z-200 top-5 right-5 w-10 h-10 bg-(--card) rounded-full flex items-center justify-center transition-all duration-300 shadow-none  group-hover:scale-110">
+                        <button class="absolute z-200 top-5 right-5 w-10 h-10 bg-card rounded-full flex items-center justify-center transition-all duration-300 shadow-none  group-hover:scale-110">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
 
