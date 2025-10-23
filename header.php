@@ -146,25 +146,24 @@
                 <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
                 <ul class="menu min-h-full w-fit justify-center delay-0 font-bold hover:delay-200 transition-all duration-75  bg-surface/8">
                     <li>
-                        <a href="<?php echo esc_url( home_url( '/detoksykacje/' ) ); ?>">Detoksykacje</a>
+                        <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien/' ) ); ?>">Detoksykacje</a>
                         <ul class="menu">
-                            <li><a href="<?php echo esc_url( home_url( '/detoksykacje/odtrucie-od-alkoholu' ) ); ?>">Odtrucia alkoholowe</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/detoksykacje/odtrucie-od-narkotykow' ) ); ?>">Odtrucie od narkotyków</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/detoksykacje/odtrucie-od-lekow' ) ); ?>">Odtrucie od leków</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/detoksykacje/wszywka-alkoholowa' ) ); ?>">Wszywki alkoholowe</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/odtrucia-po-alkoholu/' ) ); ?>">Odtrucia alkoholowe</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/odtrucia-po-narkotykach/' ) ); ?>">Odtrucie od narkotyków</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/lekomania/' ) ); ?>">Odtrucie od leków</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/wszywka-alkoholowa/' ) ); ?>">Wszywki alkoholowe</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/' ) ); ?>">Kroplówki</a>
+                        <a href="<?php echo esc_url( home_url( '/witaminoterapia/' ) ); ?>">Witaminoterapia</a>
                         <ul class="menu">
-                            <li><a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/' ) ); ?>">Kroplówki witaminowe</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-dla-sportowcow/' ) ); ?>">Dla sportowców</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-oczyszczajaca/' ) ); ?>">Oczyszczające</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-wzmacniajaca/' ) ); ?>">Wzmacniające</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe/kroplowka-na-kaca/' ) ); ?>">Na kaca</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/dla-sportowcow/' ) ); ?>">Dla sportowców</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/oczyszczajaca/' ) ); ?>">Oczyszczające</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/wzmacniajaca/' ) ); ?>">Wzmacniające</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/witaminoterapia/na-kaca/' ) ); ?>">Na kaca</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo esc_url( home_url( '/ozonoterapia-4/' ) ); ?>">Ozonoterapia</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/ozonoterapia/' ) ); ?>">Ozonoterapia</a></li>
                     <li>
                         <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/' ) ); ?>">Badania laboratoryjne</a>
                         <ul class="menu">
