@@ -5,7 +5,7 @@
  */
 ?>
 
-<section class="py-2 md:py-4 my-auto relative">
+<section class="py-2 md:py-4 my-auto relative overflow-hidden">
    
     <div class="h-full slider-buttons-wrapper max-w-8xl mx-auto absolute inset-0 top-4/9 p-4">    
         <button type="button"

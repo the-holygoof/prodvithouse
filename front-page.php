@@ -24,10 +24,10 @@
 
 
 
-<section class="py-2 md:pt-2 ">
+<section class="py-9 md:pt-0 ">
     <div class="wrapper">
         <div id="below-hero" class="relative grid grid-cols-3 md:grid-cols-7 md:gap-8">
-                    <div class="content col-span-3 md:col-span-3 flex flex-col justify-between content-between space-y-8">
+                    <div class="content col-span-3 md:col-span-3 flex flex-col justify-between content-between space-y-8 gap-16 pb-16">
                         <h2>
                             Prywatna klinika
                             <span>leczenia uzależnień,</span>
@@ -37,7 +37,7 @@
 
                         </h2>
                        
-                            <div class="flex flex-row-reverse md:flex-row items-center-safe justify-start-safe gap-8">
+                            <div class="flex flex-row-reverse md:flex-row items-center-safe justify-start-safe gap-8 md:pb-44">
                                 
                                 <div class="squircle squircle-4xl squircle-smooth-md squircle-amber-100 squircle-border-1 squircle-border-amber-200  w-[140px] relative ">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover squircle-mask  squircle-4xl squircle-smooth-lg" style=" image-resolution: 2;">
@@ -309,7 +309,7 @@
                 
                 <section>
                     <div class="wrapper">
-                        <div class="content text-center m-auto md:max-w-4xl pb-16 md:pb-20 lg:pb-22">
+                        <div class="content text-center m-auto md:max-w-4xl py-16 md:pb-20 lg:pb-22">
                             <h3>Terapia infuzyjna zapewnia
                                                 pełną rewitalizację</h3>
                             <p class="text-base lg:text-lg text-white/60 pt-4 lg:pt-6 leading-relaxed m-auto">Nasze wzmacniające i
