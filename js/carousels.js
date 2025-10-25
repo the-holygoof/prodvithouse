@@ -105,13 +105,13 @@
   }
 
   // Hero slider: one slide at once (no per-column paging)
-  const heroSection = document.querySelector('.carousel.slider.w-full')?.closest('section') || document.querySelector('.carousel.slider.w-full')?.parentElement || document.querySelector('.slider-buttons-wrapper'); 
+  const heroSection = document.querySelector('.slider')?.closest('section') || document.querySelector('.slider')?.parentElement || document.querySelector('.slider-buttons-wrapper'); 
   if (heroSection) {
     // Add static controls if not present (optional; or wire existing hero-prev/hero-next buttons)
     let prev = heroSection.querySelector('.hero-prev');
     let next = heroSection.querySelector('.hero-next');
     // If you already render controls in hero template, ignore this creation.
-    const scroller = heroSection.querySelector('.carousel.slider.w-full');
+    const scroller = heroSection.querySelector('.hero-carousel');
     if (scroller) {
       scroller.classList.add('hero-carousel');
       makeCarousel({
@@ -119,7 +119,7 @@
         scrollerSel: '.hero-carousel',
         prevSel: '.hero-prev',
         nextSel: '.hero-next',
-        itemSel: '.carousel-item',
+        itemSel: '.carousel-item.slide',
         colSel: null,
         autoplayMs: 3000,
         pauseOnHoverSel: '.heroslider-content, .hero-prev, .hero-next' // or inner hero content to pause

@@ -9,71 +9,25 @@
  get_header(); ?>
 
 
-<section class="md:h-[670px] relative mb-0 py-2 md:py-4">
-    <div class="slider-buttons-wrapper max-w-8xl mx-auto absolute inset-0 top-4/9 p-4">    
-        <button type="button"
-        class="hero-prev btn rounded-full size-8  absolute border-0 left-1.5  z-[310]"
-        aria-label="Poprzednie">❮</button>
-        <button type="button"
-        class="hero-next btn rounded-full size-8 absolute border-0 right-1.5 z-[310]"
-        aria-label="Następne">❯</button>
-            </div>
-    <div class="wrapper">
- 
-        <div class="carousel slider w-full">
-
-            <div class="absolute inset-0 z-1 pointer-events-none bg-gradient-to-r from-0% from-[var(--surface)] to-70% to-[var(--bg)/0]" ></div>    
-            
-            <div class="carousel-item slide">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-mlodosci.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
-                <div class="heroslider-content">
-                    <h1>NAD+ i Glutation <br/>eliksiry młodości</h1>
-                    <p class="slider-subtitle">Nowość w VIT-HOUSE. Dwa wyjątkowe preparaty:<br/>NAD+ i Glutation - eliksiry młodości, energii i detoksykacji!</span>
-                    </p>
-                    <button class="button-slider" href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
-                </div>          
-            </div>
-
-            <div class="carousel-item slide">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-detox.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
-                <div class="heroslider-content">
-                    <h1>Twój pierwszy krok w&nbsp;stronę wolności</h1>
-                    <p class="slider-subtitle">Pomagamy wyjść z nałogu, łącząc terapię, odtrucia po alkoholu, narkotykach i lekach. <span class="hidden md:inline">Gwarantujemy prywatność, komfortowe pokoje  i opiekę medyczną.</span>
-                    </p>
-                    <button class="button-slider" href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
-                </div>          
-            </div>
-
-            <div class="carousel-item slide">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
-            
-                <div class="heroslider-content">
-                    <h1>Kroplówki witaminowe</h1>
-                    <p class="slider-subtitle">Najlepszy sposób, by uzupełnić niedobory bezcennych witamin<span class="hidden md:inline">, niezbędnych składników odżywczych, zwiększyć wydajność organizmu i wesprzeć naturalną odporność.</span></p>
-                    <button class="button-slider" href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
-                </div>          
-            </div>
-
-            <div class="carousel-item slide">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozono.webp" alt="Profesjonalne leczenie uzależnień Warszawa" loading="eager" fetchpriority="high" width="2552" height="1540">
-            
-                <div class="heroslider-content">
-                    <h1>Ozonoterapia</h1>
-                    
-                    <p class="slider-subtitle">Skuteczna i efektywna metoda leczenia wielu schorzeń, zaburzeń i&nbsp;urazów. <span class="hidden md:inline">Poprawia parametry przepływu krwi, zwiększa uwalnianie tlenu z erytrocytów, korzystnie wpływa na układ odpornościowy.</span></p>
-                    <button class="button-slider" href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>"><div class="button-inner"> Dowiedz się więcej <i class="fas fa-arrow-right"></i> </div></button>
-                </div>          
-            </div>
-        </div>
-    </div>
-</section>
 
 
-        <!-- below hero -->
-<section class="py-2 md:py-8 min-h-[600px]">
+<?php get_template_part( 'template-parts/slider' ); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="py-2 md:pt-2 ">
     <div class="wrapper">
         <div id="below-hero" class="relative grid grid-cols-3 md:grid-cols-7 md:gap-8">
-                    <div class="content col-span-3 md:col-span-3 flex flex-col justify-between gap-8 mt-6 md:-mt-10">
+                    <div class="content col-span-3 md:col-span-3 flex flex-col justify-between content-between space-y-8">
                         <h2>
                             Prywatna klinika
                             <span>leczenia uzależnień,</span>
@@ -83,37 +37,39 @@
 
                         </h2>
                        
-                        <div class="flex flex-row-reverse md:flex-row items-center justify-start gap-8 sm:scale-100 scale-75 origin-right md:mb-10">
-                            
-                            <div class="squircle squircle-4xl squircle-smooth-md squircle-amber-100 squircle-border-1 squircle-border-amber-200  w-[140px] relative ">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover squircle-mask  squircle-4xl squircle-smooth-lg" style=" image-resolution: 2;">
-                            </div>
-
-
-                            <a href="https://www.orlymedycyny.pl/profile-942794-vit-house-pl-sp-z-o-o" target="_blank">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/app_laureate_110_gold_113.webp" width="110" height="110" style="width:110px; height:110px; border:0;" alt="VIT-HOUSE.PL Sp. z o.o. - Warszawa" title="VIT-HOUSE.PL Sp. z o.o. - Warszawa">
-                            </a>
+                            <div class="flex flex-row-reverse md:flex-row items-center-safe justify-start-safe gap-8">
                                 
-                        </div>
+                                <div class="squircle squircle-4xl squircle-smooth-md squircle-amber-100 squircle-border-1 squircle-border-amber-200  w-[140px] relative ">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover squircle-mask  squircle-4xl squircle-smooth-lg" style=" image-resolution: 2;">
+                                </div>
+
+
+                                <a href="https://www.orlymedycyny.pl/profile-942794-vit-house-pl-sp-z-o-o" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/app_laureate_110_gold_113.webp" width="110" height="110" style="width:110px; height:110px; border:0;" alt="VIT-HOUSE.PL Sp. z o.o. - Warszawa" title="VIT-HOUSE.PL Sp. z o.o. - Warszawa">
+                                </a>
+                                    
+                            </div>
                     </div>
 
 
                     <div class="col-span-3 md:col-span-4 ">
-                                <div
-                                    id="benefits-wrapper" class="col-span-1 mt-16 md:mt-20 grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-8 relative md:px-6">
+                            
+                    <?php get_template_part( 'template-parts/feature-cards' ); ?>
 
-                                    <div class="card cloth-border relative  flex items-center justify-center min-h-[320px] sm:min-h-[280px]" tabindex="0">
+
+                    
+                    <!-- <div id="benefits-wrapper" class="col-span-1 my-auto pt-16 md:pt-20 grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-8 md:px-6">
+
+                                    <div class="card card-feature" tabindex="0">
                                         
-                                        <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
+                                            <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
 
-                                        
-                                        <div class="absolute inset-0 w-full h-full -z-1" style="background-image: linear-gradient(135deg, #8dffdf 40%, #8a70e1 70%)"></div>
+                                            <div class="absolute inset-0 w-full h-full -z-1 bg-linear-135 from-40% to-70% from-[#8dffdf] to-[#8a70e1]"></div>
 
-                                        
-                                        <div class="cloth-corner px-2 py-7 md:px-7 text-center w-full h-full relative z-20  " style="background: linear-gradient(135deg, var(--primary), var(--secondary));">
-                                            <div
-                                                class="flex  items-center justify-center w-20 h-20 mx-auto mb-4 style="background: linear-gradient(135deg, #493a5f 15%, var(--bg) 150%);">
-
+                                        <div class="karta  bg-linear-135 from-primary to-secondary">
+                                            
+                                        <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4 style="background: linear-gradient(135deg, #493a5f 15%, var(--bg) 150%);">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-1/2 -z-1">
   <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M40 0C62.09 0 80 17.91 80 40C80 62.09 62.09 80 40 80C17.91 80 0 62.09 0 40C0 17.91 17.91 0 40 0Z" fill="url(#paint0_linear_1556_14)"/>
 <path d="M40.5 12C56.2388 12 69 24.7612 69 40.5C69 56.2388 56.2388 69 40.5 69C24.7612 69 12 56.2388 12 40.5C12 24.7612 24.7612 12 40.5 12Z" stroke="url(#paint1_radial_1556_14)" stroke-opacity="0.7" stroke-width="20" stroke-miterlimit="1.41421"/>
@@ -145,9 +101,9 @@
 
 
                                     
-                                    <div class="card cloth-border relative  flex items-center justify-center min-h-[320px] sm:min-h-[280px]" tabindex="0">
+                                    <div class="card card-feature relative  flex items-center-safe justify-center-safe min-h-[320px] sm:min-h-[280px] m-auto" tabindex="0">
                                         <div class="cloth-corner  px-2 py-7 md:px-7   text-center  bg-card w-full h-full" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
-                                            <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4">
+                                            <div class="flex  items-center-safe justify-center-safe w-20 h-20 m-auto pb-4">
 
 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M40 0C62.09 0 80 17.91 80 40C80 62.09 62.09 80 40 80C17.91 80 0 62.09 0 40C0 17.91 17.91 0 40 0Z" fill="url(#paint0_linear_1556_9)"/>
@@ -181,9 +137,9 @@
                                     </div>
 
 
-                                   <div class="card cloth-border relative  flex items-center justify-center min-h-[320px] sm:min-h-[280px]" tabindex="0">
+                                   <div class="card card-feature relative  flex items-center-safe justify-center-safe min-h-[320px] sm:min-h-[280px] m-auto" tabindex="0">
                                         <div class="cloth-corner  px-2 py-7 md:px-7  text-center  bg-card w-full h-full" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
-                                            <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4">
+                                            <div class="flex  items-center-safe justify-center-safe w-20 h-20 m-auto pb-4">
 
 
 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -224,11 +180,11 @@
                                     
 
 
-                                    <div class="card cloth-border relative  flex items-center justify-center min-h-[320px] sm:min-h-[280px]" tabindex="0">
+                                    <div class="card card-feature relative  flex items-center-safe justify-center-safe min-h-[320px] sm:min-h-[280px] m-auto" tabindex="0">
                                         <div class="cloth-corner  px-2 py-7 md:px-7 text-center  bg-card w-full h-full" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
 
 
-                                            <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4">
+                                            <div class="flex  items-center-safe justify-center-safe w-20 h-20 m-auto pb-4">
 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M40 1C61.5378 1 79 18.2384 79 39.5C79 60.7616 61.5378 78 40 78C18.4622 78 1 60.7616 1 39.5C1 18.2384 18.4622 1 40 1Z" fill="url(#paint0_linear_1556_4)"/>
 <path d="M40 11C56.1369 11 69 23.8825 69 39.5C69 55.1175 56.1369 68 40 68C23.8631 68 11 55.1175 11 39.5C11 23.8825 23.8631 11 40 11Z" stroke="url(#paint1_radial_1556_4)" stroke-opacity="0.5" stroke-width="20" stroke-miterlimit="1.41421"/>
@@ -263,31 +219,18 @@
                                         </div>
                                     </div>
 
-<!--                                     <div class="squircle squircle-6xl squircle-[var(--secondary)] squircle-border squircle-border-secondary p-0.75 relative flex items-center justify-center  hover: min-h-[320px] sm:min-h-[280px]" tabindex="12">
-                                        <div class="  px-2 py-7 md:px-7   text-center w-full h-full squircle squircle-6xl squircle-[var(--card)] relative">
-                                            <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full border-(--secondary) border-t-2 border-l-2 border-r border-b shadow-black/20 shadow-xl inset-shadow-black/40 inset-shadow-sm inset-ring-1 inset-ring-(--warning-2) " style="background: linear-gradient(135deg, var(--secondary) -20%, var(--warning) 100%);">
+                                        
 
 
-                                                <svg width="28" height="30" viewBox="0 0 28 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M27.8968 37.1061C27.8968 37.5908 27.4872 38 27.0005 38H0.999781C0.513129 38 0.103516 37.5908 0.103516 37.1061V16.0577C0.103516 15.5735 0.513129 15.1642 0.999781 15.1642H4.26459V9.73557C4.26459 4.36755 8.63251 0 14.0022 0C19.3677 0 23.7357 4.36755 23.7357 9.73557V15.1642H27.0005C27.4872 15.1642 27.8968 15.5735 27.8968 16.0577V37.1061ZM7.01833 15.1642H20.986V9.73557C20.986 5.88436 17.851 2.75092 14.0022 2.75092C10.1493 2.75092 7.01833 5.88436 7.01833 9.73557V15.1642ZM14.0022 20.4341C11.804 20.4341 10.0155 22.2227 10.0155 24.4209C10.0155 26.136 11.1024 27.6017 12.6233 28.163V32.8343C12.6233 33.5943 13.2397 34.2099 14.0022 34.2099C14.7605 34.2099 15.377 33.5943 15.377 32.8343V28.163C16.8979 27.6017 17.9888 26.136 17.9888 24.4209C17.9889 22.2227 16.2004 20.4341 14.0022 20.4341ZM14.0022 23.1847C13.3208 23.1847 12.7652 23.7391 12.7652 24.4209C12.7652 25.1026 13.3208 25.6562 14.0022 25.6562C14.6835 25.6562 15.2351 25.1026 15.2351 24.4209C15.2351 23.7391 14.6836 23.1847 14.0022 23.1847Z" fill="#150D1B"/>
-                                                </svg>
-                                            </div>
-                                            <h6 class="z-50 text-white ">Gwarancja poufności</h6>
-                                            <p class=" text-white/50   text-sm sm:text-base mb-1 sm:mb-2">
-                                                Gwarantujemy pełną dyskrecję, szczególnie ważną w leczeniu uzależnień
-                                            </p>
-                                        </div>
-                                    </div> -->
-
-
-                                </div>
-                            </div>
-                        </div>
-
-
+                                </div>-->
                     </div>
+                    </div>
+        </div>
 
-                </section>
+
+    </div>
+
+</section>
 
 
             
@@ -304,6 +247,7 @@
 
                         <!-- Forward strip: composited wrapper + paint containment -->
                         <div class="testim-container-forward col-span-1 row-span-1 md:col-span-2 relative gap-3 flex flex-row sm:flex-col  w-max h-auto md:w-full md:h-max ">
+                        
                             <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-19.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                             <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-4.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                             <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-5.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
@@ -327,6 +271,7 @@
                             <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-24.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                             <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-25.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
                             <img class="testim-item" src="<?php echo get_template_directory_uri(); ?>/assets/testimonials/testim-26.webp" loading="lazy" decoding="async" width="480" height="640" alt="Testimonial"/>
+                        
                         </div>
 
                         <!-- Backward strip: same setup -->
@@ -364,10 +309,10 @@
                 
                 <section>
                     <div class="wrapper">
-                        <div class="content text-center mx-auto md:max-w-4xl mb-16 md:mb-20 lg:mb-22">
+                        <div class="content text-center m-auto md:max-w-4xl pb-16 md:pb-20 lg:pb-22">
                             <h3>Terapia infuzyjna zapewnia
                                                 pełną rewitalizację</h3>
-                            <p class="text-base lg:text-lg text-white/60 mt-4 lg:mt-6 leading-relaxed">Nasze wzmacniające i
+                            <p class="text-base lg:text-lg text-white/60 pt-4 lg:pt-6 leading-relaxed m-auto">Nasze wzmacniające i
                                                 oczyszczające organizm kroplówki witaminowe pozwolą Ci odzyskać siły po chorobie, wysiłku lub zatruciu i
                                                 na nowo nabrać witalności.</p>
                         </div>
@@ -381,19 +326,20 @@
 
 
                 
-<section class="py-28 overflow-clip mb-0 pb-24 md:pb-36" style="background: linear-gradient( 180deg, var(--secondary)  -100%, rgba(238, 239, 239) 50%);">
+<section class="services-marquee-section py-28 overflow-clip pb-24 md:pb-36" style="background: linear-gradient( 180deg, var(--secondary)  -100%, rgba(238, 239, 239) 50%);">
 
                 
     <div class="wrapper">
-            <div class="content text-center mx-auto md:max-w-4xl mb-16 md:mb-20 lg:mb-28">
+            <div class="content text-center mx-auto md:max-w-4xl pb-16 md:pb-20 lg:pb-28">
                         <h3 class=" text-black">Od pierwszego kontaktu do ostatniego etapu</h3>
-                        <p class="mt-6 text-gray-500">Wspieramy Cię na każdym kroku drogi do zdrowia. Przywracamy równowagę i ułatwiamy powrót do sił wtedy, gdy najbardziej tego potrzebujesz</p>
+                        <p class="pt-6 text-gray-500">Wspieramy Cię na każdym kroku drogi do zdrowia. Przywracamy równowagę i ułatwiamy powrót do sił wtedy, gdy najbardziej tego potrzebujesz</p>
             </div>
     </div>
 
-                    <div class="marquee-container mb-28 overflow-clip relative ">
-                        <div class="marquee flex items-center gap-6 w-max">
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                    <div class="marquee-container overflow-clip relative">
+                        <div class="marquee flex items-center-safe gap-6 w-max m-auto">
+                            
+                        <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
                                 <i class="fas fa-wine-glass"></i>
                                 <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
                             </div>
@@ -581,8 +527,8 @@
                     </div>
 
 
-    <div class="wrapper min-h-[1600px] md:min-h-[600px]">
-        <div class="grid grid-cols-3 sm:grid-rows-5 grid-rows-15 gap-x-4 gap-y-3 items-center justify-center content-center ">
+    <div class="wrapper h-[1600px] md:h-[600px]">
+        <div class="grid grid-cols-3 sm:grid-rows-5 grid-rows-15 gap-x-4 gap-y-3 items-center-safe justify-center-safe content-center-safe ">
 
 
                                     <div class="card kolumna1-1 sm:col-span-1 col-span-3 sm:col-start-1 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start ">
@@ -849,6 +795,6 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                <!--- end of page-homepage.php -->
+                                                
 
                                                 <?php get_footer(); ?>

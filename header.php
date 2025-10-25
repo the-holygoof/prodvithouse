@@ -33,7 +33,7 @@
 
 
 
-    <div id="above-header" class="h-10 w-screen content-center" style="background: linear-gradient(135deg, var(--secondary), var(--warning));">
+    <div class="above-header">
         <div class="px-4 sm:px-6 mx-auto max-w-7xl">
             <div class="flex justify-stretch md:justify-between md:content-between content-stretch text-sm">
                 <div class="hidden md:flex md:items-center gap-4">
@@ -74,64 +74,63 @@
                             </a>
                         </div>
                     
-                    <div class="hidden grow md:flex justify-center text-sm gap-8 items-center relative">
-                        <div class="dropdown dropdown-hover dropdown-center dropdown-bottom cursor-pointer">
-                            <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Leczenie uzależnień</a>
-                            <ul class="cloth-corner gap-0 dropdown-content bg-white/8 menu menu-vertical backdrop-blur-2xl lg:min-w-max backface-hidden">
+                    <div class="hidden grow md:flex justify-center-safe text-sm  items-center relative gap-2">
+                        <div class="dropdown dropdown-hover dropdown-center dropdown-bottom cursor-pointer group/dropdown">
+                            <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>" class=" self-center leading-8 transition-all duration-200  py-3 px-4 group-hover/dropdown:bg-white/18 ease-in">Leczenie uzależnień</a>
+                            <ul class="cloth-corner gap-0 dropdown-content bg-white/8 menu menu-vertical backdrop-blur-2xl lg:min-w-max backface-hidden delay-500">
                               
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/odtrucia-od-alkoholu' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucia alkoholowe</a>
+                                    <a href="<?php echo esc_url( home_url( '/odtrucia-od-alkoholu' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Odtrucia alkoholowe</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/odtrucia-po-narkotykach' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucie od narkotyków</a>
+                                    <a href="<?php echo esc_url( home_url( '/odtrucia-po-narkotykach' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Odtrucie od narkotyków</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/lekomania' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Odtrucie od leków</a>
+                                    <a href="<?php echo esc_url( home_url( '/lekomania' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Odtrucie od leków</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/wszywka-alkoholowa' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Wszywki alkoholowe</a>
+                                    <a href="<?php echo esc_url( home_url( '/wszywka-alkoholowa' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Wszywki alkoholowe</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="dropdown dropdown-hover dropdown-bottom  cursor-pointer ">
-                            <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Kroplówki</a>
+                        <div class="dropdown dropdown-hover dropdown-center dropdown-bottom  cursor-pointer group/dropdown">
+                            <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>" class="self-center leading-8 transition-all duration-200  py-3 px-4 group-hover/dropdown:bg-white/18 ease-in">Kroplówki</a>
                             <ul class="cloth-corner gap-0 dropdown-content bg-white/8 menu menu-vertical backdrop-blur-2xl lg:min-w-max backface-hidden transition-all duration-350 ease-in-out">
                                 
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/dla-sportowcow' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Dla sportowców</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/dla-sportowcow' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Dla sportowców</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/oczyszczajaca' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Oczyszczające</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/oczyszczajaca' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Oczyszczające</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/wzmacniajaca/' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Wzmacniające</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/wzmacniajaca/' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Wzmacniające</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/na-kaca' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Na kaca</a>
+                                    <a href="<?php echo esc_url( home_url( '/witaminoterapia/na-kaca' ) ); ?>" class="leading-8 cloth-small group-hover:bg-white/8">Na kaca</a>
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>" class="m-1 self-center">Ozonoterapia</a>
+                        <a href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>" class="self-center transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">Ozonoterapia</a>
                         <div class="dropdown dropdown-hover dropdown-center dropdown-bottom cursor-pointer">
-                            <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne' ) ); ?>" class="m-1 self-center leading-8 transition-all duration-350 ease-in-out group-hover:bg-white/8">Badania laboratoryjne</a>
+                            <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne' ) ); ?>" class="self-center leading-8 transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">Badania laboratoryjne</a>
                             <ul class="cloth-corner gap-0 dropdown-content bg-white/8 menu menu-vertical backdrop-blur-2xl lg:min-w-max backface-hidden">
 
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/crp' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">CRP</a>
+                                    <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/crp' ) ); ?>" class="leading-8 cloth-small transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">CRP</a>
                                 </li>
                                 <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                    <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/szybki-test-na-paciorkowca' ) ); ?>" class="leading-8 cloth-button group-hover:bg-white/8">Szybki test na paciorkowca</a>
+                                    <a href="<?php echo esc_url( home_url( '/badania-laboratoryjne/szybki-test-na-paciorkowca' ) ); ?>" class="leading-8 cloth-small transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">Szybki test na paciorkowca</a>
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>" class="m-1 self-center">Eliksir młodości</a>
-                        <a href="<?php echo esc_url( home_url( '/o-nas' ) ); ?>" class="m-1 self-center">O nas</a>
+                        <a href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>" class=" self-center transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">Eliksir młodości</a>
+                        <a href="<?php echo esc_url( home_url( '/o-nas' ) ); ?>" class=" self-center transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">O nas</a>
                     </div>
                     <div class="flex-none z-9999 relative">
                         <a href="https://www.halodoctor.pl/lekarze/iwona-zaborowska-internista-warszawa" target="_blank" class="z-9999 cursor-pointer">
-                            <div class="cloth-button-border p-0.5 bg-linear-to-r from-(--primary-2) to-(--secondary-2) hover:scale-110 transition-transform duration-250 ease-in-out">
-                                <button class="flex relative cursor-pointer z-50 text-sm items-center px-4 py-2.5 cloth-button text-black" style="background: linear-gradient(135deg, var(--primary), var(--secondary));">Umów wizytę online</button>
-                            </div>
+                        <button class="button-nav-header" href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>"><div class="button-inner"> Umów wizytę online   </div></button>    
+                        
                         </a>
                     </div>
                 </div>

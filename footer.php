@@ -2,7 +2,7 @@
             <div class="wrapper">
                 <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                             
-                            <div class="card cloth-border size-fit bg-card flex justify-center content-center items-center">
+                            <div class=" cloth-border size-fit bg-card flex justify-center content-center items-center">
                                 <div class="p-8 cloth-corner" style="background: linear-gradient(135deg, var(--surface), var(--card));">
                                     <h2 class="mb-6 text-3xl font-bold lg:text-4xl" style=" color: var(--text);">
                                         Skontaktuj się z nami<br>
@@ -51,9 +51,9 @@
                                     
 
 
-                                    <div class="cloth-button absolute p-4  -top-6 -right-6 z-50" style="background-color: var(--card);">
+                                    <div class="squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl absolute p-4  -top-6 -right-6 z-50" style="background-color: var(--card);">
                                         <div class="flex items-center justify-center w-12 h-12" style="background-color: var(--card);">
-                                            <div class="w-12 h-12 flex items-center justify-center" style="background-color: var(--primary);">
+                                            <div class="w-12 h-12 flex items-center justify-center squircle-mask squircle-4xl md:squircle-4xl squircle-smooth-md" style="background-color: var(--primary);">
                                                 <div>
                                                     <div class="text-md " style="color: var(--bg);">24/7</div>
 
@@ -63,7 +63,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="absolute cloth-button p-4  -bottom-6 -left-6 z-50" style="background-color: var(--card);">
+                                    <div class="absolute squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl p-4  -bottom-6 -left-6 z-50" style="background-color: var(--card);">
                                         <div class="flex items-center gap-3">
                                             <div class="flex items-center justify-center w-10 h-10" style="background-color: var(--card);">
                                                 <div class="w-5 h-5" style="background-color: var(--primary);"></div>
@@ -97,6 +97,8 @@
                         </a>
                         <a class="tracking-tight sm:tracking-tight  opacity-90 hover:scale-105 focus:text-white hover:text-white transition-all duration-300" href="<?php echo esc_url(home_url('/regulamin-i-informacje')); ?>">
                             Regulamin i informacje</a>
+                        <a class="tracking-tight sm:tracking-tight  opacity-90 hover:scale-105 focus:text-white hover:text-white transition-all duration-300" href="<?php echo esc_url(home_url('/blog')); ?>">
+                            Blog</a>
                     </div>
                 </div>
             </div>
@@ -111,22 +113,22 @@
 
         
     <div
-        class="fab fab-flower bottom-4 right-4 isolate hover:transform-gpu hover:will-change-transform contain-layout-style z-99999" style="position: fixed !important; display: flex !important;">
+        class="fab fab-flower bottom-5 right-5 isolate hover:transform-gpu hover:will-change-transform contain-layout-style z-99999" style="position: fixed !important; display: flex !important;">
         <!-- a focusable div with tabindex is necessary to work on all browsers. role="button" is necessary for accessibility -->
-        <div tabindex="0" role="button" class=" btn btn-circle btn-lg bg-linear-to-br from-secondary to-accent relative z-99999">
+        <div tabindex="0" role="button" class=" btn btn-circle btn-lg bg-linear-to-br from-secondary to-accent relative z-99998">
             <svg aria-label="New" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-6">
                 <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
             </svg>
         </div>
 
         <!-- Main Action button replaces the original button when FAB is open -->
-        <div class="fab-close  relative z-99999 pointer-events-auto">
+        <div class="fab-close z-99997 pointer-events-auto">
             <span class="btn btn-circle btn-lg btn-error">✕</span>
 
 
         </div>
         <!-- buttons that show up when FAB is open -->
-        <a href="tel:+48516516133" class="btn btn-circle btn-lg relative z-99999" rel="nofollow">
+        <a href="tel:+48516516133" class="btn btn-circle btn-lg " rel="nofollow">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" viewBox="0 0 64 64" xml:space="preserve" fill="#000000">
 
                 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
@@ -171,7 +173,7 @@
 
             </svg>
         </a>
-        <a href="https://maps.app.goo.gl/L7hA4H3K3LMLnpn27" target="_blank" rel="nofollow" class="btn btn-circle btn-lg relative z-99999">
+        <a href="https://maps.app.goo.gl/L7hA4H3K3LMLnpn27" target="_blank" rel="nofollow" class="btn btn-circle btn-lg ">
             <svg height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>

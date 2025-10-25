@@ -1,116 +1,98 @@
 <?php
 /**
- * Title Section Component
- * Displays page title, breadcrumbs, and background image
+ * Template Part: Slider
+ * Description: Slider
  */
-
-if (!defined('ABSPATH')) exit;
-
-// Smart defaults
-$defaults = [
-    'title' => is_singular() ? get_the_title() : wp_get_document_title(),
-    'background_image' => '', // URL only
-    'alt_text' => '',
-    'show_breadcrumbs' => true
-];
-
-$args = wp_parse_args($args ?? [], $defaults);
-
-// Clean up values
-$bg_url = trim($args['background_image']);
-$img_alt = $args['alt_text'] ?: $args['title'];
 ?>
 
-<section class="mx-auto px-10 mt-20 sm:mt-2.5 sm:h-[754px] h-[500px] overflow-x-clip max-w-svw">
-    <div
-        class="relative max-w-7xl mx-auto h-[754px]">
-
-        <!-- hero component -->
-        <div
-            id="hero-slider" class=" items-center w-full z-2 h-[754px] ">
-            <!-- slider container -->
-            <div
-                class="absolute overflow-clip z-1 w-full h-[754px]">
-                <!-- slide 1 -->
-                <div class="hero-slide active" data-slide="0">
-                    <div class="relative w-full">
-                        <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/10/hero-uzaleznienia.webp" alt="Profesjonalne leczenie uzależnień" class="w-auto h-full object-cover" width="1200" height="704" loading="eager" fetchpriority="high"></div>
-                    </div>
-                    <!-- slide 3 -->
-                    <div class="hero-slide" data-slide="2">
-                        <div class="relative w-full">
-                            <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/10/hero-kroplowki.webp" alt="Wsparcie w procesie zdrowienia" class="w-full h-full object-cover" width="1200" height="704" loading="lazy"></div>
-                        </div>
-                        <!-- slide 4 -->
-                        <div class="hero-slide" data-slide="3">
-                            <div class="relative w-full">
-                                <img src="https://vithouse.gameisrigged.pl/wp-content/uploads/2025/10/hero-ozonoterapia.webp" alt="Nowoczesne metody terapii" class="w-full h-full object-cover" width="1200" height="704" loading="lazy"></div>
-                            </div>
-                        </div>
-                        <!-- slider content -->
-                        <div
-                            class=" absolute lg:ml-10 px-4 md:px-0 z-12 h-[704px] w-[90%]  flex items-center ">
-
-                            <!-- slide content 1 -->
-                            <div class="absolute heroslider-content flex-col active " data-content="0">
-                                <h1 class="text-4xl font-bold leading-tight sm:text-5xl " style=" color: var(--text);">
-                                    Twój pierwszy krok w stronę wolności
-                                </h1>
-
-                                <!-- hero buttons -->
-                                <div class="flex flex-col gap-4 sm:flex-row self-end">
-
-                                    <div class="cloth-button-border self-end mt-10 py-[2px] px-[2.2px] inset-0 bg-linear-to-r from-(--primary-2) to-(--secondary-2) hover:scale-110 transition-transform duration-250 ease-in-out cursor-pointer">
-                                        <a href="<?php echo esc_url( home_url( '/detoksykacje/' ) ); ?>">
-                                            <button class="flex relative cursor-pointer z-50 text-md font-semibold items-center px-8 py-4 cloth-button text-black gap-4" style="background: linear-gradient(135deg, var(--primary), var(--secondary));">Umów wizytę online
-                                                <img src="https://cdn.prod.website-files.com/6746ac53f9f318ac27a1ba85/6746ba6862820f548c5c37f0_Primary%20Button%20Arrow.svg" alt="Arrow" class="w-5 h-5"/></button>
-                                        </a>
-
-                                    </div>
-
-
-                                </a>
-
-
-                            </div>
-                        </div>
-
-
-                        <!-- slide content 3 -->
-                        <div class="absolute heroslider-content flex-col" data-content="2">
-                            <h1 class="text-4xl font-bold leading-tight sm:text-5xl " style=" color: var(--text);">
-                                Kroplówki witaminowe
-                            </h1>
-                            <div class="flex flex-col gap-4 sm:flex-row self-end">
-
-                                <div class="cloth-button-border self-end mt-10 py-[2px] px-[2.2px] inset-0 bg-linear-to-r from-(--primary-2) to-(--secondary-2) hover:scale-110 transition-transform duration-250 ease-in-out cursor-pointer">
-                                    <a href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>">
-                                        <button class="flex relative cursor-pointer z-50 text-md font-semibold items-center px-8 py-4 cloth-button text-black gap-4" style="background: linear-gradient(135deg, var(--primary), var(--secondary));">Umów wizytę online
-                                            <img src="https://cdn.prod.website-files.com/6746ac53f9f318ac27a1ba85/6746ba6862820f548c5c37f0_Primary%20Button%20Arrow.svg" alt="Arrow" class="w-5 h-5"/></button>
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- slide content 4 -->
-                        <div class="absolute heroslider-content flex-col " data-content="3">
-                            <h1 class="text-4xl font-bold leading-tight sm:text-5xl " style=" color: var(--text);">
-                                Ozonoterapia
-                            </h1>
-                            <div class="flex flex-col gap-4 sm:flex-row self-end">
-
-                                <div class="cloth-button-border self-end mt-10 py-[2px] px-[2.2px] inset-0 bg-linear-to-r from-(--primary-2) to-(--secondary-2) hover:scale-110 transition-transform duration-250 ease-in-out cursor-pointer ">
-                                    <a href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>">
-                                        <button class="flex relative cursor-pointer z-50 text-md font-semibold items-center px-8 py-4 cloth-button text-black gap-4" style="background: linear-gradient(135deg, var(--primary), var(--secondary));">Umów wizytę online
-                                            <img src="https://cdn.prod.website-files.com/6746ac53f9f318ac27a1ba85/6746ba6862820f548c5c37f0_Primary%20Button%20Arrow.svg" alt="Arrow" class="w-5 h-5"/></button>
-                                    </a>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+<section class="py-2 md:py-4 my-auto relative">
+   
+    <div class="h-full slider-buttons-wrapper max-w-8xl mx-auto absolute inset-0 top-4/9 p-4">    
+        <button type="button"
+        class="hero-prev btn rounded-full size-8  absolute border-0 left-1.5  z-310"
+        aria-label="Poprzednie">❮</button>
+        <button type="button"
+        class="hero-next btn rounded-full size-8 absolute border-0 right-1.5 z-310"
+        aria-label="Następne">❯</button>
+    </div>
+    
+    <div class="wrapper"> 
+        <div class="slider h-full">
+            <div class="absolute z-1 inset-0 pointer-events-none select-none bg-linear-to-r from-0% from-(--surface) to-70% to-[var(--bg)/0]" ></div>                
+            
+            <div class="hero-carousel carousel relative">
+        
+                <div class="carousel-item slide">
+                    <img
+  srcset="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-400w.webp 400w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-600w.webp 600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-800w.webp 800w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1000w.webp 1000w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1200w.webp 1200w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1600w.webp 1600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-2000w.webp 2000w"
+  sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
+  src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci.jpg"
+  alt=""
+  width="2600"
+  height="1440"
+/>
+                    <div class="heroslider-content z-2">
+                        <h1>NAD+ i Glutation <br/>eliksiry młodości</h1>
+                        <p class="slider-subtitle">Nowość w VIT-HOUSE. Dwa wyjątkowe preparaty. Eliksiry młodości, energii i&nbsp;detoksykacji!</span>
+                        </p>
+                        <button class="button-slider" href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
+                    </div>          
                 </div>
+
+                <div class="carousel-item slide">
+                    <img
+  srcset="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien-400w.webp 400w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien-600w.webp 600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien-800w.webp 800w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien-1000w.webp 1000w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien-1200w.webp 1200w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien-1600w.webp 1600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien-2000w.webp 2000w"
+  sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
+  src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-leczenie-uzaleznien.jpg"
+  alt=""
+  width="2600"
+  height="1440"
+/>
+                    <div class="heroslider-content z-2">
+                        <h1>Twój pierwszy krok w&nbsp;stronę wolności</h1>
+                        <p class="slider-subtitle">Pomagamy wyjść z nałogu, łącząc terapię, odtrucia po alkoholu, narkotykach i lekach. <span class="invisible md:visible">Gwarantujemy prywatność, komfortowe pokoje  i opiekę medyczną.</span>
+                        </p>
+                        <button class="button-slider" href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
+                    </div>          
+                </div>
+
+                <div class="carousel-item slide">
+                    <img
+  srcset="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki-400w.webp 400w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki-600w.webp 600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki-800w.webp 800w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki-1000w.webp 1000w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki-1200w.webp 1200w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki-1600w.webp 1600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki-2000w.webp 2000w"
+  sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
+  src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-kroplowki.jpg"
+  alt=""
+  width="2600"
+  height="1440"
+/>
+                    <div class="heroslider-content z-2">
+                        <h1>Kroplówki witaminowe</h1>
+                        <p class="slider-subtitle">Najlepszy sposób, by uzupełnić niedobory bezcennych witamin, niezbędnych składników odżywczych, zwiększyć wydajność organizmu i&nbsp;wesprzeć naturalną odporność.</p>
+                        <button class="button-slider" href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
+                    </div>          
+                </div>
+
+                <div class="carousel-item slide">
+                   <img
+  srcset="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia-400w.webp 400w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia-600w.webp 600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia-800w.webp 800w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia-1000w.webp 1000w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia-1200w.webp 1200w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia-1600w.webp 1600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia-2000w.webp 2000w"
+  sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
+  src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-ozonoterapia.jpg"
+  alt=""
+  width="2600"
+  height="1440"
+/>
+                
+                    <div class="heroslider-content z-2">
+                        <h1>Ozonoterapia</h1>
+                        
+                        <p class="slider-subtitle">Skuteczna i efektywna metoda leczenia wielu schorzeń, zaburzeń i&nbsp;urazów. <span class="invisible md:visible">Poprawia parametry przepływu krwi, zwiększa uwalnianie tlenu z erytrocytów, korzystnie wpływa na układ odpornościowy.</span></p>
+                        <button class="button-slider" href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
+                    </div>          
+                </div>
+
             </div>
- </section>
+
+        </div>
+
+    </div>
+</section>
