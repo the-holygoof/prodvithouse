@@ -6,8 +6,8 @@
 ?>
 
 <div class="cloth-corner relative h-[480px] md:h-[560px]" >
-
-    <canvas id="duzy-baner" class="object-cover object-[66%] pointer-events-none" width="2560" height="1046"></canvas>
+<img id="duzy-baner" src="<?php echo get_template_directory_uri(); ?>/assets/cta-backgroung.webp" alt="Duzy baner" width="2560" height="1046" class="object-cover object-[66%] pointer-events-none" width="2560" height="1046">
+    <!-- <canvas id="duzy-baner" class="object-cover object-[66%] pointer-events-none" width="2560" height="1046"></canvas> -->
 
     <div class="absolute inset-0 z-50 pointer-events-none" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0) 60%);"></div>
     
@@ -17,7 +17,7 @@
                         <p class="text-gray-100"> Odkrywaj życie na nowo, bez uzależnień. <br /> Wspieramy Cię
                             na każdym kroku drogi do zdrowia.</p>
                         
-                            <button  href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>" class="btn squircle-mask squircle-3xl squircle-smooth-md border-0 px-6 py-6 text-sm bg-gradient-main mt-8">
+                            <button  href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>" class="btn  squircle-3xl squircle-smooth-md border-0 px-6 py-6 text-sm bg-gradient-main mt-8">
                             Dowiedz się więcej
                             </button>
                         
@@ -39,7 +39,7 @@
 
 
 
-<script>
+<!-- <script>
     var canvas = document.getElementById('duzy-baner');
 var ctx = canvas.getContext('2d');
 
@@ -52,7 +52,7 @@ ctx.drawImage(img, 0, 0);
 }
 
 img.src = '<?php echo get_template_directory_uri(); ?>/assets/cta-backgroung.webp';
-</script>
+</script> -->
 
 
 

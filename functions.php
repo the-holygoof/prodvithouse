@@ -23,13 +23,13 @@ function vithouse_enqueue_assets() {
   $theme_version = wp_get_theme()->get('Version');
 
   // Final CSS built by Tailwind CLI
-  wp_enqueue_script(
-  'css-paint-polyfill',
-  'https://cdn.jsdelivr.net/npm/@squircle/paint-polyfill@1.0.6/dist/index.js',
-  [],
-  null,
-  true
-);
+//   wp_enqueue_script(
+//   'css-paint-polyfill',
+//   'https://cdn.jsdelivr.net/npm/@squircle/paint-polyfill@1.0.6/dist/index.js',
+//   [],
+//   null,
+//   true
+// );
 
   wp_enqueue_style(
     'vithouse-style',
@@ -50,13 +50,13 @@ function vithouse_enqueue_assets() {
   // Squircle init (ESM)
 
 
-wp_enqueue_script(
-  'vithouse-squircle-init',
-  get_template_directory_uri() . '/dist/squircle-init.js',
-  ['css-paint-polyfill'],
-  wp_get_theme()->get('Version'),
-  true
-);
+// wp_enqueue_script(
+//   'vithouse-squircle-init',
+//   get_template_directory_uri() . '/dist/squircle-init.js',
+//   ['css-paint-polyfill'],
+//   wp_get_theme()->get('Version'),
+//   true
+// );
 
 }
 add_action('wp_enqueue_scripts', 'vithouse_enqueue_assets');

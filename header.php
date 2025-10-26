@@ -20,7 +20,7 @@
     <meta name="twitter:description" content="Skuteczne metody leczenia uzależnień. Kroplówki, detoksykacja, wsparcie 24/7">
 
     <?php wp_head(); ?>
-    <script src="<?php echo get_template_directory_uri(); ?>/dist/squircle-init.js" type="module" ></script>
+    
 </head>
 
 

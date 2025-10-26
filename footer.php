@@ -880,8 +880,7 @@
         
       
     
-        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" defer>
     
 <script src="<?php echo get_template_directory_uri(); ?>/js/carousels.js" defer> </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/init-tilt-glare.js" type="module" defer></script>
@@ -890,15 +889,7 @@
 
 
         <?php wp_footer(); ?>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-217789183-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-217789183-1');
-</script>    
+ 
     
     
     </body>

@@ -39,7 +39,7 @@
                        
                             <div class="flex flex-row-reverse md:flex-row items-center-safe justify-start-safe gap-8 md:pb-44">
                                 
-                                <div class="squircle squircle-4xl squircle-smooth-md squircle-amber-100 squircle-border-1 squircle-border-amber-200  w-[140px] relative ">
+                                <div class="squircle cloth-small squircle-4xl squircle-smooth-md squircle-amber-100 squircle-border-1 squircle-border-amber-200  w-[140px] relative ">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover squircle-mask  squircle-4xl squircle-smooth-lg" style=" image-resolution: 2;">
                                 </div>
 
