@@ -70,27 +70,27 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // sectionIO.observe(section);
   
-    // // Pause during active scroll; resume after short idle
-    // let resumeTimeout = null;
-    // const pauseOnScroll = () => {
-    //   containers.forEach((el) => {
-    //     el.classList.add('paused');
-    //     el.classList.add('will-change-auto');
-    //     el.classList.remove('will-change-transform');
-    //   });
-    //   if (resumeTimeout) clearTimeout(resumeTimeout);
-    //   resumeTimeout = setTimeout(() => {
-    //     containers.forEach((el) => {
-    //       // Only resume if visible; IO callback will correct state shortly
-    //       el.classList.remove('paused');
-    //       el.classList.add('will-change-transform');
-    //       el.classList.remove('will-change-auto');
-    //     });
-    //   }, 150);
-    // };
+    // Pause during active scroll; resume after short idle
+    let resumeTimeout = null;
+    const pauseOnScroll = () => {
+      containers.forEach((el) => {
+        el.classList.add('paused');
+        el.classList.add('will-change-auto');
+        el.classList.remove('will-change-transform');
+      });
+      if (resumeTimeout) clearTimeout(resumeTimeout);
+      resumeTimeout = setTimeout(() => {
+        containers.forEach((el) => {
+          // Only resume if visible; IO callback will correct state shortly
+          el.classList.remove('paused');
+          el.classList.add('will-change-transform');
+          el.classList.remove('will-change-auto');
+        });
+      }, 150);
+    };
   
-    // window.addEventListener('scroll', pauseOnScroll, { passive: true });
-    // window.addEventListener('resize', pauseOnScroll, { passive: true });
+    window.addEventListener('scroll', pauseOnScroll, { passive: true });
+    window.addEventListener('resize', pauseOnScroll, { passive: true });
   
     // // Respect reduced motion
     // if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
