@@ -6,7 +6,7 @@
 ?>
 
 <div class="cloth-corner relative h-[480px] md:h-[560px]" >
-<img id="duzy-baner" src="<?php echo get_template_directory_uri(); ?>/assets/cta-backgroung.webp" alt="Duzy baner" width="2560" height="1046" class="object-cover object-[66%] pointer-events-none" width="2560" height="1046">
+<img id="duzy-baner" src="<?php echo get_template_directory_uri(); ?>/assets/cta-backgroung.webp" alt="Duzy baner" width="2560" height="1046" class="object-cover object-[66%] min-h-[480px] md:min-h-[560px] pointer-events-none">
     <!-- <canvas id="duzy-baner" class="object-cover object-[66%] pointer-events-none" width="2560" height="1046"></canvas> -->
 
     <div class="absolute inset-0 z-50 pointer-events-none" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0) 60%);"></div>
