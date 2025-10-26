@@ -53,7 +53,7 @@
         <div class="drawer">
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle">
             <div class="drawer-content flex flex-col">
-                <div class="w-full flex justify-between content-between">
+                <div class="w-full flex justify-between content-between relative">
                     <div class="flex-none lg:hidden self-center">
                         <label for="my-drawer-3" aria-label="open sidebar" class=" bg-transparent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-7 w-7 stroke-current">
