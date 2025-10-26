@@ -237,7 +237,7 @@
 
                 <section class="testimonials-section section-gradient">
 
-                    <div class="wrapper gap-3 md:gap-8 max-w-7xl grid grid-cols-1 grid-rows-3 md:grid-rows-1 md:grid-cols-7 mb-10 h-[900px] md:max-h-[650px] relative">
+                    <div class="wrapper gap-3 md:gap-8 max-w-7xl grid grid-cols-1 grid-rows-3 md:grid-rows-1 md:grid-cols-7 mb-10 h-[900px] md:max-h-[650px] relative scrollbar-gutter">
 
                         <div class="content col-span-1 row-span-1 md:col-span-3 relative text-center md:text-left my-20 ">
                             <h3 class=" text-gray-800">Zaufali nam</h3>
