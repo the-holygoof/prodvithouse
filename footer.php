@@ -878,7 +878,7 @@
     </div>
 
         
-      <script src="<?php echo get_template_directory_uri(); ?>/dist/squircle-init.js" type="module" defer></script>
+      
     
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
