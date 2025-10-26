@@ -158,7 +158,7 @@
                     </div>
                 </div>
             </div>
-            <div class="drawer-side backdrop-blur-md bg-black/40 z-9999">
+            <!-- <div class="drawer-side backdrop-blur-md bg-black/40 z-9999">
                 <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
                 <ul class="menu min-h-full w-fit justify-center delay-0 font-bold hover:delay-200 transition-all duration-75  bg-surface/8">
                     <li>
@@ -190,7 +190,7 @@
                     <li><a href="https://vit-house.pl/eliksir-mlodosci">Eliksir młodości</a></li>
                     <li><a href="https://vit-house.pl/o-nas">O nas</a></li>
                 </ul>
-            </div>
+            </div> -->
         </div>
         
     </header>
