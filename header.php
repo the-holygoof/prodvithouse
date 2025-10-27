@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
+    <link rel="stylesheet" id="vithouse-style-css" href="<?php echo get_template_directory_uri(); ?>/dist/style.css" type="text/css" media="all">
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon.svg" />
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon.ico" />
@@ -76,7 +77,7 @@
                         
                         <div class="hidden grow lg:flex justify-center-safe mx-12 text-sm  items-center-safe relative">
 
-                            <div class="dropdown dropdown-hover dropdown-center dropdown-bottom menupaddingbg group/dropdown">
+                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom menupaddingbg group/dropdown">
                                 <div class="menuhoverbg opacity-0 group-hover/dropdown:opacity-100 cloth-small group-hover/dropdown:bg-white/10 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>
                                 
                                 <a href="https://vit-house.pl/leczenie-uzaleznien" class="menu-top-link">Leczenie uzależnień</a>
@@ -98,7 +99,7 @@
                                 </ul>
                             </div>
 
-                            <div class="dropdown dropdown-hover dropdown-center dropdown-bottom  menupaddingbg group/dropdown">
+                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom  menupaddingbg group/dropdown">
                                 <div class="menuhoverbg opacity-0 group-hover/dropdown:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>                        
                                 <a href="https://vit-house.pl/kroplowki-witaminowe" class="menu-top-link">Kroplówki</a>
                                <ul class="cloth-corner gap-0 dropdown-content bg-white/8 backdrop-blur-xl hover:will-change-transform" >
@@ -117,12 +118,12 @@
                                 </ul>
                             </div>
                             
-                            <div class="menupaddingbg group">
+                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom menupaddingbg group">
                                 <div class="menuhoverbg opacity-0 group-hover:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>                        
                                 <a href="https://vit-house.pl/ozonoterapia" class="menu-top-link">Ozonoterapia</a>
                             </div>
                                                     
-                            <div class="dropdown dropdown-hover dropdown-center dropdown-bottom menupaddingbg group">
+                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom menupaddingbg group">
                                 <div class="menuhoverbg opacity-0 group-hover:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>
                                 <a href="https://vit-house.pl/badania-laboratoryjne" class="menu-top-link">Badania laboratoryjne</a>
 
@@ -163,10 +164,10 @@
 
                 <div class="drawer-side backdrop-blur-md bg-black/40 z-9999009999">
                 
-                <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"><button>XXX</button></label>
+                
                     
                     
-                    <ul class="menu min-h-full w-fit justify-center delay-0 font-bold hover:delay-200 transition-all duration-75  bg-surface/8">
+                    <ul class="menu min-h-full w-fit justify-center  font-bold  transition-all duration-75  bg-surface/8">
                         <li>
                             <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay btn btn-circle btn-error ">X</label>    
                             <a href="https://vit-house.pl/leczenie-uzaleznien">Detoksykacje</a>

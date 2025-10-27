@@ -2,15 +2,15 @@
 
 (function () {
   const DEFAULTS = {
-    scaleX: 5, // slightly lower tilt to reduce raster area
+    scaleX: 5,
     scaleY: 7,
-    glareRx: 230,
-    glareRy: 240,
-    glareAlphaOuter: 0.10,
+    glareRx: 180,            // Reduced for performance
+    glareRy: 190,
+    glareAlphaOuter: 0.15,   // Lower opacity
     innerGlare: false,
-    resumeDelayMs: 220,      // pause a bit longer after scroll
+    resumeDelayMs: 260,      // Longer pause after scroll
     pointerThrottleMs: 16,   // ~60fps
-    disableOnTouch: true     // avoid scroll+hover conflicts
+    disableOnTouch: true     // Avoid scroll+hover conflicts
   };
 
   const BASELINE_CSS = `
@@ -87,7 +87,7 @@
     const reduceMotionMQ = window.matchMedia('(prefers-reduced-motion: reduce)');
     const isReducedMotion = reduceMotionMQ.matches;
 
-    // Global pause/resume (mirrors your testimonials pattern; no blanket promotion)
+    // Global pause/resume integrated with ScrollAnimationManager
     let resumeTimeout = null;
     let isPaused = false;
 
@@ -100,11 +100,16 @@
     const resumeTiltSoon = () => {
       if (resumeTimeout) clearTimeout(resumeTimeout);
       resumeTimeout = setTimeout(() => {
-        isPaused = false;
-        document.documentElement.classList.remove('tilt-paused');
+        // Only resume if scroll manager allows it
+        if (!window.ScrollAnimationManager || !window.ScrollAnimationManager.isScrolling()) {
+          isPaused = false;
+          document.documentElement.classList.remove('tilt-paused');
+        }
       }, settings.resumeDelayMs);
     };
 
+    // Scroll events are now primarily handled by ScrollAnimationManager
+    // But keep local handling for immediate response
     window.addEventListener('scroll', () => { pauseTilt(); resumeTiltSoon(); }, { passive: true });
     window.addEventListener('resize', () => { pauseTilt(); resumeTiltSoon(); }, { passive: true });
     document.addEventListener('visibilitychange', () => {
@@ -131,6 +136,9 @@
 
       const onEnter = () => {
         if (isReducedMotion || isTouchDevice || isPaused) return;
+        // Check if card is marked as visible by ScrollAnimationManager
+        if (card.classList.contains('force-paused')) return;
+        
         leaving = false;
         refreshRect();
         card.classList.add('is-hovering');
@@ -141,6 +149,8 @@
       const onMove = (e) => {
         if (isReducedMotion || isTouchDevice || isPaused) return;
         if (pointerDown) return;
+        // Don't update if scrolling or element is paused
+        if (card.classList.contains('force-paused')) return;
 
         const ts = e.timeStamp || performance.now();
         if (ts - lastTs < settings.pointerThrottleMs) return;

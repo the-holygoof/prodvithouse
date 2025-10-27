@@ -14,6 +14,7 @@
 
     const isMobile = () => matchMedia('(max-width: 640px)').matches;
     const slideWidth = () => items[0]?.clientWidth || scroller.clientWidth;
+    let busy = false;
 
     function computeColumnOffsets() {
       if (!cols.length) return [];
@@ -24,9 +25,12 @@
     }
 
     function page(delta) {
+      if (busy) return; // Prevent fast-click issues
+      busy = true;
+      
       if (cols.length && isMobile()) {
         const offsets = computeColumnOffsets();
-        if (!offsets.length) return;
+        if (!offsets.length) { busy = false; return; }
         const currentLeft = scroller.scrollLeft;
         let idx = 0;
         for (let i = 0; i < offsets.length; i++) if (offsets[i] <= currentLeft + 1) idx = i;
@@ -36,10 +40,12 @@
         const target = clamp(scroller.scrollLeft + slideWidth() * delta, 0, scroller.scrollWidth - scroller.clientWidth);
         scroller.scrollTo({ left: target, behavior: prefersReduced ? 'auto' : 'smooth' });
       }
+      
+      setTimeout(() => { busy = false; }, 300); // Unlock after scroll settles
     }
 
     function updateDisabled() {
-      const start = scroller.scrollLeft <= 0;
+      const start = scroller.scrollLeft <= 1;
       const end = scroller.scrollLeft >= (scroller.scrollWidth - scroller.clientWidth - 1);
       if (prev) prev.disabled = start;
       if (next) next.disabled = end;
@@ -56,13 +62,15 @@
       }
     });
     addEventListener('resize', updateDisabled, { passive: true });
-    updateDisabled();
+    updateDisabled(); // Run on init
 
-    // Autoplay
+    // Autoplay with scroll pause integration
     let dir = 1;
     let id = null;
+    let isPausedByScroll = false;
+    
     const startAutoplay = () => {
-      if (id || prefersReduced) return;
+      if (id || prefersReduced || isPausedByScroll) return;
       id = setInterval(() => {
         const atStart = scroller.scrollLeft <= 0;
         const atEnd   = scroller.scrollLeft >= (scroller.scrollWidth - scroller.clientWidth - 1);
@@ -70,6 +78,7 @@
         page(dir);
       }, autoplayMs);
     };
+    
     const stopAutoplay = () => { if (id) clearInterval(id); id = null; };
 
     // Pause on hover over interactive cards/items
@@ -84,23 +93,39 @@
       if (document.hidden) stopAutoplay(); else startAutoplay();
     });
 
+    // Listen to global scroll animation manager
+    window.addEventListener('carousel:pause', () => {
+      isPausedByScroll = true;
+      stopAutoplay();
+    });
+    
+    window.addEventListener('carousel:resume', () => {
+      isPausedByScroll = false;
+      // Only resume if section is visible (checked by ScrollAnimationManager)
+      const isVisible = section.classList.contains('can-animate') || 
+                       !section.classList.contains('force-paused');
+      if (isVisible && !document.hidden) {
+        startAutoplay();
+      }
+    });
+
     // Initial
     if (!prefersReduced) startAutoplay();
     return { page, startAutoplay, stopAutoplay };
   }
 
   // Opinie: 3 items desktop, 1 item mobile (by column)
-  const opinieSection = document.querySelector('.section-opinie.section-gradient .wrapper')?.closest('.section-opinie.section-gradient') || document.querySelector('.opinie-buttons-wrapper'); 
-  if (opinieSection && opinieSection.querySelector('.opinions-carousel')) {
+  const opinieSection = document.querySelector('.section-opinie') || document.querySelector('.opinie-buttons-wrapper')?.parentElement; 
+  if (opinieSection && opinieSection.querySelector('.opinie-carousel')) {
     makeCarousel({
       section: opinieSection,
-      scrollerSel: '.opinions-carousel',
+      scrollerSel: '.opinie-carousel',
       prevSel: '.opinie-prev',
       nextSel: '.opinie-next',
       itemSel: '.carousel-item',
-      colSel: '.opinie-item, .card', // step per card/column on mobile
+      colSel: '.carousel-item', // step per card on mobile
       autoplayMs: 3000,
-      pauseOnHoverSel: '.opinie-item, .card'
+      pauseOnHoverSel: '.carousel-item'
     });
   }
 

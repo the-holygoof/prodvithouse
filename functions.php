@@ -1,24 +1,14 @@
 <?php
-
-// Theme setup
 function vithouse_theme_setup() {
-    // Add theme support
     add_theme_support('post-thumbnails');
     add_theme_support('title-tag');
     add_theme_support('html5', array('search-form', 'comment-form', 'comment-list', 'gallery', 'caption'));
-
-    // Register navigation menus
     register_nav_menus(array(
         'primary-menu' => __('Primary Menu', 'vithouse'),
         'mobile-menu' => __('Mobile Menu', 'vithouse'),
     ));
 }
-
 add_action('after_setup_theme', 'vithouse_theme_setup');
-
-
-
-// Enqueue Tailwind-built CSS and Squircle init on the frontend
 function vithouse_enqueue_assets() {
   $theme_version = wp_get_theme()->get('Version');
 
@@ -31,21 +21,21 @@ function vithouse_enqueue_assets() {
 //   true
 // );
 
-  wp_enqueue_style(
-    'vithouse-style',
-    get_template_directory_uri() . '/dist/style.css',
-    [],
-    $theme_version
-  );
+//   wp_enqueue_style(
+//     'vithouse-style',
+//     get_template_directory_uri() . '/dist/style.css',
+//     [],
+//     $theme_version
+//   );
 
   // Your main app script (if any)
-  wp_enqueue_script(
-    'vithouse-app',
-    get_template_directory_uri() . '/js/app.js',
-    [],
-    $theme_version,
-    true
-  );
+//   wp_enqueue_script(
+//     'vithouse-app',
+//     get_template_directory_uri() . '/js/app.js',
+//     [],
+//     $theme_version,
+//     true
+//   );
 
   // Squircle init (ESM)
 
@@ -62,25 +52,26 @@ function vithouse_enqueue_assets() {
 add_action('wp_enqueue_scripts', 'vithouse_enqueue_assets');
 
 
-//Remove Gutenberg Block Library CSS from loading on the frontend
-function smartwp_remove_wp_block_library_css(){
-    wp_dequeue_style( 'wp-block-library' );
-    wp_dequeue_style( 'wp-block-library-theme' );
-    wp_dequeue_style( 'wc-blocks-style' ); // Remove WooCommerce block CSS
-    wp_dequeue_style( 'classic-theme-styles' );
-    wp_dequeue_style( 'global-styles-inline' );
+// //Remove Gutenberg Block Library CSS from loading on the frontend
+// function smartwp_remove_wp_block_library_css(){
+//     wp_dequeue_style( 'wp-block-library' );
+//     wp_dequeue_style( 'wp-block-library-theme' );
+//     wp_dequeue_style( 'wc-blocks-style' ); // Remove WooCommerce block CSS
+//     wp_dequeue_style( 'classic-theme-styles' );
+//     wp_dequeue_style( 'global-styles-inline' );
 
 
 
-} 
-add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
+// }
+ 
+// add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
 
-function remove_global_css() {
-    // Paste the code here
-	remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
-	remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
-}
-add_action('init', 'remove_global_css');
+// function remove_global_css() {
+//     // Paste the code here
+// 	remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
+// 	remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
+// }
+// add_action('init', 'remove_global_css');
 
 
 function generate_smart_breadcrumbs() {

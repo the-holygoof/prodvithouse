@@ -881,9 +881,11 @@
       
     
 
-    
-<script src="<?php echo get_template_directory_uri(); ?>/js/carousels.js" defer> </script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/init-tilt-glare.js" type="module" defer></script>
+<!-- Performance-optimized scripts in load order -->
+<script src="<?php echo get_template_directory_uri(); ?>/js/scroll-animation-manager.js" defer></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/init-tilt-glare.js" defer></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/carousels.js" defer></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/app.js" defer></script>
 
 
 
