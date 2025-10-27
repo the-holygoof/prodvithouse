@@ -5,7 +5,7 @@
  */
 ?>
 
-<section class="py-2 md:py-4 my-auto relative overflow-hidden">
+<section class="py-2 md:py-4 my-auto relative overflow-hidden contain-layout gpu">
    
     <div class="h-full slider-buttons-wrapper max-w-8xl mx-auto absolute inset-0 top-4/9 p-4">    
         <button type="button"
@@ -22,7 +22,7 @@
             
             <div class="hero-carousel carousel relative">
         
-                <div class="carousel-item slide">
+                <div class="carousel-item slide relative">
                     <img
   srcset="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-400w.webp 400w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-600w.webp 600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-800w.webp 800w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1000w.webp 1000w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1200w.webp 1200w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1600w.webp 1600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-2000w.webp 2000w"
   sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
@@ -30,6 +30,7 @@
   alt=""
   width="2600"
   height="1440"
+  class="transform-style: flat"
 />
                     <div class="heroslider-content z-2">
                         <h1>NAD+ i Glutation <br/>eliksiry młodości</h1>
@@ -47,6 +48,7 @@
   alt=""
   width="2600"
   height="1440"
+  class="transform-style: flat"
 />
                     <div class="heroslider-content z-2">
                         <h1>Twój pierwszy krok w&nbsp;stronę wolności</h1>
@@ -64,6 +66,7 @@
   alt=""
   width="2600"
   height="1440"
+  class="transform-style: flat"
 />
                     <div class="heroslider-content z-2">
                         <h1>Kroplówki witaminowe</h1>
@@ -80,6 +83,7 @@
   alt=""
   width="2600"
   height="1440"
+  class="transform-style: flat"
 />
                 
                     <div class="heroslider-content z-2">

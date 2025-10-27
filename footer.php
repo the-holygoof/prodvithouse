@@ -46,12 +46,12 @@
                             <div class="relative">
                                 
 <div class="squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl mb-9 flex items-center justify-center relative">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/outside.webp" alt="Kroplówki witaminowe" width="1360" height="1020" class="object-cover relative"/>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/outside.webp" alt="Kroplówki witaminowe" width="1360" height="1020" class="cloth-corner object-cover relative"/>
                                             </div>
                                     
 
 
-                                    <div class="squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl absolute p-4  -top-6 -right-6 z-50" style="background-color: var(--card);">
+                                    <div class="cloth-small squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl absolute p-4  -top-6 -right-6 z-50" style="background-color: var(--card);">
                                         <div class="flex items-center justify-center w-12 h-12" style="background-color: var(--card);">
                                             <div class="w-12 h-12 flex items-center justify-center squircle-mask squircle-4xl md:squircle-4xl squircle-smooth-md" style="background-color: var(--primary);">
                                                 <div>
@@ -63,7 +63,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="absolute squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl p-4  -bottom-6 -left-6 z-50" style="background-color: var(--card);">
+                                    <div class="cloth-small absolute squircle-mask squircle-5xl md:squircle-6xl squircle-smooth-xl p-4  -bottom-6 -left-6 z-50" style="background-color: var(--card);">
                                         <div class="flex items-center gap-3">
                                             <div class="flex items-center justify-center w-10 h-10" style="background-color: var(--card);">
                                                 <div class="w-5 h-5" style="background-color: var(--primary);"></div>
@@ -880,7 +880,7 @@
         
       
     
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" defer>
+
     
 <script src="<?php echo get_template_directory_uri(); ?>/js/carousels.js" defer> </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/init-tilt-glare.js" type="module" defer></script>
@@ -888,9 +888,10 @@
 
 
 
+
         <?php wp_footer(); ?>
  
     
-    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </body>
 </html>

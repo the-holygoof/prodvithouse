@@ -8,13 +8,13 @@
 
 <!-- filename: template-parts/opinie.php -->
 
-<section class="section-opinie relative px-0 mx-auto  section-gradient py-36 overflow-x-clip h-[800px] md:h-[900px] my-auto">
+<section class="section-opinie relative px-0 mx-auto  section-gradient py-20 overflow-x-clip h-[850px] my-auto">
     <div class="opinie-buttons-wrapper max-w-8xl mx-auto absolute inset-0 top-3/5">
         <button type="button" class="opinie-prev btn rounded-full size-8  absolute border-0 left-1.5  z-810 bg-white/18 outline-1 outline-white/35 text-black/30" aria-label="Poprzednie">❮</button>
         <button type="button" class="opinie-next btn rounded-full size-8 absolute border-0 right-1.5 z-810 bg-white/18 outline-1 outline-white/35 text-black/30" aria-label="Następne">❯</button>
     </div>
     <div class="wrapper   overflow-x-clip relative">
-        <div class="content px-0 m-auto text-center pb-12 md:pb-20 pointer-events-none select-none">
+        <div class="content px-0 my-auto text-center pb-16 md:pb-20 pointer-events-none select-none">
             <h3 class="text-gray-800">Co mówią o nas pacjenci</h3>
             <p class="text-gray-600 mt-6">Wykonaliśmy setki terapii infuzyjnych. Pomogliśmy dziesiątkom pacjentów wyjść z uzależnień.</p>
         </div>

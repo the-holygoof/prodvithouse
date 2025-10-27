@@ -5,10 +5,10 @@
  */
 ?>
 
-<div class="benefits-wrapper my-auto md:pt-28 pb-16 md:pb-40 grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-8 md:px-6 ">
+<div class="benefits-wrapper my-auto md:pt-36 pb-32 md:pb-32 grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-8 md:px-6 ">
 
     <!-- krolowki witaminowe -->
-        <div class="card card-feature" tabindex="0">                                        
+        <div class="card card-feature my-auto" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="absolute inset-0 w-full h-full -z-1 bg-linear-135 from-40% to-70% from-[#8dffdf] to-[#8a70e1]"></div>
             <div class="karta bg-linear-135 from-primary to-secondary">                                            
@@ -41,7 +41,7 @@
     <!-- -->
 
     <!-- gwarancja poufnosci -->
-        <div class="card card-feature" tabindex="0">                                        
+        <div class="card card-feature my-auto" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="karta bg-card" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
             
@@ -83,7 +83,7 @@
     <!-- -->
 
     <!-- pobieranie krwi -->
-        <div class="card card-feature" tabindex="0">                                        
+        <div class="card card-feature my-auto content-stretch" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="karta bg-card" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
             
@@ -121,7 +121,7 @@
     <!-- -->
 
     <!-- nadzór -->
-        <div class="card card-feature" tabindex="0">                                        
+        <div class="card card-feature my-auto items-stretch" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="karta bg-card" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
             
