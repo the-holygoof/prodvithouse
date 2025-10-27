@@ -28,12 +28,26 @@
     timer = setTimeout(() => requestAnimationFrame(resume), 200);
   }
 
+  // Track visibility for infinite marquees
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.willChange = 'transform';
+      } else {
+        e.target.style.willChange = 'auto';
+      }
+    });
+  }, { rootMargin: '50px' });
+
   // Init
   function init() {
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
       document.documentElement.classList.add('reduced-motion', 'scroll-paused');
       return;
     }
+
+    // Observe infinite marquees
+    document.querySelectorAll('.marquee, .testim-container-forward, .testim-container-backward').forEach(el => io.observe(el));
 
     window.addEventListener('scroll', onScroll, { passive: true });
     document.addEventListener('visibilitychange', () => document.hidden ? pause() : setTimeout(resume, 100));
