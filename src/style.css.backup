@@ -1,0 +1,838 @@
+@import "tailwindcss";
+@theme inline { --font-sans: var(--font-display); }
+@theme {
+    --font-body: var(--font-display);
+    --color-white: #fff;
+    --color-black: #000;
+    --container-8xl: 88rem;
+    --container-7xl: 80rem;
+    --container-6xl: 78rem;
+    --font-display: "Satoshi", sans-serif;
+    --default-font-family: var(--font-display);
+    --bg-0: #191321;
+    --bg: #271c3780;
+    --bg-2: #271c37;
+    --bg-light: #36294A;
+    --surface: #312543;
+    --surface-dark: #150f1c;
+    --card: #3E315E;
+    --primary: #7ce2c5;
+    --color-primary: #7ce2c5;
+    --primary-2: #62c6aa;
+    --secondary: #bba9f6;
+    --secondary-2: #9481d4;
+    --secondary-3: #9f8fd4;
+    --accent: #ffc9a9;
+    --muted: #a5a1b3;
+    --text: #f4f2f7;
+    --text-2: #cfcbda;
+    --success: #34d399;
+    --warning: #fdba74;
+    --warning-2: #e48f35;
+    --danger: #fb7185;
+    --danger-2: #ec96a3;
+    --border: rgba(255, 255, 255, 0.06);
+    --ring: rgba(124, 226, 197, 0.4);
+    --slider-mobile-aspect: 1.003;
+  --slider-desktop-aspect: 1.829;
+  --slider-mobile-clip: shape(from 0% 12.6%,curve to 1.84% 1.84% with 0% 6.66%/0% 3.69%,curve to 12.56% 0% with 3.68% 0%/6.64% 0%,hline to 87.44%,curve to 98.16% 1.84% with 93.36% 0%/96.32% 0%,curve to 100% 12.6% with 100% 3.69%/100% 6.66%,vline to 72.83%,curve to 98.16% 83.58% with 100% 78.77%/100% 81.74%,curve to 87.44% 85.43% with 96.32% 85.43%/93.36% 85.43%,line to 51.65% 85.43%,curve to 44.61% 86.34% with 47.96% 85.43%/46.11% 85.43%,curve to 40.53% 92.17% with 43.11% 87.24%/42.25% 88.89%,line to 39.96% 93.26%,curve to 35.89% 99.09% with 38.25% 96.54%/37.39% 98.18%,curve to 28.85% 100% with 34.39% 100%/32.54% 100%,hline to 12.56%,curve to 1.84% 98.15% with 6.64% 100%/3.68% 100%,curve to 0% 87.4% with 0% 96.31%/0% 93.34%,vline to 12.6%,close);
+  --slider-desktop-clip: shape(from 100% 16.29%,curve to 98.7% 2.38% with 100% 8.61%/100% 4.77%,curve to 91.09% 0% with 97.39% 0%/95.29% 0%,hline to 8.91%,curve to 1.3% 2.38% with 4.71% 0%/2.61% 0%,curve to 0% 16.29% with 0% 4.77%/0% 8.61%,vline to 69.6%,curve to 1.3% 83.5% with 0% 77.27%/0% 81.11%,curve to 8.91% 85.88% with 2.61% 85.88%/4.71% 85.88%,line to 34.48% 85.88%,curve to 36.77% 86.12% with 35.66% 85.88%/36.25% 85.88%,curve to 39.28% 89.17% with 37.78% 86.57%/38.66% 87.65%,curve to 40.28% 92.94% with 39.6% 89.97%/39.83% 90.96%,curve to 41.29% 96.71% with 40.74% 94.92%/40.96% 95.91%,curve to 43.8% 99.76% with 41.9% 98.23%/42.79% 99.31%,curve to 46.08% 100% with 44.32% 100%/44.91% 100%,hline to 91.09%,curve to 98.7% 97.61% with 95.29% 100%/97.39% 100%,curve to 100% 83.71% with 100% 95.23%/100% 91.39%,vline to 16.29%,close);	
+  --card-outer-aspect: 1.143;
+	--card-outer-clip: shape(from 0% 32.14%,curve to 4.12% 4.71% with 0% 16.99%/0% 9.41%,curve to 28.13% 0% with 8.24% 0%/14.87% 0%,hline to 71.88%,curve to 95.88% 4.71% with 85.13% 0%/91.76% 0%,curve to 100% 32.14% with 100% 9.41%/100% 16.99%,vline to 67.86%,curve to 95.88% 95.29% with 100% 83.01%/100% 90.59%,curve to 71.88% 100% with 91.76% 100%/85.13% 100%,hline to 28.13%,curve to 4.12% 95.29% with 14.87% 100%/8.24% 100%,curve to 0% 67.86% with 0% 90.59%/0% 83.01%,vline to 32.14%,close);
+	--card-inner-aspect: 1.146;
+	--card-inner-clip: shape(from 0% 30.66%,curve to 3.92% 4.49% with 0% 16.21%/0% 8.98%,curve to 26.75% 0% with 7.84% 0%/14.14% 0%,hline to 73.25%,curve to 96.08% 4.49% with 85.86% 0%/92.16% 0%,curve to 100% 30.66% with 100% 8.98%/100% 16.21%,vline to 69.34%,curve to 96.08% 95.51% with 100% 83.79%/100% 91.02%,curve to 73.25% 100% with 92.16% 100%/85.86% 100%,hline to 26.75%,curve to 3.92% 95.51% with 14.14% 100%/7.84% 100%,curve to 0% 69.34% with 0% 91.02%/0% 83.79%,vline to 30.66%,close);
+  --pi1_2: 1.5707963269px;
+  --pi: 3.1415926536px;
+}
+@plugin "daisyui" {
+  themes: false;
+  include: toggle, drawer-toggle, dropdown-hover, drawer-content, breadcrumbs, link, list, validator, navbar, radio, select, swap, modal, card, btn, collapse, button, input, properties, typography, checkbox, label, carousel, menu. dropdown, drawer, rootscrollgutter, rootscrolllock, svg, fab;
+}
+@plugin "daisyui/theme" {
+  name: "vithouse";
+  default: true;
+  prefersdark: true;
+  color-scheme: dark;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-warning: var(--danger);
+  --depth: 0; 
+  --noise: 1;
+  --radius-box: 0;
+}
+
+@layer base {
+        @font-face {
+        font-family: 'Satoshi';
+        src:
+        url('../fonts/Satoshi-Variable.woff2') format('woff2');
+        font-weight: 300 900;
+        font-display: swap;
+        font-style: normal;
+        }
+
+        html {
+        overflow-x: clip;
+        font-family: var(--font-display); 
+        -moz-osx-font-smoothing: grayscale;
+        scrollbar-gutter: stable both-edges;
+        -webkit-font-smoothing: antialiased;
+        -moz-text-size-adjust: none;
+        -webkit-text-size-adjust: none;
+        text-size-adjust: none;
+        text-rendering: optimizeLegibility;
+        font-synthesis: none;
+        -webkit-overflow-scrolling: none;
+        max-width: 100vw;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+          display: none;
+          };
+          }
+
+        body {
+        background-image: linear-gradient(90deg, var(--bg-2) 70%, var(--bg) 110%);
+        background-color: var(--bg-0);
+        color: var(--text);
+        overscroll-behavior: touch;
+        max-width: 100vw;
+        overflow-x: clip;
+        width: 100%;
+        height: 100%;
+        -webkit-text-size-adjust: 100%;
+        }
+
+        h1 {
+        @apply text-4xl sm:text-5xl lg:text-6xl font-bold leading-10 md:leading-16;
+        }
+
+        h2 {
+        @apply text-[1.7rem] md:text-[2.7rem] font-bold mb-7 leading-tight;
+        }
+
+        h3 { 
+        @apply text-4xl lg:text-6xl font-bold leading-tight;
+        }
+        h6 {
+        @apply text-xl font-semibold mb-4 tracking-tight;
+        }
+
+        h4 {
+        @apply text-lg font-bold;
+        }
+
+        h5 {
+        @apply text-sm;
+        }
+
+        span { 
+        @apply text-text font-medium;
+        }
+}
+
+
+@utility paused {
+animation-play-state: paused;
+}
+
+@utility stopped { 
+animation: none !important; 
+}
+
+@utility gpu { 
+transform: translate3d(0, 0, 0);
+}
+
+/* Global scroll pause system */
+.scroll-paused * {
+  animation-play-state: paused !important;
+  transition: none !important;
+}
+
+/* Allow animations only for visible elements when not scrolling */
+.can-animate {
+  animation-play-state: running;
+}
+
+.force-paused {
+  animation-play-state: paused !important;
+}
+
+/* Reduced motion support */
+.reduced-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Performance optimizations for will-change */
+.will-change-transform { 
+  will-change: transform; 
+}
+
+.will-change-auto { 
+  will-change: auto; 
+}
+
+@utility contain-paint {
+contain: paint;
+}
+
+@utility contain-layout {
+contain: layout;
+}
+
+@utility contain-layout-paint {
+contain: layout paint;
+}
+
+@utility contain-layout-style {
+contain: layout style;
+}
+
+@utility contain-layout-paint-style {
+contain: layout paint style;
+}
+
+@utility contain-* {
+contain: --value("layout", "paint", "style", "size", "strict", "layout paint", "layout style", "layout paint style");
+}
+
+@utility cloth-small {
+clip-path: polygon(1.5em 0em, calc(100% - 1.5em) 0em, calc(100% - 1.416003em) 0.00011em, calc(100% - 1.33201em) 0.00084em, calc(100% - 1.248038em) 0.002768em, calc(100% - 1.164129em) 0.006475em, calc(100% - 1.080363em) 0.012536em, calc(100% - 0.996867em) 0.021521em, calc(100% - 0.913832em) 0.033994em, calc(100% - 0.831515em) 0.050498em, calc(100% - 0.750258em) 0.071555em, calc(100% - 0.67049em) 0.097649em, calc(100% - 0.592738em) 0.129213em, calc(100% - 0.517633em) 0.166612em, calc(100% - 0.445907em) 0.210125em, calc(100% - 0.378394em) 0.259919em, calc(100% - 0.316025em) 0.316025em, calc(100% - 0.259919em) 0.378394em, calc(100% - 0.210125em) 0.445907em, calc(100% - 0.166612em) 0.517633em, calc(100% - 0.129213em) 0.592738em, calc(100% - 0.097649em) 0.67049em, calc(100% - 0.071555em) 0.750258em, calc(100% - 0.050498em) 0.831515em, calc(100% - 0.033994em) 0.913832em, calc(100% - 0.021521em) 0.996867em, calc(100% - 0.012536em) 1.080363em, calc(100% - 0.006475em) 1.164129em, calc(100% - 0.002768em) 1.248038em, calc(100% - 0.00084em) 1.33201em, calc(100% - 0.00011em) 1.416003em, 100% 1.5em, 100% calc(100% - 1.5em), calc(100% - 0.00011em) calc(100% - 1.416003em), calc(100% - 0.00084em) calc(100% - 1.33201em), calc(100% - 0.002768em) calc(100% - 1.248038em), calc(100% - 0.006475em) calc(100% - 1.164129em), calc(100% - 0.012536em) calc(100% - 1.080363em), calc(100% - 0.021521em) calc(100% - 0.996867em), calc(100% - 0.033994em) calc(100% - 0.913832em), calc(100% - 0.050498em) calc(100% - 0.831515em), calc(100% - 0.071555em) calc(100% - 0.750258em), calc(100% - 0.097649em) calc(100% - 0.67049em), calc(100% - 0.129213em) calc(100% - 0.592738em), calc(100% - 0.166612em) calc(100% - 0.517633em), calc(100% - 0.210125em) calc(100% - 0.445907em), calc(100% - 0.259919em) calc(100% - 0.378394em), calc(100% - 0.316025em) calc(100% - 0.316025em), calc(100% - 0.378394em) calc(100% - 0.259919em), calc(100% - 0.445907em) calc(100% - 0.210125em), calc(100% - 0.517633em) calc(100% - 0.166612em), calc(100% - 0.592738em) calc(100% - 0.129213em), calc(100% - 0.67049em) calc(100% - 0.097649em), calc(100% - 0.750258em) calc(100% - 0.071555em), calc(100% - 0.831515em) calc(100% - 0.050498em), calc(100% - 0.913832em) calc(100% - 0.033994em), calc(100% - 0.996867em) calc(100% - 0.021521em), calc(100% - 1.080363em) calc(100% - 0.012536em), calc(100% - 1.164129em) calc(100% - 0.006475em), calc(100% - 1.248038em) calc(100% - 0.002768em), calc(100% - 1.33201em) calc(100% - 0.00084em), calc(100% - 1.416003em) calc(100% - 0.00011em), calc(100% - 1.5em) 100%, 1.5em 100%, 1.416003em calc(100% - 0.00011em), 1.33201em calc(100% - 0.00084em), 1.248038em calc(100% - 0.002768em), 1.164129em calc(100% - 0.006475em), 1.080363em calc(100% - 0.012536em), 0.996867em calc(100% - 0.021521em), 0.913832em calc(100% - 0.033994em), 0.831515em calc(100% - 0.050498em), 0.750258em calc(100% - 0.071555em), 0.67049em calc(100% - 0.097649em), 0.592738em calc(100% - 0.129213em), 0.517633em calc(100% - 0.166612em), 0.445907em calc(100% - 0.210125em), 0.378394em calc(100% - 0.259919em), 0.316025em calc(100% - 0.316025em), 0.259919em calc(100% - 0.378394em), 0.210125em calc(100% - 0.445907em), 0.166612em calc(100% - 0.517633em), 0.129213em calc(100% - 0.592738em), 0.097649em calc(100% - 0.67049em), 0.071555em calc(100% - 0.750258em), 0.050498em calc(100% - 0.831515em), 0.033994em calc(100% - 0.913832em), 0.021521em calc(100% - 0.996867em), 0.012536em calc(100% - 1.080363em), 0.006475em calc(100% - 1.164129em), 0.002768em calc(100% - 1.248038em), 0.00084em calc(100% - 1.33201em), 0.00011em calc(100% - 1.416003em), 0em calc(100% - 1.5em), 0em 1.5em, 0.00011em 1.416003em, 0.00084em 1.33201em, 0.002768em 1.248038em, 0.006475em 1.164129em, 0.012536em 1.080363em, 0.021521em 0.996867em, 0.033994em 0.913832em, 0.050498em 0.831515em, 0.071555em 0.750258em, 0.097649em 0.67049em, 0.129213em 0.592738em, 0.166612em 0.517633em, 0.210125em 0.445907em, 0.259919em 0.378394em, 0.316025em 0.316025em, 0.378394em 0.259919em, 0.445907em 0.210125em, 0.517633em 0.166612em, 0.592738em 0.129213em, 0.67049em 0.097649em, 0.750258em 0.071555em, 0.831515em 0.050498em, 0.913832em 0.033994em, 0.996867em 0.021521em, 1.080363em 0.012536em, 1.164129em 0.006475em, 1.248038em 0.002768em, 1.33201em 0.00084em, 1.416003em 0.00011em, 1.5em 0em);
+}
+@utility squircle-border-card {
+--squircle-border-color: color-mix(in oklab, #3E315Ed5 var(--squircle-border-opacity, 100%), transparent);
+}
+@utility squircle-border-surface {
+--squircle-border-color: color-mix(in oklab, var(--surface)  var(--squircle-border-opacity, 100%), transparent);
+}
+
+@utility bg-bg {
+background-color: var(--bg);
+}
+
+@utility bg-bg-light {
+background-color: var(--bg-light);
+}
+@utility text-text {
+color: var(--text-2);
+}
+
+@utility text-primary {
+color: var(--primary);
+}
+
+@utility text-secondary {
+color: var(--secondary);
+}
+
+@utility text-muted {
+color: var(--muted);
+}
+@utility bg-surface {
+background-color: var(--surface);
+}
+
+@utility bg-surface-dark {
+background-color: var(--surface-dark);
+}
+@utility bg-gradient-main {
+background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+@utility bg-card {
+background-color: var(--card);
+}
+
+@utility cloth-corner {
+clip-path: polygon(
+4.167037rem 0rem,
+calc(100% - 4.167037rem) 0rem,
+calc(100% - 3.917025rem) 0.000347rem,
+calc(100% - 3.667025rem) 0.002717rem,
+calc(100% - 3.4171rem) 0.009112rem,
+calc(100% - 3.167409rem) 0.02153rem,
+calc(100% - 2.918255rem) 0.041962rem,
+calc(100% - 2.670135rem) 0.072374rem,
+calc(100% - 2.423782rem) 0.114689rem,
+calc(100% - 2.180214rem) 0.170762rem,
+calc(100% - 1.940767rem) 0.242331rem,
+calc(100% - 1.707134rem) 0.330972rem,
+calc(100% - 1.481384rem) 0.43803rem,
+calc(100% - 1.265977rem) 0.564537rem,
+calc(100% - 1.063758rem) 0.711127rem,
+calc(100% - 0.877925rem) 0.877925rem,
+calc(100% - 0.711127rem) 1.063758rem,
+calc(100% - 0.564537rem) 1.265977rem,
+calc(100% - 0.43803rem) 1.481384rem,
+calc(100% - 0.330972rem) 1.707134rem,
+calc(100% - 0.242331rem) 1.940767rem,
+calc(100% - 0.170762rem) 2.180214rem,
+calc(100% - 0.114689rem) 2.423782rem,
+calc(100% - 0.072374rem) 2.670135rem,
+calc(100% - 0.041962rem) 2.918255rem,
+calc(100% - 0.02153rem) 3.167409rem,
+calc(100% - 0.009112rem) 3.4171rem,
+calc(100% - 0.002717rem) 3.667025rem,
+calc(100% - 0.000347rem) 3.917025rem,
+100% 4.167037rem,
+100% calc(100% - 4.167037rem),
+calc(100% - 0.000347rem) calc(100% - 3.917025rem),
+calc(100% - 0.002717rem) calc(100% - 3.667025rem),
+calc(100% - 0.009112rem) calc(100% - 3.4171rem),
+calc(100% - 0.02153rem) calc(100% - 3.167409rem),
+calc(100% - 0.041962rem) calc(100% - 2.918255rem),
+calc(100% - 0.072374rem) calc(100% - 2.670135rem),
+calc(100% - 0.114689rem) calc(100% - 2.423782rem),
+calc(100% - 0.170762rem) calc(100% - 2.180214rem),
+calc(100% - 0.242331rem) calc(100% - 1.940767rem),
+calc(100% - 0.330972rem) calc(100% - 1.707134rem),
+calc(100% - 0.43803rem) calc(100% - 1.481384rem),
+calc(100% - 0.564537rem) calc(100% - 1.265977rem),
+calc(100% - 0.711127rem) calc(100% - 1.063758rem),
+calc(100% - 0.877925rem) calc(100% - 0.877925rem),
+calc(100% - 1.063758rem) calc(100% - 0.711127rem),
+calc(100% - 1.265977rem) calc(100% - 0.564537rem),
+calc(100% - 1.481384rem) calc(100% - 0.43803rem),
+calc(100% - 1.707134rem) calc(100% - 0.330972rem),
+calc(100% - 1.940767rem) calc(100% - 0.242331rem),
+calc(100% - 2.180214rem) calc(100% - 0.170762rem),
+calc(100% - 2.423782rem) calc(100% - 0.114689rem),
+calc(100% - 2.670135rem) calc(100% - 0.072374rem),
+calc(100% - 2.918255rem) calc(100% - 0.041962rem),
+calc(100% - 3.167409rem) calc(100% - 0.02153rem),
+calc(100% - 3.4171rem) calc(100% - 0.009112rem),
+calc(100% - 3.667025rem) calc(100% - 0.002717rem),
+calc(100% - 3.917025rem) calc(100% - 0.000347rem),
+calc(100% - 4.167037rem) 100%,
+4.167037rem 100%,
+3.917025rem calc(100% - 0.000347rem),
+3.667025rem calc(100% - 0.002717rem),
+3.4171rem calc(100% - 0.009112rem),
+3.167409rem calc(100% - 0.02153rem),
+2.918255rem calc(100% - 0.041962rem),
+2.670135rem calc(100% - 0.072374rem),
+2.423782rem calc(100% - 0.114689rem),
+2.180214rem calc(100% - 0.170762rem),
+1.940767rem calc(100% - 0.242331rem),
+1.707134rem calc(100% - 0.330972rem),
+1.481384rem calc(100% - 0.43803rem),
+1.265977rem calc(100% - 0.564537rem),
+1.063758rem calc(100% - 0.711127rem),
+0.877925rem calc(100% - 0.877925rem),
+0.711127rem calc(100% - 1.063758rem),
+0.564537rem calc(100% - 1.265977rem),
+0.43803rem calc(100% - 1.481384rem),
+0.330972rem calc(100% - 1.707134rem),
+0.242331rem calc(100% - 1.940767rem),
+0.170762rem calc(100% - 2.180214rem),
+0.114689rem calc(100% - 2.423782rem),
+0.072374rem calc(100% - 2.670135rem),
+0.041962rem calc(100% - 2.918255rem),
+0.02153rem calc(100% - 3.167409rem),
+0.009112rem calc(100% - 3.4171rem),
+0.002717rem calc(100% - 3.667025rem),
+0.000347rem calc(100% - 3.917025rem),
+0rem calc(100% - 4.167037rem),
+0rem 4.167037rem,
+0.000347rem 3.917025rem,
+0.002717rem 3.667025rem,
+0.009112rem 3.4171rem,
+0.02153rem 3.167409rem,
+0.041962rem 2.918255rem,
+0.072374rem 2.670135rem,
+0.114689rem 2.423782rem,
+0.170762rem 2.180214rem,
+0.242331rem 1.940767rem,
+0.330972rem 1.707134rem,
+0.43803rem 1.481384rem,
+0.564537rem 1.265977rem,
+0.711127rem 1.063758rem,
+0.877925rem 0.877925rem,
+1.063758rem 0.711127rem,
+1.265977rem 0.564537rem,
+1.481384rem 0.43803rem,
+1.707134rem 0.330972rem,
+1.940767rem 0.242331rem,
+2.180214rem 0.170762rem,
+2.423782rem 0.114689rem,
+2.670135rem 0.072374rem,
+2.918255rem 0.041962rem,
+3.167409rem 0.02153rem,
+3.4171rem 0.009112rem,
+3.667025rem 0.002717rem,
+3.917025rem 0.000347rem,
+4.167037rem 0rem
+);
+}
+
+@utility card-cloth-border { 
+/* @apply aspect-(--card-outer-aspect); */
+clip-path: var(--card-outer-clip); 
+}
+
+@utility card-cloth-inner { 
+/* @apply aspect-(--card-inner-aspect); */
+clip-path: var(--card-inner-clip); 
+}
+
+@utility slider {
+/* Clip mask wrapper - isolate the mask */
+overflow: hidden;
+contain: layout;
+position: relative;
+@apply aspect-(--slider-mobile-aspect);
+clip-path: var(--slider-mobile-clip);
+
+@variant md {
+max-height: 700px;
+contain-intrinsic-height: 700px;
+content-visibility: auto;
+@apply aspect-(--slider-desktop-aspect) gpu;
+clip-path: var(--slider-desktop-clip);
+}
+}
+
+@utility cardcontent {
+z-index: 141;
+}
+
+@utility scrollbar-gutter {
+scrollbar-gutter: stable both-edges;
+}
+@utility btn {
+@apply transition-all duration-200 ease-in-out bg-white/8 outline-1 outline-white/15 outline-offset-2 text-xl text-black/40;
+
+@variant hover {
+@apply scale-105 bg-white/30 outline-offset-2 outline-2 outline-white/15 text-white/70;
+}
+
+@variant focus {
+@apply outline-white/20 outline-offset-2 outline-2;
+}
+
+@variant active {
+@apply scale-95 outline-white/25 outline-offset-4 outline-3 text-white/60 bg-white/12;
+}
+
+@variant disabled {
+@apply cursor-not-allowed text-black/12 outline-offset-3 outline-1 outline-white/5 bg-white/2;
+}
+
+}
+
+@utility content {
+@apply px-3 sm:px-10;
+}  
+
+/* @utility featurecard {
+@apply aspect-[1.1428571429];
+} */
+
+
+@utility cloth-border {
+padding: 2.3561944902px;
+padding-right: 1.5707963268px;
+@apply cloth-corner flex items-center-safe justify-center-safe;
+background: #3e374ee4;
+background-image:
+radial-gradient(circle at 15% 20%, rgba(187,169,246,0.4), transparent 30%),
+radial-gradient(circle at 90% 80%, rgba(192,114,209,0.1), transparent 30%);
+}
+
+@utility intrinsic-h-* {
+contain-intrinsic-height: --value([integer])px;
+contain-intrinsic-height: --value(integer)px;
+
+}
+@utility intrinsic-w-* {
+contain-intrinsic-width: --value([integer])px;
+contain-intrinsic-width: --value(integer)px;
+}
+
+@utility intrinsic-* {
+contain-intrinsic-size: --value( ratio, [ratio]);
+}
+
+@utility content-auto {
+content-visibility: auto;
+}
+
+@utility bgblurred {
+object-fit: cover;
+background-size: cover;
+min-width: 100%;
+min-height: 100%;
+position: absolute;
+inset: 0;
+z-index: -1;
+pointer-events: none;
+}
+
+
+
+
+
+
+@layer components {
+
+.above-header {
+background-image: linear-gradient(135deg, var(--secondary), var(--warning));
+@apply  min-w-screen max-w-screen overflow-hidden content-center h-8 my-auto;
+}
+
+.menuhoverbg {
+@apply transition-all duration-150 ease-in-out absolute inset-0 size-full z-1 pointer-events-none mx-auto;
+}
+
+.menupaddingbg { @apply relative py-3 px-2 cursor-pointer mx-auto;}
+
+section {
+@apply mx-auto my-auto px-2 py-6 md:py-16 pb-24 md:pb-32 overflow-x-clip overscroll-x-none ;
+}
+
+.benefits-wrapper {
+content-visibility: auto;
+}
+
+
+.card-feature {
+@apply cloth-border;
+}
+
+.card {
+@apply cloth-corner transform-3d;
+}
+
+
+.karta {
+@apply cloth-corner  px-2 py-7 md:px-7 text-center object-cover relative z-20  min-h-full; 
+}
+
+
+.wrapper {
+@apply max-w-7xl mx-auto my-auto;
+}
+
+
+
+.section-gradient {
+background: linear-gradient(130deg, var(--primary) -40%, var(--secondary) 100%);
+
+}
+
+.button-inner {
+@apply bg-gradient-main cloth-small px-3 py-2 transition-all duration-200 ease-in-out tracking-tight;
+}
+
+
+
+header {
+@apply px-2 my-auto py-4 md:py-6 max-w-6xl mx-auto z-99999 md:pb-0 h-21;    
+}
+
+.dropdown-content {
+display: none;
+}    
+
+.menu-top-link {
+@apply self-center;
+}
+
+.menu-top-link:hover~.dropdown-content {
+display: block;
+
+
+}
+
+.dropdown-content:hover {
+display: block;
+&~.menu-top-link {
+@apply bg-gradient-main;
+}
+}
+
+
+.cloth-button, .cloth-button-border, .cloth-menu {
+@apply cloth-small;
+}
+.cloth-border, .cloth-border-nobg {
+@apply cloth-corner;
+}
+
+
+
+.button-nav-header {
+@apply text-black text-base font-medium tracking-tighter self-end md:self-start cursor-pointer z-100 cloth-small;
+background: radial-gradient(circle at 15% 20%, rgba(187,169,246,0.45), transparent 40%), radial-gradient(circle at 90% 80%, rgba(192,114,209,0.35), transparent 40%), linear-gradient(135deg, var(--primary-2), var(--secondary-2));
+}
+
+.heroslider-content {
+@apply content absolute self-center-safe flex-col gap-3 sm:gap-6 pb-2 w-full xl:w-1/2;
+z-index: 50;
+display: flex;
+}
+
+.slider-subtitle {
+@apply text-sm md:text-base text-white/85 font-semibold sm:font-normal leading-relaxed py-8;
+}
+
+
+
+
+
+
+.cloth-border-nobg { 
+padding: 2.3561944902px; 
+}
+
+
+.cloth-corner-background { 
+background: linear-gradient(30deg, var(--card), var(--surface)); 
+
+}
+
+/* Simple Menu Styling */
+.menu-link {
+@apply text-base font-medium text-gray-800 hover:text-primary transition-colors duration-200;
+}
+
+.navbar {
+@apply sticky top-0 z-50 bg-white shadow-sm;
+}
+
+/* Mobile menu drawer styling */
+.drawer-side ul {
+@apply text-base;
+}
+
+.drawer-side a {
+@apply text-white hover:bg-white/10 transition-colors duration-200;
+}
+
+/* Slider Carousel - Simple and fast */
+.hero-carousel {
+@apply inline-flex h-full overflow-y-clip my-auto mx-auto scrollbar-gutter;
+scroll-snap-type: x mandatory;
+overflow-x: auto;
+scroll-behavior: smooth;
+}
+
+.slide {
+scroll-snap-align: center;
+scroll-snap-stop: always;
+@apply w-full;
+flex-shrink: 0;
+}
+
+.slide img {
+@apply object-cover relative min-w-full;
+display: block;
+}
+
+
+
+/* Photo Marquee (infinite, opposite directions) */
+.testim-container-forward {
+display: inline-flex;
+scrollbar-gutter: stable both-edges;
+animation: testimonialsScroll 30s linear infinite;
+/* Each marquee div animates */
+will-change: transform;
+transform: translate3d(0,0,0);
+}
+
+.testim-container-backward {
+display: inline-flex;
+scrollbar-gutter: stable both-edges;
+animation: testimonialsScroll 40s linear infinite reverse;
+/* Each marquee div animates */
+will-change: transform;
+transform: translate3d(0,0,0);
+}
+
+/* Pause during scroll */
+.scroll-paused .testim-container-forward,
+.scroll-paused .testim-container-backward {
+  animation-play-state: paused;
+}
+
+.testim-wrapper {
+@apply mx-auto my-auto;
+/* Wrapper manages overflow */
+overflow: hidden;
+}
+
+.testim-item {
+@apply  object-cover relative;
+image-rendering: auto;
+aspect-ratio: 0.75;
+transform-style: flat;
+}
+
+/* Images = heavy */
+.testim-item img {
+content-visibility: auto;
+contain: layout paint;
+}
+
+/* Icons + Text Marquee (infinite, single direction) */
+.marquee {
+animation: marquee-x 160s linear infinite;
+/* Animate the moving div */
+will-change: transform;
+transform: translate3d(0,0,0);
+}
+
+/* Pause marquee during scroll */
+.scroll-paused .marquee {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+@apply cloth-small font-light text-sm text-black/65 bg-white/30 ms-6 me-6;
+transform-style: flat;
+/* Small items - skip content-visibility (overhead > benefit) */
+}
+
+
+.wp-block-image { @apply mb-6; }
+.wp-block-quote { @apply border-l-4 pl-4 italic text-gray-700; }
+.menu-item a { @apply transition-colors focus:ring-2 rounded px-2 py-1; }
+.mobile-menu .menu-item a { @apply block px-4 py-2; }
+.footer .menu-item a { @apply transition-colors; }
+
+.process-line {
+@apply absolute left-0 right-0 top-[2.75rem] h-1 bg-white/50 w-full;
+}
+
+.process-dot {
+@apply absolute top-1/2 w-3 h-3 bg-primary -translate-y-1/2;
+}
+
+
+
+
+
+.button-slider {
+@apply text-black text-base font-medium self-end md:self-start invisible md:visible p-0.5 cursor-pointer z-100 cloth-small;
+background: radial-gradient(circle at 15% 20%, rgba(187,169,246,0.45), transparent 40%), radial-gradient(circle at 90% 80%, rgba(192,114,209,0.35), transparent 40%), linear-gradient(135deg, var(--primary-2), var(--secondary-2));
+}
+
+
+.testimonials-section {
+@apply overflow-hidden isolate pointer-events-none relative max-w-screen h-[1050px] md:h-[750px];
+/* Wrapper manages overflow */
+overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .testimonials-section {
+    contain-intrinsic-size: 750px;
+  }
+}
+
+.opinie-prev, .opinie-next, .hero-prev, .hero-next {
+@apply btn backdrop-blur-xs hover:scale-110;
+/* Fix click area - remove inherited clip-path */
+clip-path: none !important;
+overflow: visible;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+min-width: 2rem;
+min-height: 2rem;
+pointer-events: auto;
+z-index: 310;
+}
+
+canvas {
+width: 100%;
+height: 100%;
+@apply mx-auto;
+}
+
+/* Photo Marquee (infinite, opposite directions) */
+.testim-container-forward {
+display: inline-flex;
+scrollbar-gutter: stable both-edges;
+animation: testimonialsScroll 30s linear infinite;
+/* Each marquee div animates */
+will-change: transform;
+transform: translate3d(0,0,0);
+}
+
+.testim-container-backward {
+display: inline-flex;
+scrollbar-gutter: stable both-edges;
+animation: testimonialsScroll 40s linear infinite reverse;
+/* Each marquee div animates */
+will-change: transform;
+transform: translate3d(0,0,0);
+}
+
+/* Pause during scroll */
+.scroll-paused .testim-container-forward,
+.scroll-paused .testim-container-backward {
+  animation-play-state: paused;
+}
+
+.testim-wrapper {
+@apply mx-auto my-auto;
+/* Wrapper manages overflow */
+overflow: hidden;
+}
+
+.testim-item {
+@apply  object-cover relative;
+image-rendering: auto;
+aspect-ratio: 0.75;
+transform-style: flat;
+}
+
+/* Images = heavy */
+.testim-item img {
+content-visibility: auto;
+contain: layout paint;
+}
+
+/* Testimonial Carousel (pause-scroll-pause) */
+.opinie-carousel {
+overflow-x: auto;
+overflow-y: hidden;
+scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+display: inline-flex;
+@apply gap-4 items-stretch justify-start scroll-ms-6 scrollbar-gutter gpu;
+/* Animate carousel items container */
+will-change: transform;
+transform: translate3d(0,0,0);
+}
+
+.opinie-carousel > .carousel-item {
+@apply w-[calc(100%-2rem)] md:w-[calc(33.3333%-4rem)]  scroll-ms-4 md:scroll-ms-16 cloth-border;
+scroll-snap-align: center;
+scroll-snap-stop: always;
+/* Individual testimonials */
+content-visibility: auto;
+contain: layout paint;
+}
+
+/* Icons + Text Marquee (infinite, single direction) */
+.marquee {
+animation: marquee-x 160s linear infinite;
+/* Animate the moving div */
+will-change: transform;
+transform: translate3d(0,0,0);
+}
+
+/* Pause marquee during scroll */
+.scroll-paused .marquee {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+@apply cloth-small font-light text-sm text-black/65 bg-white/30 ms-6 me-6;
+transform-style: flat;
+/* Small items - skip content-visibility (overhead > benefit) */
+}}

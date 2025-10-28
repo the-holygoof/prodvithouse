@@ -1,0 +1,105 @@
+{
+      "workbench.activityBar.location": "top",
+      "editor.quickSuggestions": {
+    "strings": "on"
+  },
+      "tailwindCSS.suggestions": true,
+      "tailwindCSS.validate": true,
+      "explicitFolding.autoFold": "4",
+  "editor.defaultFoldingRangeProvider": "zokugun.explicit-folding",
+      "explicitFolding.rules": [
+          {
+              "beginRegex": "<(?!area|base|br|col|embed|hr|img|input|link|menuitem|meta|param|source|track|wbr)([a-zA-Z0-9]+)[^>\/]*>",
+              "endRegex": "<\\/\\1>"
+          }
+      ],
+      
+      "files.associations": {
+          "*.css": "tailwindcss",
+          "*.php": "php"
+      },
+      "editor.minimap.enabled": false,
+      "extensions.ignoreRecommendations": true,
+      "bracketPairColorizer.depreciation-notice": false,
+       "tailwindCSS.includeLanguages": {
+          "javascript": "javascript",
+          "html": "HTML",
+          "plaintext": "html",
+          "php": "HTML"
+      },
+      "css.format.braceStyle": "expand",
+      "css.format.enable": false,
+      "css.lint.duplicateProperties": "warning",
+      "css.validate": false,
+      "tailwindCSS.experimental.configFile": "./src/style.css",
+      "editor.colorDecorators": true,
+      "terminal.integrated.defaultProfile.windows": "",
+      "editor.autoIndentOnPaste": true,
+      "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+      "editor.tabSize": 6,
+      "files.autoSave": "afterDelay",
+      "editor.defaultFormatter": "bradlc.vscode-tailwindcss",
+      "editor.scrollBeyondLastLine": false,
+      "editor.unfoldOnClickAfterEndOfLine": true,
+      "telemetry.telemetryLevel": "off",
+      "html.format.extraLiners": "head, div, body, img, section, article, header, footer, main, nav, aside, article, main, nav ",
+      "tailwind-fold.unfoldIfLineSelected": true,
+      "timeline.pageSize": 90,
+      "editor.cursorSurroundingLines": 3,
+      "editor.formatOnType": true,
+      "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+      "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+      "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+      "workbench.colorCustomizations": {
+        "separators.classes.borderColor": "#ffffff1f",  
+        "separators.constructors.borderColor": "#ffffff1f",  
+        "separators.enums.borderColor": "#ffffff1f",  
+        "separators.functions.borderColor": "#ffffff1f",  
+        "separators.interfaces.borderColor": "#ffffff1f",  
+        "separators.methods.borderColor": "#ffffff1f",  
+        "separators.namespaces.borderColor": "#FFFFFF1F",  
+        "separators.structs.borderColor": "#FFFFFF1F",
+        "separators.foldingRanges.comments.borderColor": "#FFFFFF1F",
+        "separators.foldingRanges.imports.borderColor": "#FFFFFF1F",
+        "separators.foldingRanges.regions.borderColor": "#FFFFFF1F",
+      },
+      "workbench.colorTheme": "Bearded Theme Vivid Black",
+      "tailwind-fold.autoFold": false,
+      "prettier.bracketSameLine": true,
+      "prettier.tabWidth": 6,
+      "prettier.useTabs": true,
+      "separators.location": "surroundingTheSymbol",
+      "separators.classes.borderWidth": 1,
+      "separators.constructors.borderWidth": 1,
+      "separators.functions.borderWidth": 1,
+      "separators.interfaces.borderWidth": 1,
+      "separators.methods.borderWidth": 1,
+      "separators.namespaces.borderWidth": 1,
+      "separators.structs.borderWidth": 1,
+      "separators.properties.borderWidth": 1,
+      "separators.foldingRanges.comments.borderWidth": 1,
+      "separators.foldingRanges.imports.borderWidth": 1,
+      "separators.foldingRanges.regions.borderWidth": 1,
+      "tailwindcss-intellisense.trace.server": "messages",
+      "prettier.configPath": ".prettierrc",
+      "pretty-formatter.bracePadding": true,
+      "pretty-formatter.braceStyle": "expand",
+      "pretty-formatter.commentLine": true,
+      "pretty-formatter.comments": true,
+      "pretty-formatter.cssInsertLines": true,
+      "pretty-formatter.forceAttribute": true,
+      "pretty-formatter.formatArray": "indent",
+      "pretty-formatter.indentLevel": 6,
+      "pretty-formatter.preserve": 6,
+      "pretty-formatter.tagMerge": true,
+      "pretty-formatter.braceLine": true,
+      "[css]": {
+          "editor.defaultFormatter": "mblode.pretty-formatter"
+      }
+  
+  
+      
+      
+  }
+  
+  
