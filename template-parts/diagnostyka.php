@@ -6,7 +6,7 @@
 ?>
 
 
-                <div class="card cloth-border flex items-center justify-center p-0.5 my-11 select-none min-h-[152px]">
+                <div class="card cloth-border flex items-center justify-center p-0.5 my-11 select-none min-h-[152px] contain-layout-paint">
 
                     <div class="cloth-corner  py-7 px-6 text-center  bg-card w-full h-full" style="background-image: linear-gradient(-40deg, var(--surface), var(--card)); ">
                         <div class="flex sm:flex-row flex-col gap-6 content-center ">

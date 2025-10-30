@@ -57,7 +57,7 @@
   --color-accent: var(--accent);
   --color-warning: var(--danger);
   --depth: 0; 
-  --noise: 1;
+  --noise: 0;
   --radius-box: 0;
 }
 @source "../node_modules/daisyui/";
@@ -161,7 +161,7 @@ backdrop-filter: blur(13px);
 
 
 @utility mobile-ul-drawer {
-@apply min-h-full w-fit justify-center font-bold gpu;
+@apply min-h-full w-fit justify-center font-bold text-lg;
 
 }
 @utility paused {
@@ -551,7 +551,7 @@ padding: 1rem 0.1rem;
 
 
 .karta {
-@apply cloth-corner  px-1.5 py-7 md:px-7 text-center object-cover relative z-20  content-center h-full; 
+@apply cloth-corner  px-1.5 py-7 md:px-7 text-center object-cover relative z-20 h-full; 
 }
 
 
@@ -810,14 +810,14 @@ transform-style: flat;
 
 @media (max-width: 768px) {
 .testim-container-forward {
-@apply h-full w-max;
+@apply h-full w-max contain-layout-paint;
 animation-name: testimonialsScrollx;
 animation-duration: 30s !important;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
 }
 .testim-container-backward {
-@apply h-full w-max;
+@apply h-full w-max contain-layout-paint;
 animation-name: testimonialsScrollx;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
