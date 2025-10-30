@@ -176,7 +176,7 @@
 
                                         
 
-                                        <section class="overflow-x-clip h-[2000px] md:h-[1240px] my-auto pt-28">
+                                        <section class="overflow-x-clip h-[2000px] md:h-[1240px] my-auto pt-28 contain-layout-paint">
                                             <div class="wrapper">
                                                 <div
                                                     class="grid items-center-safe gap-12 md:grid-cols-2">

@@ -7,219 +7,211 @@
 
 
 
+<section class="services-marquee-section my-auto py-16 overflow-clip px-0 pb-24 md:pb-36" style="background: linear-gradient( 180deg, var(--secondary)  -100%, rgba(238, 239, 239) 50%);">
 
-
-
-
-
-
-
-<section class="services-marquee-section my-auto py-16 overflow-clip pb-24 md:pb-36" style="background: linear-gradient( 180deg, var(--secondary)  -100%, rgba(238, 239, 239) 50%);">
-
-                
-    <div class="wrapper">
+    <div class="wrapper px-2">
             <div class="content text-center mx-auto md:max-w-4xl pb-16 md:pb-20 lg:pb-28">
                         <h3 class=" text-black">Od pierwszego kontaktu do ostatniego etapu</h3>
                         <p class="pt-6 text-gray-500">Wspieramy Cię na każdym kroku drogi do zdrowia. Przywracamy równowagę i ułatwiamy powrót do sił wtedy, gdy najbardziej tego potrzebujesz</p>
             </div>
     </div>
 
-                    <div class="marquee-container overflow-clip relative md:min-[620px] min-[2000px] my-auto">
-                        <div class="marquee flex items-center-safe gap-6 w-max m-auto">
-                            
-                        <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-wine-glass"></i>
-                                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
-                            </div>
-                            <!-- Leczenie Uzależnień -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-wine-glass"></i>
-                                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-pills" style="color: #ab47bc;"></i>
-                                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-capsules" style="color: #999;"></i>
-                                <span>Uzależniłeś się od leków przeciwbólowych?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-heart-broken" style="color: #ef5350;"></i>
-                                <span>Twoja rodzina cierpi z powodu Twojego nałogu?</span>
-                            </div>
+    <div class="marquee-container overflow-clip relative md:min-[620px] min-[2000px] my-auto">
+        <div class="marquee inline-flex items-center-safe gap-6 w-max m-auto">
+            
+        <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-wine-glass"></i>
+                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
+            </div>
+            <!-- Leczenie Uzależnień -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-wine-glass"></i>
+                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-pills" style="color: #ab47bc;"></i>
+                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-capsules" style="color: #999;"></i>
+                <span>Uzależniłeś się od leków przeciwbólowych?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-heart-broken" style="color: #ef5350;"></i>
+                <span>Twoja rodzina cierpi z powodu Twojego nałogu?</span>
+            </div>
 
-                            <!-- Kroplówki Witaminowe -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-battery-empty"></i>
-                                <span>Walczysz z przewlekłym zmęczeniem?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-running" style="color: #66bb6a;"></i>
-                                <span>Uprawiasz wyczynowo sport?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-bolt" style="color: #42a5f5;"></i>
-                                <span>Potrzebujesz zastrzyku energii?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-glass-cheers" style="color: #ab47bc;"></i>
-                                <span>Regeneracja po imprezie?</span>
-                            </div>
+            <!-- Kroplówki Witaminowe -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-battery-empty"></i>
+                <span>Walczysz z przewlekłym zmęczeniem?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-running" style="color: #66bb6a;"></i>
+                <span>Uprawiasz wyczynowo sport?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-bolt" style="color: #42a5f5;"></i>
+                <span>Potrzebujesz zastrzyku energii?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-glass-cheers" style="color: #ab47bc;"></i>
+                <span>Regeneracja po imprezie?</span>
+            </div>
 
-                            <!-- Badania Laboratoryjne -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-thermometer-half"></i>
-                                <span>Masz objawy infekcji lub stanu zapalnego?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-virus" style="color: #66bb6a;"></i>
-                                <span>Boli Cię gardło i podejrzewasz paciorkowca?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-heartbeat" style="color: #ef5350;"></i>
-                                <span>Chcesz sprawdzić ryzyko chorób serca?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-virus" style="color: #42a5f5;"></i>
-                                <span>Potrzebujesz testu na COVID-19?</span>
-                            </div>
+            <!-- Badania Laboratoryjne -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-thermometer-half"></i>
+                <span>Masz objawy infekcji lub stanu zapalnego?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-virus" style="color: #66bb6a;"></i>
+                <span>Boli Cię gardło i podejrzewasz paciorkowca?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-heartbeat" style="color: #ef5350;"></i>
+                <span>Chcesz sprawdzić ryzyko chorób serca?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-virus" style="color: #42a5f5;"></i>
+                <span>Potrzebujesz testu na COVID-19?</span>
+            </div>
 
-                            <!-- Ozonoterapia -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-shield-virus" style="color: #999;"></i>
-                                <span>Masz problemy z infekcjami?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-tired"></i>
-                                <span>Czujesz się przewlekle zmęczony?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-shield-alt" style="color: #66bb6a;"></i>
-                                <span>Chcesz wzmocnić odporność?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-leaf" style="color: #42a5f5;"></i>
-                                <span>Potrzebujesz detoksykacji organizmu?</span>
-                            </div>
+            <!-- Ozonoterapia -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-shield-virus" style="color: #999;"></i>
+                <span>Masz problemy z infekcjami?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-tired"></i>
+                <span>Czujesz się przewlekle zmęczony?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-shield-alt" style="color: #66bb6a;"></i>
+                <span>Chcesz wzmocnić odporność?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-leaf" style="color: #42a5f5;"></i>
+                <span>Potrzebujesz detoksykacji organizmu?</span>
+            </div>
 
-                            <!-- Duplicate for seamless loop -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-wine-glass"></i>
-                                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-pills" style="color: #ab47bc;"></i>
-                                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-battery-empty"></i>
-                                <span>Walczysz z przewlekłym zmęczeniem?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-thermometer-half"></i>
-                                <span>Masz objawy infekcji lub stanu zapalnego?</span>
-                            </div>
-
-
-                            <!-- Leczenie Uzależnień -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-wine-glass"></i>
-                                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-pills" style="color: #ab47bc;"></i>
-                                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-capsules" style="color: #999;"></i>
-                                <span>Uzależniłeś się od leków przeciwbólowych?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-heart-broken" style="color: #ef5350;"></i>
-                                <span>Twoja rodzina cierpi z powodu Twojego nałogu?</span>
-                            </div>
-
-                            <!-- Kroplówki Witaminowe -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-battery-empty"></i>
-                                <span>Walczysz z przewlekłym zmęczeniem?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-running" style="color: #66bb6a;"></i>
-                                <span>Uprawiasz wyczynowo sport?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-bolt" style="color: #42a5f5;"></i>
-                                <span>Potrzebujesz zastrzyku energii?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-glass-cheers" style="color: #ab47bc;"></i>
-                                <span>Regeneracja po imprezie?</span>
-                            </div>
-
-                            <!-- Badania Laboratoryjne -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-thermometer-half"></i>
-                                <span>Masz objawy infekcji lub stanu zapalnego?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-virus" style="color: #66bb6a;"></i>
-                                <span>Boli Cię gardło i podejrzewasz paciorkowca?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-heartbeat" style="color: #ef5350;"></i>
-                                <span>Chcesz sprawdzić ryzyko chorób serca?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-virus" style="color: #42a5f5;"></i>
-                                <span>Potrzebujesz testu na COVID-19?</span>
-                            </div>
-
-                            <!-- Ozonoterapia -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-shield-virus" style="color: #999;"></i>
-                                <span>Masz problemy z infekcjami?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-tired"></i>
-                                <span>Czujesz się przewlekle zmęczony?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-shield-alt" style="color: #66bb6a;"></i>
-                                <span>Chcesz wzmocnić odporność?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-leaf" style="color: #42a5f5;"></i>
-                                <span>Potrzebujesz detoksykacji organizmu?</span>
-                            </div>
-
-                            <!-- Duplicate for seamless loop -->
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-wine-glass"></i>
-                                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-pills" style="color: #ab47bc;"></i>
-                                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-battery-empty"></i>
-                                <span>Walczysz z przewlekłym zmęczeniem?</span>
-                            </div>
-                            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
-                                <i class="fas fa-thermometer-half"></i>
-                                <span>Masz objawy infekcji lub stanu zapalnego?</span>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-wine-glass"></i>
+                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-pills" style="color: #ab47bc;"></i>
+                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-battery-empty"></i>
+                <span>Walczysz z przewlekłym zmęczeniem?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-thermometer-half"></i>
+                <span>Masz objawy infekcji lub stanu zapalnego?</span>
+            </div>
 
 
-    <div class="wrapper h-[1700px] md:h-[800px] my-auto flex items-center">
+            <!-- Leczenie Uzależnień -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-wine-glass"></i>
+                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-pills" style="color: #ab47bc;"></i>
+                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-capsules" style="color: #999;"></i>
+                <span>Uzależniłeś się od leków przeciwbólowych?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-heart-broken" style="color: #ef5350;"></i>
+                <span>Twoja rodzina cierpi z powodu Twojego nałogu?</span>
+            </div>
+
+            <!-- Kroplówki Witaminowe -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-battery-empty"></i>
+                <span>Walczysz z przewlekłym zmęczeniem?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-running" style="color: #66bb6a;"></i>
+                <span>Uprawiasz wyczynowo sport?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-bolt" style="color: #42a5f5;"></i>
+                <span>Potrzebujesz zastrzyku energii?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-glass-cheers" style="color: #ab47bc;"></i>
+                <span>Regeneracja po imprezie?</span>
+            </div>
+
+            <!-- Badania Laboratoryjne -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-thermometer-half"></i>
+                <span>Masz objawy infekcji lub stanu zapalnego?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-virus" style="color: #66bb6a;"></i>
+                <span>Boli Cię gardło i podejrzewasz paciorkowca?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-heartbeat" style="color: #ef5350;"></i>
+                <span>Chcesz sprawdzić ryzyko chorób serca?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-virus" style="color: #42a5f5;"></i>
+                <span>Potrzebujesz testu na COVID-19?</span>
+            </div>
+
+            <!-- Ozonoterapia -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-shield-virus" style="color: #999;"></i>
+                <span>Masz problemy z infekcjami?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-tired"></i>
+                <span>Czujesz się przewlekle zmęczony?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-shield-alt" style="color: #66bb6a;"></i>
+                <span>Chcesz wzmocnić odporność?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-leaf" style="color: #42a5f5;"></i>
+                <span>Potrzebujesz detoksykacji organizmu?</span>
+            </div>
+
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-wine-glass"></i>
+                <span>Nie potrafisz kontrolować spożycia alkoholu?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-pills" style="color: #ab47bc;"></i>
+                <span>Sięgasz po narkotyki mimo negatywnych skutków?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-battery-empty"></i>
+                <span>Walczysz z przewlekłym zmęczeniem?</span>
+            </div>
+            <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
+                <i class="fas fa-thermometer-half"></i>
+                <span>Masz objawy infekcji lub stanu zapalnego?</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper px-2 h-[1700px] md:h-[800px] my-auto flex items-center">
         <div class="grid grid-cols-3 sm:grid-rows-5 grid-rows-15 gap-x-4 gap-y-3 items-center-safe justify-center-safe content-center-safe ">
 
 
-                                    <div class="karta-outside kolumna1-1 sm:col-span-1 col-span-3 sm:col-start-1 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start ">
+                                    <div class="karta-outside kolumna kolumna1-1 sm:col-span-1 col-span-3 sm:col-start-1 row-span-3 sm:row-start-1  self-start">
                                             <div class="cloth-corner relative  cursor-pointer group ">
                                                 <a href="/leczenie-uzaleznien">
                                                     <div class="relative  transition-all duration-300">
@@ -248,7 +240,7 @@
                                     </div>
 
 
-                                    <div class="karta-outside kolumna1-2 sm:col-span-1 col-span-3 sm:col-start-1 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
+                                    <div class="karta-outside kolumna kolumna1-2 sm:col-span-1 col-span-3 sm:col-start-1 row-span-2 sm:row-start-4 self-end">
                                         <div class="cloth-corner relative  cursor-pointer group">
                                             <a href="/eliksir-mlodosci">
                                                 <div class="relative  transition-all duration-300">
@@ -276,7 +268,7 @@
                                     </div>
 
 
-                                    <div class="karta-outside kolumna2 sm:col-span-1 col-span-3 sm:col-start-2 row-span-2 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
+                                    <div class="karta-outside kolumna kolumna2 sm:col-span-1 col-span-3 sm:col-start-2 row-span-2 sm:row-start-1  self-start">
                                         <div class="cloth-corner relative cursor-pointer group">
                                             <a href="/wszywka-alkoholowa">
                                                 <div class="relative  transition-all duration-300">
@@ -304,7 +296,7 @@
                                         </div>
 
 
-                                        <div class="karta-outside kolumna3 sm:col-span-1 col-span-3 sm:col-start-2 row-span-3 sm:row-start-3 cloth-border-nobg flex items-center justify-center self-end">
+                                        <div class="karta-outside kolumna kolumna3 sm:col-span-1 col-span-3 sm:col-start-2 row-span-3 sm:row-start-3 self-end">
                                             <div class="cloth-corner relative  cursor-pointer group">
                                                 <a href="/leczenie-uzaleznien">
                                                     <div class="relative transition-all duration-300">
@@ -332,7 +324,7 @@
                                             </div>
 
 
-                                            <div class="karta-outside kolumna4 sm:col-span-1 col-span-3 sm:col-start-3 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
+                                            <div class="karta-outside kolumna kolumna4 sm:col-span-1 col-span-3 sm:col-start-3 row-span-3 sm:row-start-1  self-start">
                                                 <div class="cloth-corner relative  cursor-pointer group">
                                                     <a href="/badania-laboratoryjne">
                                                         <div class="relative transition-all duration-300">
@@ -360,7 +352,7 @@
                                                 </div>
 
 
-                                                    <div class="karta-outside kolumna5 sm:col-span-1 col-span-3 sm:col-start-3 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
+                                                    <div class="karta-outside kolumna kolumna5 sm:col-span-1 col-span-3 sm:col-start-3 row-span-2 sm:row-start-4 self-end">
                                                         <div class="cloth-corner relative  cursor-pointer group">
                                                             <a href="/ozonoterapia">
                                                                 <div class="relative  transition-all duration-300">

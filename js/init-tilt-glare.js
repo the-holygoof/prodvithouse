@@ -4,11 +4,11 @@
   const DEFAULTS = {
     scaleX: 5,
     scaleY: 7,
-    glareRx: 180,            // Reduced for performance
-    glareRy: 190,
-    glareAlphaOuter: 0.15,   // Lower opacity
+    glareRx: 270,            // Reduced for performance
+    glareRy: 270,
+    glareAlphaOuter: 0.3,   // Lower opacity
     innerGlare: false,
-    resumeDelayMs: 260,      // Longer pause after scroll
+    resumeDelayMs: 300,      // Longer pause after scroll
     pointerThrottleMs: 16,   // ~60fps
     disableOnTouch: true     // Avoid scroll+hover conflicts
   };
@@ -16,8 +16,8 @@
   const BASELINE_CSS = `
     .karta-outside { transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0); transition: transform 160ms ease; }
     .karta-outside.is-hovering { transition: all 36ms linear; }
-    .glare { opacity: 0; transition: opacity 140ms ease; }
-    .karta-outside.is-hovering .glare, .karta-outside:hover .glare { opacity: 0.5; }
+    .glare { opacity: 0;  transition: opacity 140ms ease; }
+    .karta-outside.is-hovering .glare, .karta-outside:hover .glare { opacity: 0.3;}
 
     .karta-outside { position: relative; z-index: 20; }
     .karta-outside > .glare { z-index: 180; }
@@ -56,7 +56,7 @@
 
   function setTransform(card, rotX, rotY) {
     // Use transform only; no other style changes during move
-    card.style.transform = `perspective(1000px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateZ(10px)`;
+    card.style.transform = `perspective(900px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateZ(10px)`;
   }
 
   function setGlare(el, nx, ny, rx, ry, alpha) {
