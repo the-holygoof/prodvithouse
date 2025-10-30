@@ -63,6 +63,7 @@
                     <div class="w-full flex justify-between content-between relative">
                         <div class="flex-none lg:hidden self-center">
                                 <label for="my-drawer-3" aria-label="open sidebar" class=" bg-transparent">
+
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-7 w-7 stroke-current">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                                     </svg>
@@ -77,63 +78,64 @@
                         
                         <div class="hidden grow lg:flex justify-center-safe mx-12 text-sm  items-center-safe relative">
 
-                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom menupaddingbg group/dropdown">
-                                <div class="menuhoverbg opacity-0 group-hover/dropdown:opacity-100 cloth-small group-hover/dropdown:bg-white/10 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>
+<div tabindex="0" role="button" class="dropdown menu-top-link dropdown-hover  menupaddingbg group/dropdown">
+                                <div class="menuhoverbg opacity-0 group-hover:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>   
                                 
                                 <a href="https://vit-house.pl/leczenie-uzaleznien" class="menu-top-link">Leczenie uzależnień</a>
                                 
-                                    <ul class="cloth-corner gap-0 dropdown-content bg-white/8 backdrop-blur-xl hover:will-change-transform" >
+                                <ul tabindex="-1" class="cloth-corner gap-0 dropdown-content menu min-w-max bg-white/8 backdrop-blur-xl hover:will-change-transform" >
 
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/odtrucia-od-alkoholu" class="leading-8 cloth-small group-hover:bg-white/8">Odtrucia alkoholowe</a>
+                                        <a href="https://vit-house.pl/odtrucia-od-alkoholu" class="leading-6 cloth-small group-hover:bg-white/8">Odtrucia alkoholowe</a>
                                     </li>
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/odtrucia-po-narkotykach" class="leading-8 cloth-small group-hover:bg-white/8">Odtrucie od narkotyków</a>
+                                        <a href="https://vit-house.pl/odtrucia-po-narkotykach" class="leading-6 cloth-small group-hover:bg-white/8">Odtrucie od narkotyków</a>
                                     </li>
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/lekomania" class="leading-8 cloth-small group-hover:bg-white/8">Odtrucie od leków</a>
+                                        <a href="https://vit-house.pl/lekomania" class="leading-6 cloth-small group-hover:bg-white/8">Odtrucie od leków</a>
                                     </li>
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/wszywka-alkoholowa" class="leading-8 cloth-small group-hover:bg-white/8">Wszywki alkoholowe</a>
+                                        <a href="https://vit-house.pl/wszywka-alkoholowa" class="leading-6 cloth-small group-hover:bg-white/8">Wszywki alkoholowe</a>
                                     </li>
                                 </ul>
                             </div>
+  
 
-                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom  menupaddingbg group/dropdown">
+                            <div tabindex="0" role="button" class="dropdown menu-top-link dropdown-hover  menupaddingbg group/dropdown">
                                 <div class="menuhoverbg opacity-0 group-hover/dropdown:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>                        
                                 <a href="https://vit-house.pl/kroplowki-witaminowe" class="menu-top-link">Kroplówki</a>
-                               <ul class="cloth-corner gap-0 dropdown-content bg-white/8 backdrop-blur-xl hover:will-change-transform" >
+                                <ul tabindex="-1" class="cloth-corner gap-0 dropdown-content menu min-w-max bg-white/8 backdrop-blur-xl hover:will-change-transform" >
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/witaminoterapia/dla-sportowcow" class="leading-8 cloth-small group-hover:bg-white/8">Dla sportowców</a>
+                                        <a href="https://vit-house.pl/witaminoterapia/dla-sportowcow" class="leading-6 cloth-small group-hover:bg-white/8">Dla sportowców</a>
                                     </li>
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/witaminoterapia/oczyszczajaca" class="leading-8 cloth-small group-hover:bg-white/8">Oczyszczające</a>
+                                        <a href="https://vit-house.pl/witaminoterapia/oczyszczajaca" class="leading-6 cloth-small group-hover:bg-white/8">Oczyszczające</a>
                                     </li>
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/witaminoterapia/wzmacniajaca/" class="leading-8 cloth-small group-hover:bg-white/8">Wzmacniające</a>
+                                        <a href="https://vit-house.pl/witaminoterapia/wzmacniajaca/" class="leading-6 cloth-small group-hover:bg-white/8">Wzmacniające</a>
                                     </li>
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/witaminoterapia/na-kaca" class="leading-8 cloth-small group-hover:bg-white/8">Na kaca</a>
+                                        <a href="https://vit-house.pl/witaminoterapia/na-kaca" class="leading-6 cloth-small group-hover:bg-white/8">Na kaca</a>
                                     </li>
                                 </ul>
                             </div>
                             
-                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom menupaddingbg group">
+                            <div tabindex="0" role="button" class="dropdown menu-top-link dropdown-hover  menupaddingbg group/dropdown">
                                 <div class="menuhoverbg opacity-0 group-hover:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>                        
                                 <a href="https://vit-house.pl/ozonoterapia" class="menu-top-link">Ozonoterapia</a>
                             </div>
                                                     
-                            <div class="dropdown menu-top-link dropdown-hover dropdown-center dropdown-bottom menupaddingbg group">
-                                <div class="menuhoverbg opacity-0 group-hover:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>
+                            <div tabindex="0" role="button" class="dropdown menu-top-link dropdown-hover  menupaddingbg group/dropdown">
+                                <div class="menuhoverbg opacity-0 group-hover:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>                        
                                 <a href="https://vit-house.pl/badania-laboratoryjne" class="menu-top-link">Badania laboratoryjne</a>
 
-                                <ul class="cloth-corner gap-0 dropdown-content bg-white/8 backdrop-blur-xl hover:will-change-transform" >
+                                <ul tabindex="-1" class="cloth-corner gap-0 dropdown-content menu min-w-max bg-white/8 backdrop-blur-xl hover:will-change-transform" >
 
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/badania-laboratoryjne/crp" class="leading-8 cloth-small transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">CRP</a>
+                                        <a href="https://vit-house.pl/badania-laboratoryjne/crp" class="leading-6 cloth-small transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">CRP</a>
                                     </li>
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
-                                        <a href="https://vit-house.pl/badania-laboratoryjne/szybki-test-na-paciorkowca" class="leading-8 cloth-small transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">Szybki test na paciorkowca</a>
+                                        <a href="https://vit-house.pl/badania-laboratoryjne/szybki-test-na-paciorkowca" class="leading-6 cloth-small transition-all duration-200  py-3 px-4 hover:bg-white/18 ease-in">Szybki test na paciorkowca</a>
                                     </li>
                                 </ul>
                             </div>
@@ -150,9 +152,9 @@
 
                         </div>
 
-                        <div class="flex-none z-9999 relative">
+                        <div class="flex-none z-9997 relative">
                             <a href="https://www.halodoctor.pl/lekarze/iwona-zaborowska-internista-warszawa" target="_blank" class="z-9999 cursor-pointer">
-                            <button class="button-nav-header" href="https://vit-house.pl/kroplowki-witaminowe">
+                            <button class="button-nav-header " href="https://vit-house.pl/kroplowki-witaminowe">
                                 <div class="button-inner"> Umów wizytę online   
                                 </div>
                             </button> 
@@ -164,10 +166,10 @@
 
                 <div class="drawer-side mobile-drawer">
                 
-                <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay "></label>   
+                <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay z-9999"><span class="btn-menu-close z-99999">X</span></label>   
 
                     
-                <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay btn btn-circle btn-error z-9999 m-2">X</label>    
+                    
 
                     <ul class="menu mobile-ul-drawer">
                      

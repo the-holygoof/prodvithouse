@@ -5,7 +5,7 @@
  */
 ?>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 my-auto py-8 h-[1560px] md:h-[500px] align-top ">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 my-auto py-8 h-[1560px] md:h-[500px] align-top">
 
 
 

@@ -240,13 +240,7 @@
                                                                 </div>
                                                             </div>
 
-                                                            <a href="<?php echo get_template_directory_uri(); ?>/o-nas">
-                                                                <div class="cloth-button-border p-0.5 flex justify-end self-end w-fit " style="background: linear-gradient(135deg, var(--primary), var(--secondary));">
-                                                                    <button class="flex btn text-sm items-end gap-3 px-5 py-3  cloth-button bg-surface">
-                                                                        Dowiedz się więcej
-                                                                    </button>
-                                                                </div>
-                                                            </a>
+                                                            <a href="<?php echo esc_url( home_url( '/o-nas' ) ); ?>"  class="z-999 cursor-pointer "><button class="button-slider"><div class="button-inner"> Dowiedz się więcej   </div></button></a>    
 </div>
 
                                                         </div>

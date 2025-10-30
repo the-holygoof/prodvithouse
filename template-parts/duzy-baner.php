@@ -5,7 +5,7 @@
  */
 ?>
 
-<div class="cloth-corner relative h-[480px] md:h-[560px]" >
+<div class="cloth-corner relative h-[480px] md:h-[560px] contain-paint" >
 <img id="duzy-baner" src="<?php echo get_template_directory_uri(); ?>/assets/cta-backgroung.webp" alt="Duzy baner" width="2560" height="1046" class="object-cover object-[66%] min-h-[480px] md:min-h-[560px] pointer-events-none">
     <!-- <canvas id="duzy-baner" class="object-cover object-[66%] pointer-events-none" width="2560" height="1046"></canvas> -->
 
@@ -14,12 +14,10 @@
     <div class="absolute bottom-0 left-0 right-0 px-6 md:px-12 py-4 sm:py-16  z-100 ">
         <div class=" text-left sm:w-1/2  sm:pr-6 gap-2 ">
                         <h2 class="mb-2">Gotowi na pierwszy krok?</h2>
-                        <p class="text-gray-100"> Odkrywaj życie na nowo, bez uzależnień. <br /> Wspieramy Cię
+                        <p class="text-gray-100 mb-8 "> Odkrywaj życie na nowo, bez uzależnień. <br /> Wspieramy Cię
                             na każdym kroku drogi do zdrowia.</p>
-                        
-                            <button  href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>" class="btn  squircle-3xl squircle-smooth-md border-0 px-6 py-6 text-sm bg-gradient-main mt-8">
-                            Dowiedz się więcej
-                            </button>
+                            <a href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>"  class="z-999 cursor-pointer "><button class="button-slider"><div class="button-inner"> Dowiedz się więcej   </div></button></a>    
+                            
                         
         </div>
     </div>

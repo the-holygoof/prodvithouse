@@ -5,7 +5,7 @@
  */
 ?>
 
-<div class="benefits-wrapper my-auto md:pt-36 pb-32 md:pb-32 grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-8 md:px-6 ">
+<div class="benefits-wrapper my-auto md:pt-36 pb-32 md:pb-32 grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-8 md:px-6 will-change-scroll">
 
     <!-- krolowki witaminowe -->
         <div class="karta-outside card-feature my-auto" tabindex="0">                                        

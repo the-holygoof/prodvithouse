@@ -135,9 +135,8 @@
   }
 
 @utility kolumna {
-  @apply bg-none bg-transparent cloth-border-nobg flex items-center justify-center;
+  @apply bg-none bg-transparent cloth-border-nobg flex items-center justify-center contain-layout-paint;
 }
-
 
 
 
@@ -145,6 +144,7 @@
 
 @utility mobile-drawer {
   backdrop-filter: blur(13px);
+  z-index: 9999;
 }
 /*.drawer-side {
   > .drawer-overlay  {
@@ -466,6 +466,10 @@ scrollbar-gutter: stable both-edges;
 
 }
 
+@utility btn-menu-close {
+@apply text-white font-extralight outline-0 border-0 px-4 py-4 m-2 z-9999 btn btn-circle btn-error ;
+
+}
 @utility content {
 @apply px-3 sm:px-10;
 }  
@@ -533,7 +537,7 @@ background-image: linear-gradient(135deg, var(--secondary), var(--warning));
 .menupaddingbg { @apply relative py-3 px-2 cursor-pointer mx-auto;}
 
 section {
-@apply mx-auto my-auto px-2 py-6 md:py-16 pb-24 md:pb-32 overflow-x-clip overscroll-x-none ;
+@apply mx-auto my-auto px-2 py-6 md:py-16 pb-24 md:pb-32 overflow-x-clip overscroll-x-none contain-layout-paint;
 }
 
 .benefits-wrapper {
@@ -589,26 +593,7 @@ header {
 @apply px-2 my-auto py-4 md:py-6 max-w-6xl mx-auto z-99999 md:pb-0 h-21;    
 }
 
-.dropdown-content {
-display: none;
-}    
 
-.menu-top-link {
-@apply self-center;
-}
-
-.menu-top-link:hover~.dropdown-content {
-display: block;
-
-
-}
-
-.dropdown-content:hover {
-display: block;
-&~.menu-top-link {
-@apply bg-gradient-main;
-}
-}
 
 
 .cloth-button, .cloth-button-border, .cloth-menu {
@@ -670,6 +655,7 @@ display: inline-flex;
 
 .carousel-item, .carousel-item-inner  {
   transition: all 0.3s ease-in-out;
+  
 }
 
 /* Testimonial Carousel (pause-scroll-pause) */
@@ -692,6 +678,7 @@ scroll-snap-stop: always;
 /* Individual testimonials */
 content-visibility: auto;
 contain: layout paint;
+transform-style: flat;
 
 &:is(:first-child) {
 @apply ms-4 md:ms-12 me-auto;
@@ -702,7 +689,7 @@ contain: layout paint;
 }
 
 .opinie-carousel > .carousel-item > .carousel-item-inner {
-@apply cloth-corner px-8 py-16  text-left flex flex-col justify-between text-text min-h-full min-w-full;
+@apply cloth-corner px-8 py-16  text-left flex flex-col justify-between text-text min-h-full min-w-full contain-paint;
 background: linear-gradient(-40deg, var(--surface), var(--card));
 }
 
@@ -726,7 +713,7 @@ background: linear-gradient(-40deg, var(--surface), var(--card));
 
 
 .button-slider {
-@apply text-black text-base font-medium self-end md:self-start invisible md:visible p-0.5 cursor-pointer z-100 cloth-small;
+@apply text-black text-base font-medium self-end md:self-start invisible md:visible p-0.5 cursor-pointer z-100 cloth-small contain-paint;
 background: radial-gradient(circle at 15% 20%, rgba(187,169,246,0.45), transparent 40%), radial-gradient(circle at 90% 80%, rgba(192,114,209,0.35), transparent 40%), linear-gradient(135deg, var(--primary-2), var(--secondary-2));
 }
 
@@ -787,6 +774,7 @@ content-visibility: auto;
 contain: layout paint;
 }
 
+
 /* Icons + Text Marquee (infinite, single direction) */
 .marquee {
 animation: testimonialsScrollx 60s linear infinite;
@@ -801,13 +789,12 @@ transform: translate3d(0,0,0);
 }
 
 .marquee-item {
-@apply cloth-small font-light text-sm text-black/65 bg-white/30 ms-6 me-6; 
-transform-style: flat;
+@apply cloth-small font-light text-sm text-black/65 bg-white/30 ms-6 me-6 transform-flat; 
 /* Small items - skip content-visibility (overhead > benefit) */
 }
 
 .marquee-item > span {
-@apply text-gray-900;
+@apply text-gray-700;
 }
 
 /* Photo Marquee (infinite, opposite directions) */
@@ -860,11 +847,11 @@ height: 100%;
 }
 
 
-
-
-
+.button-slider { @apply transition-all duration-200 ease-in-out cursor-pointer origin-left w-fit;
+&:hover { @apply scale-105;}
+}
 
 .kroplowka {
-@apply cloth-border contain-layout-paint relative flex items-end justify-end cursor-pointer h-[362px] md:h-[440px] max-h-[440px];
+@apply cloth-border contain-layout-paint my-auto flex items-end justify-end cursor-pointer h-[362px] md:h-[440px] max-h-[440px];
 }
 }

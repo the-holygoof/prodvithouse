@@ -7,7 +7,7 @@
 
 
 
-<section class="services-marquee-section my-auto py-16 overflow-clip px-0 pb-24 md:pb-36" style="background: linear-gradient( 180deg, var(--secondary)  -100%, rgba(238, 239, 239) 50%);">
+<section class="services-marquee-section my-auto py-16 overflow-clip px-0 pb-24 md:pb-36 contain-layout-paint-style" style="background: linear-gradient( 180deg, var(--secondary)  -100%, rgba(238, 239, 239) 50%);">
 
     <div class="wrapper px-2">
             <div class="content text-center mx-auto md:max-w-4xl pb-16 md:pb-20 lg:pb-28">
@@ -16,7 +16,7 @@
             </div>
     </div>
 
-    <div class="marquee-container overflow-clip relative md:min-[620px] min-[2000px] my-auto">
+    <div class="marquee-container overflow-clip relative md:min-[620px] min-[2000px] my-auto h-[100px] contain-layout-paint">
         <div class="marquee inline-flex items-center-safe gap-6 w-max m-auto">
             
         <div class="marquee-item inline-flex items-center gap-2 px-4 py-2">
@@ -207,7 +207,7 @@
     </div>
 
 
-    <div class="wrapper px-2 h-[1700px] md:h-[800px] my-auto flex items-center">
+    <div class="wrapper px-2 h-[1700px] md:h-[800px] my-auto flex items-center contain-layout">
         <div class="grid grid-cols-3 sm:grid-rows-5 grid-rows-15 gap-x-4 gap-y-3 items-center-safe justify-center-safe content-center-safe ">
 
 
@@ -216,7 +216,7 @@
                                                 <a href="/leczenie-uzaleznien">
                                                     <div class="relative  transition-all duration-300">
                                                         <img
-                                                        src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-detoksykacja.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover w-full h-full transition-transform duration-300 ">
+                                                        src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-detoksykacja.webp" width="774" height="637" alt="Klinika leczenia uzależnień Warszawa" class="aspect-774/637 object-cover w-full h-full transition-transform duration-300 ">
 
                                                         
                                                         <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -245,7 +245,7 @@
                                             <a href="/eliksir-mlodosci">
                                                 <div class="relative  transition-all duration-300">
                                                     <img
-                                                    src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-zastrzyk-mlodosci.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover w-full h-full transition-transform duration-300 ">
+                                                    src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-zastrzyk-mlodosci.webp" width="774" height="425" alt="Klinika leczenia uzależnień Warszawa" class="aspect-774/425 object-cover w-full h-full transition-transform duration-300 ">
 
                                                     
                                                     <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -273,7 +273,7 @@
                                             <a href="/wszywka-alkoholowa">
                                                 <div class="relative  transition-all duration-300">
                                                     <img
-                                                        src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-wszywka.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                        src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-wszywka.webp" width="774" height="425" alt="Klinika leczenia uzależnień Warszawa" class="aspect-774/425 object-cover  transition-transform duration-300 ">
 
                                                         
                                                         <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -301,7 +301,7 @@
                                                 <a href="/leczenie-uzaleznien">
                                                     <div class="relative transition-all duration-300">
                                                         <img
-                                                            src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-regeneracja.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-regeneracja.webp" width="774" height="636" alt="Klinika leczenia uzależnień Warszawa" class="aspect-774/636 object-cover  transition-transform duration-300 ">
 
                                                             
                                                             <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -329,7 +329,7 @@
                                                     <a href="/badania-laboratoryjne">
                                                         <div class="relative transition-all duration-300">
                                                             <img
-                                                                src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-badania-laboratoryjne.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-badania-laboratoryjne.webp" width="774" height="637" alt="Klinika leczenia uzależnień Warszawa" class="aspect-774/637 object-cover  transition-transform duration-300 ">
 
                                                                 
                                                                 <div class="absolute bottom-0 left-0 right-0 p-6 ">
@@ -357,7 +357,7 @@
                                                             <a href="/ozonoterapia">
                                                                 <div class="relative  transition-all duration-300">
                                                                     <img
-                                                                    src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-ozonoterapia.webp" alt="Klinika leczenia uzależnień Warszawa" class="object-cover  transition-transform duration-300 ">
+                                                                    src="<?php echo get_template_directory_uri(); ?>/assets/uslugi/uslugi-ozonoterapia.webp" width="774" height="425" alt="Klinika leczenia uzależnień Warszawa" class="aspect-774/425 object-cover  transition-transform duration-300 ">
 
                                                                     
                                                                     <div class="absolute bottom-0 left-0 right-0 p-6 ">
