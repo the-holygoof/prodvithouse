@@ -1,7 +1,8 @@
 # Directories to ignore
 .git/
-
-
+database.sql.txt
+blueprint.json
+gtagi.txt
 
 
 

@@ -1,0 +1,180 @@
+https://www.facebook.com/kroplowkiwitaminoweoczyszczajace/
+
+https://www.instagram.com/vithouse.pl/
+
+mapy api AIzaSyD6jPcCL900M6ERBDA2xmicuKj_KJ04hZo
+
+
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-217789183-1');
+</script>
+
+
+
+TWD:
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11198089297"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11198089297');
+</script>
+
+
+
+Google Tag Manager ID	
+GTM-NMRS77V
+
+
+'dataLayer' 
+Posttype of current post/archive
+Category list of current post/archive
+Tags of current post
+Post author name
+
+
+
+<script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">
+	var dataLayer_content = {"pagePostType":false};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMRS77V');
+</script>
+
+
+
+
+
+
+
+
+HEADER STRONY
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-217789183-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-217789183-1');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+|Type                   |ID            |Injection Source                 |Where Found                                                   |
+|-----------------------|--------------|---------------------------------|--------------------------------------------------------------|
+|Google Tag Manager     |GTM-NMRS77V   |DuracellTomi GTM4WP              |Page HTML (GTM boot + noscript iframe), Wayback snapshot refs.|
+|Google Analytics (UA)  |UA-217789183-1|99robots HFCM “Analytics” snippet|wp_options → hfcm_scripts; page HTML shows gtag config.       |
+|Google Analytics 4     |G-P5NJ4PQ3ND  |Theme header.php                 |header.php gtag include + config.                             |
+|Google Ads (Global tag)|AW-11198089297|Elementor Custom Code            |wp_postmeta: meta_key _elementor_code (post_id 1909).         |
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO `SERVMASK_PREFIX_options` VALUES (277,'litespeed.conf.optm-localize_domains','[\"### some CDNs\",\"https:\\/\\/ajax.aspnetcdn.com\",\"https:\\/\\/ajax.cloudflare.com\\/\",\"https:\\/\\/ajax.googleapis.com\\/ajax\\/\",\"https:\\/\\/cdn.jsdelivr.net\\/\",\"https:\\/\\/cdnjs.com\\/\",\"https:\\/\\/cdnjs.cloudflare.com\\/\",\"https:\\/\\/code.jquery.com\\/\",\"https:\\/\\/maxcdn.bootstrapcdn.com\\/\",\"https:\\/\\/netdna.bootstrapcdn.com\\/\",\"https:\\/\\/oss.maxcdn.com\\/\",\"https:\\/\\/stackpath.bootstrapcdn.com\\/\",\"### Popular scripts ###\",\"https:\\/\\/a.optmnstr.com\\/app\\/js\\/\",\"https:\\/\\/cdn.onesignal.com\\/sdks\\/\",\"https:\\/\\/cdn.optimizely.com\\/\",\"https:\\/\\/cdn.shopify.com\\/s\\/\",\"https:\\/\\/css3-mediaqueries-js.googlecode.com\\/svn\\/\",\"https:\\/\\/html5shim.googlecode.com\\/svn\\/\",\"https:\\/\\/html5shiv.googlecode.com\\/svn\\/\",\"https:\\/\\/maps.google.com\\/maps\\/api\\/js\",\"https:\\/\\/maps.googleapis.com\\/maps\\/api\\/js\",\"https:\\/\\/pagead2.googlesyndication.com\\/pagead\\/js\\/\",\"https:\\/\\/platform.twitter.com\\/widgets.js\",\"https:\\/\\/platform-api.sharethis.com\\/js\\/\",\"https:\\/\\/s7.addthis.com\\/js\\/\",\"https:\\/\\/stats.wp.com\\/\",\"https:\\/\\/ws.sharethis.com\\/button\\/\",\"https:\\/\\/www.google.com\\/recaptcha\\/api.js\",\"https:\\/\\/www.google-analytics.com\\/analytics.js\",\"https:\\/\\/www.googletagmanager.com\\/gtag\\/js\",\"https:\\/\\/www.googletagmanager.com\\/gtm.js\",\"https:\\/\\/www.googletagservices.com\\/tag\\/js\\/gpt.js\",\"https:\\/\\/connect.facebook.net\\/en_US\\/fbevents.js\",\"https:\\/\\/connect.facebook.net\\/signals\\/config\\/\"]','yes');
+
+
+INSERT INTO `SERVMASK_PREFIX_postmeta` VALUES (13416,1909,'_elementor_code','<!-- Google tag (gtag.js) -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-11198089297\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag(\'js\', new Date());\r\n\r\n  gtag(\'config\', \'AW-11198089297\');\r\n</script>');
+
+INSERT INTO `SERVMASK_PREFIX_cmplz_cookies` VALUES (59,'_gat_gtag_UA_*','_gat_gtag_ua_-2',1,0,'1 minute','cookie',27,'store a unique user ID','user ID','Statistics','en',0,1,0,'self',0,0,1,1703674079,1739785531,1703673951);
+INSERT INTO `SERVMASK_PREFIX_cmplz_cookies` VALUES (60,'_gat_gtag_UA_*','_gat_gtag_ua_-2',1,0,'1 minuta','',28,'zachowanie unikalnego ID użytkownika','ID użytkownika','Statystyki','pl',59,1,0,'self',0,0,1,1703674079,1739785531,1703673951);
+
+START TRANSACTION;
+INSERT INTO `SERVMASK_PREFIX_hfcm_scripts` VALUES (1,'Analytics','&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\r\n&lt;script defer src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-217789183-1&quot;&gt;&lt;/script&gt;\r\n&lt;script&gt;\r\nwindow.dataLayer = window.dataLayer || [];\r\nfunction gtag(){dataLayer.push(arguments);}\r\ngtag(&#039;js&#039;, new Date());\r\ngtag(&#039;config&#039;, &#039;UA-217789183-1&#039;);\r\n&lt;/script&gt;','js','both','header','All',5,'[]','[]','[]','[]','[]','[]','[]','active','admin','admin','2022-08-22 17:25:34','2023-04-30 19:45:33');
+COMMIT;
+
+
+INSERT INTO `SERVMASK_PREFIX_cmplz_cookies` VALUES (59,'_gat_gtag_UA_*','_gat_gtag_ua_-2',1,0,'1 minute','cookie',27,'store a unique user ID','user ID','Statistics','en',0,1,0,'self',0,0,1,1703674079,1739785531,1703673951);
+INSERT INTO `SERVMASK_PREFIX_cmplz_cookies` VALUES (60,'_gat_gtag_UA_*','_gat_gtag_ua_-2',1,0,'1 minuta','',28,'zachowanie unikalnego ID użytkownika','ID użytkownika','Statystyki','pl',59,1,0,'self',0,0,1,1703674079,1739785531,1703673951);
+
+
+INSERT INTO `SERVMASK_PREFIX_cmplz_cookies` VALUES (99,'google_adsense_settings','google_adsense_settings',1,0,'persistent','',25,'provide ad delivery or retargeting','','Marketing','en',0,0,0,'thirdparty',0,0,1,1703674083,1703674081,1703674081);
+INSERT INTO `SERVMASK_PREFIX_cmplz_cookies` VALUES (100,'google_adsense_settings','google_adsense_settings',1,0,'stałe','',26,'Aktywacja dostarczania reklam i retargetowania','','Marketing','pl',99,0,0,'thirdparty',0,0,1,1703674083,1703674081,1703674081);
+
+
+
+
+
+INSERT INTO `SERVMASK_PREFIX_postmeta` VALUES (13416,1909,'_elementor_code','<!-- Google tag (gtag.js) -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-11198089297\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag(\'js\', new Date());\r\n\r\n  gtag(\'config\', \'AW-11198089297\');\r\n</script>');
+
+
+
+INSERT INTO `SERVMASK_PREFIX_hfcm_scripts` VALUES (1,'Analytics','&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\r\n&lt;script defer src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-217789183-1&quot;&gt;&lt;/script&gt;\r\n&lt;script&gt;\r\nwindow.dataLayer = window.dataLayer || [];\r\nfunction gtag(){dataLayer.push(arguments);}\r\ngtag(&#039;js&#039;, new Date());\r\ngtag(&#039;config&#039;, &#039;UA-217789183-1&#039;);\r\n&lt;/script&gt;','js','both','header','All',5,'[]','[]','[]','[]','[]','[]','[]','active','admin','admin','2022-08-22 17:25:34','2023-04-30 19:45:33');
+
+
+
+
+
+
+
+<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NMRS77V"></script>
+
+
+
+<script data-cfasync="false" data-pagespeed-no-defer="">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+
+
+
+<script defer="" src="https://web.archive.org/web/20241208112139js_/https://www.googletagmanager.com/gtag/js?id=UA-217789183-1"></script>
+
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-217789183-1');
+
+
+
+
+
+
+<script async="" src="https://web.archive.org/web/20241208112139js_/https://www.googletagmanager.com/gtag/js?id=G-P5NJ4PQ3ND"></script>
+
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-P5NJ4PQ3ND');
+	
+
+
+
+      
+
+
+      
+
+{"@context":"https://web.archive.org/web/20241208112139/https://schema.org","@graph":[{"@type":"WebPage","@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/","url":"https://web.archive.org/web/20241208112139/https://vit-house.pl/","name":"Klinika leczenia uzależnień w Warszawie – ośrodek VIT-HOUSE","isPartOf":{"@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/#website"},"primaryImageOfPage":{"@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/#primaryimage"},"image":{"@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/#primaryimage"},"thumbnailUrl":"https://web.archive.org/web/20241208112139/https://vit-house.pl/wp-content/uploads/2022/12/slide-c.jpg","datePublished":"2022-12-02T22:03:31+00:00","dateModified":"2024-08-25T12:36:38+00:00","description":"W naszej prywatnej klinice leczenia uzależnień w Warszawie pomagamy wszystkim osobom chcącym skutecznie walczyć z nałogiem alkoholowym, narkomanią i lekomanią.","breadcrumb":{"@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/#breadcrumb"},"inLanguage":"pl-PL","potentialAction":[{"@type":"ReadAction","target":["https://web.archive.org/web/20241208112139/https://vit-house.pl/"]}]},{"@type":"ImageObject","inLanguage":"pl-PL","@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/#primaryimage","url":"https://web.archive.org/web/20241208112139/https://vit-house.pl/wp-content/uploads/2022/12/slide-c.jpg","contentUrl":"https://web.archive.org/web/20241208112139/https://vit-house.pl/wp-content/uploads/2022/12/slide-c.jpg","width":1920,"height":900,"caption":"Klinika leczenia uzależnień Warszawa baner"},{"@type":"BreadcrumbList","@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna"}]},{"@type":"WebSite","@id":"https://web.archive.org/web/20241208112139/https://vit-house.pl/#website","url":"https://web.archive.org/web/20241208112139/https://vit-house.pl/","name":"VIT-HOUSE","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://web.archive.org/web/20241208112139/https://vit-house.pl/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pl-PL"}]}

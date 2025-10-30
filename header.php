@@ -20,7 +20,47 @@
     <meta name="twitter:title" content="VitHouse - Profesjonalne leczenie uzależnień">
     <meta name="twitter:description" content="Skuteczne metody leczenia uzależnień. Kroplówki, detoksykacja, wsparcie 24/7">
 
+    <script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">
+	var dataLayer_content = {"pagePostType":false};
+	dataLayer.push( dataLayer_content );
+    </script>
+
+    <script data-cfasync="false">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMRS77V');
+    </script>
+
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-217789183-1"></script>
+
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-217789183-1');
+    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P5NJ4PQ3ND"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-P5NJ4PQ3ND');
+	</script>
     <?php wp_head(); ?>
+    
+
+
+
+
+
+
+
+
+
+
     
 </head>
 

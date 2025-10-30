@@ -193,7 +193,7 @@
                 </g>
             </svg>
         </a>
-        <a rel="nofollow" class="btn btn-circle btn-lg relative z-99999" href='https://facebook.com/vithouse' target="_blank">
+        <a rel="nofollow" class="btn btn-circle btn-lg relative z-99999" href='https://www.facebook.com/kroplowkiwitaminoweoczyszczajace/' target="_blank">
             <svg viewBox="0 0 100 100" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -854,7 +854,7 @@
                 </g>
             </svg>
         </a>
-        <a rel="nofollow" class="btn btn-circle btn-lg overflow-clip relative z-99999" href='https://instagram.com/vithouse' target="_blank">
+        <a rel="nofollow" class="btn btn-circle btn-lg overflow-clip relative z-99999" href='https://www.instagram.com/vithouse.pl/' target="_blank">
             <svg viewBox="0 0 3364.7 3364.7" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -893,7 +893,14 @@
 
         <?php wp_footer(); ?>
  
-    
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11198089297"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11198089297');
+</script>    
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </body>
 </html>
