@@ -5,7 +5,7 @@
  */
 ?>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 my-auto py-8 h-[1860px] md:h-[500px]  align-top ">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 my-auto py-8 h-[1560px] md:h-[500px] align-top ">
 
 
 
@@ -15,7 +15,7 @@
 
     <!--- wzmacniajaca --->
     <a href="<?php echo esc_url(home_url('/witaminoterapia/wzmacniajaca')); ?>">
-        <div class="kroplowka group">
+        <div class="kroplowka karta-outside group">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-wzmacniajace-bg.webp" width="285" height="425" alt="Kroplówki na kaca Warszawa" class=" h-full w-full object-cover min-w-full absolute inset-0" loading="lazy">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-wzmacniajace.webp" width="918" height="1218" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 " loading="lazy">
@@ -50,7 +50,7 @@
 
         <!--- oczyszczajaca --->
     <a href="<?php echo esc_url(home_url('/witaminoterapia/oczyszczajaca')); ?>">
-    <div class="kroplowka group">
+    <div class="kroplowka karta-outside group">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-oczyszczajace-bg.webp" width="285" height="425" alt="Kroplówki na kaca Warszawa" class=" h-full w-full object-cover absolute inset-0" loading="lazy">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-oczyszczajace.webp" width="918" height="1218" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 hover:will-change-transform hover:backface-hidden hover:gpu hover:transform-3d" loading="lazy">
@@ -85,7 +85,7 @@
 
         <!--- sportowcy --->
     <a href="<?php echo esc_url(home_url('/witaminoterapia/dla-sportowcow')); ?>">
-        <div class="kroplowka group">
+        <div class="kroplowka karta-outside group">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-dla-sportowcow-bg.webp" width="285" height="425" alt="Kroplówki na kaca Warszawa" class=" h-full w-full object-cover min-w-full absolute inset-0" loading="lazy">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-dla_sportowcow.webp" width="918" height="1218" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 hover:will-change-transform hover:backface-hidden hover:gpu hover:transform-3d" loading="lazy">
@@ -122,7 +122,7 @@
 
     <!--- na kaca --->
     <a href="<?php echo esc_url(home_url('/witaminoterapia/na-kaca')); ?>">
-       <div class="kroplowka group">
+       <div class="kroplowka karta-outside group">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-na-kaca-bg.webp" width="285" height="425" alt="Kroplówki na kaca Warszawa" class=" h-full w-full object-cover min-w-full absolute inset-0" loading="lazy">
             <div class="cloth-corner z-10 inset-0.75 absolute">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/kroplowki/kroplowki-na_kaca.webp" width="918" height="1218" alt="Kroplówki na kaca Warszawa" class=" h-full object-cover group-hover:blur-sm group-hover:scale-105 group-hover:transition-all duration-500 will-change-transform" loading="lazy">

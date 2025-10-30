@@ -10,7 +10,7 @@
     --font-display: "Satoshi", sans-serif;
     --default-font-family: var(--font-display);
     --bg-0: #191321;
-    --bg: #271c3780;
+    --bg: #271c3778;
     --bg-2: #271c37;
     --bg-light: #36294A;
     --surface: #312543;
@@ -44,10 +44,9 @@
   --pi1_2: 1.5707963269px;
   --pi: 3.1415926536px;
 }
-@plugin "daisyui" {
-  themes: false;
-  include: toggle, drawer-toggle, dropdown-hover, drawer-content, breadcrumbs, link, list, validator, navbar, radio, select, swap, modal, card, btn, collapse, button, input, properties, typography, checkbox, label, carousel, menu. dropdown, drawer, rootscrollgutter, rootscrolllock, svg, fab;
-}
+
+@plugin "daisyui";
+@source "../node_modules/daisyui";
 @plugin "daisyui/theme" {
   name: "vithouse";
   default: true;
@@ -61,7 +60,7 @@
   --noise: 1;
   --radius-box: 0;
 }
-
+@source "../node_modules/daisyui/";
 @layer base {
         @font-face {
         font-family: 'Satoshi';
@@ -92,7 +91,7 @@
           }
 
         body {
-        background-image: linear-gradient(90deg, var(--bg-2) 70%, var(--bg) 110%);
+        background-image: linear-gradient(to right, var(--bg-2) 60%, var(--bg) 100%);
         background-color: var(--bg-0);
         color: var(--text);
         overscroll-behavior: touch;
@@ -131,7 +130,40 @@
         }
 }
 
+@utility mobile-drawer {
+  backdrop-filter: blur(13px);
+}
+/*.drawer-side {
+  > .drawer-overlay  {
+  transition: opacity 0.7s ease-out 1s;
+  background-color: transparent;
+}}
 
+.drawer-side > .mobile-ul-drawer {
+  transform: scaleX(0.0);
+transform-origin:left;
+will-change: transform;
+ transition: transform 0.4s ease-in;
+ background-color: rgba(0, 0, 0, 0.1);
+mask-image: linear-gradient(90deg,rgba(0, 0, 0, 1) 80%, transparent 100%);
+backdrop-filter: blur(13px);
+}
+
+.drawer-toggle {
+  &:checked {
+      & ~ .drawer-side > .mobile-ul-drawer {
+        transform: scaleX(1.0);
+        
+      }
+    }
+  }
+*/
+
+
+@utility mobile-ul-drawer {
+@apply min-h-full w-fit justify-center font-bold gpu;
+
+}
 @utility paused {
 animation-play-state: paused;
 }
@@ -145,32 +177,32 @@ transform: translate3d(0, 0, 0);
 }
 
 /* Global scroll pause system */
-.scroll-paused * {
+@utility scroll-paused {
   animation-play-state: paused !important;
   transition: none !important;
 }
 
 /* Allow animations only for visible elements when not scrolling */
-.can-animate {
+@utility can-animate {
   animation-play-state: running;
 }
 
-.force-paused {
+@utility force-paused {
   animation-play-state: paused !important;
 }
 
 /* Reduced motion support */
-.reduced-motion * {
+@utility reduced-motion {
   animation: none !important;
   transition: none !important;
 }
 
 /* Performance optimizations for will-change */
-.will-change-transform { 
+@utility will-change-transform { 
   will-change: transform; 
 }
 
-.will-change-auto { 
+@utility will-change-auto { 
   will-change: auto; 
 }
 
@@ -493,20 +525,33 @@ section {
 
 .benefits-wrapper {
 content-visibility: auto;
+padding: 1rem 0.1rem;
 }
+
 
 
 .card-feature {
-@apply cloth-border;
+@apply cloth-border select-none;
 }
 
-.card {
-@apply cloth-corner transform-3d;
+.card-feature-icon {
+  @apply flex  items-center justify-center w-20 h-20 mx-auto mb-4;
+&>svg {
+  @apply contain-layout-paint;
+}
+&>img {
+  @apply opacity-70;
+}
+}
+
+
+.karta-outside {
+@apply cloth-border transform-3d h-full contain-layout-paint my-auto;
 }
 
 
 .karta {
-@apply cloth-corner  px-2 py-7 md:px-7 text-center object-cover relative z-20  min-h-full; 
+@apply cloth-corner  px-1.5 py-7 md:px-7 text-center object-cover relative z-20  content-center h-full; 
 }
 
 
@@ -568,13 +613,13 @@ background: radial-gradient(circle at 15% 20%, rgba(187,169,246,0.45), transpare
 }
 
 .heroslider-content {
-@apply content absolute self-center-safe flex-col gap-3 sm:gap-6 pb-2 w-full xl:w-1/2;
+@apply content absolute self-end-safe md:self-center-safe flex-col gap-3 sm:gap-6 pb-4 w-full xl:w-2/3;
 z-index: 50;
 display: flex;
 }
 
 .slider-subtitle {
-@apply text-sm md:text-base text-white/85 font-semibold sm:font-normal leading-relaxed py-8;
+@apply text-sm md:text-base text-white/85 font-semibold sm:font-normal leading-relaxed sm:py-2 max-w-4/5 md:max-w-full;
 }
 
 
@@ -608,8 +653,8 @@ flex-shrink: 0;
 }
 
 .slide img {
-@apply object-cover relative min-w-full;
-display: block;
+@apply object-cover relative min-w-full h-full object-bottom;
+display: inline-flex;
 }
 
 
@@ -782,7 +827,7 @@ animation-direction: reverse;
 
 
 .opinie-prev, .opinie-next, .hero-prev, .hero-next {
-@apply btn backdrop-blur-xs hover:scale-110;
+@apply btn hover:scale-110;
 /* Fix click area - remove inherited clip-path */
 clip-path: none !important;
 overflow: visible;
@@ -807,6 +852,6 @@ height: 100%;
 
 
 .kroplowka {
-@apply cloth-border relative flex items-end justify-end cursor-pointer h-[440px] max-h-[440px] aspect-[0.7536945813];;
+@apply cloth-border contain-layout-paint relative flex items-end justify-end cursor-pointer h-[362px] md:h-[440px] max-h-[440px];
 }
 }

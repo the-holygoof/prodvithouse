@@ -14,24 +14,24 @@
   };
 
   const BASELINE_CSS = `
-    .card { transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0); transition: transform 160ms ease; }
-    .card.is-hovering { transition: all 36ms linear; }
+    .karta-outside { transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0); transition: transform 160ms ease; }
+    .karta-outside.is-hovering { transition: all 36ms linear; }
     .glare { opacity: 0; transition: opacity 140ms ease; }
-    .card.is-hovering .glare, .card:hover .glare { opacity: 0.5; }
+    .karta-outside.is-hovering .glare, .karta-outside:hover .glare { opacity: 0.5; }
 
-    .card { position: relative; z-index: 20; }
-    .card > .glare { z-index: 180; }
-    .card > .cloth-corner { z-index: 140; }
-    .card > .cloth-corner > *:not(.glare) { z-index: 150; }
+    .karta-outside { position: relative; z-index: 20; }
+    .karta-outside > .glare { z-index: 180; }
+    .karta-outside > .cloth-corner { z-index: 140; }
+    .karta-outside > .cloth-corner > *:not(.glare) { z-index: 150; }
 
     /* Pause state: keeps compositor free during scroll */
-    .tilt-paused .card { transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0) !important; }
-    .tilt-paused .card .glare { opacity: 0 !important; }
+    .tilt-paused .karta-outside { transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0) !important; }
+    .tilt-paused .karta-outside .glare { opacity: 0 !important; }
 
     /* Only hint will-change during active hover */
-    .card.will-transform { will-change: transform; }
+    .karta-outside.will-transform { will-change: transform; }
 
-    @media (prefers-reduced-motion: reduce) { .card, .card.is-hovering, .glare { transition: none !important; } }
+    @media (prefers-reduced-motion: reduce) { .karta-outside, .karta-outside.is-hovering, .glare { transition: none !important; } }
   `;
 
   function injectBaselineOnce() {

@@ -30,11 +30,11 @@
   alt=""
   width="2600"
   height="1440"
-  class="transform-style: flat"
+  class="object-bottom-right transform-flat"
 />
                     <div class="heroslider-content">
-                        <h1>NAD+ i Glutation <br/>eliksiry młodości</h1>
-                        <p class="slider-subtitle">Nowość w VIT-HOUSE. Dwa wyjątkowe preparaty. Eliksiry młodości, energii i&nbsp;detoksykacji!</span>
+                        <h1>Eliksiry<br/>młodości</h1>
+                        <p class="slider-subtitle"><strong>NAD+ i Glutation.</strong> Nowość w VIT-HOUSE. Dwa wyjątkowe preparaty. Eliksiry młodości, energii i&nbsp;detoksykacji!</span>
                         </p>
                         <button class="button-slider" href="<?php echo esc_url( home_url( '/eliksir-mlodosci' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
                     </div>          
@@ -48,11 +48,11 @@
   alt=""
   width="2600"
   height="1440"
-  class="transform-style: flat"
+  class="transform-flat"
 />
                     <div class="heroslider-content">
                         <h1>Twój pierwszy krok w&nbsp;stronę wolności</h1>
-                        <p class="slider-subtitle">Pomagamy wyjść z nałogu, łącząc terapię, odtrucia po alkoholu, narkotykach i lekach. <span class="invisible md:visible">Gwarantujemy prywatność, komfortowe pokoje  i opiekę medyczną.</span>
+                        <p class="slider-subtitle">Pomagamy wyjść z nałogu, łącząc terapię, odtrucia po alkoholu, narkotykach i lekach. <span class="hidden md:block">Gwarantujemy prywatność, komfortowe pokoje  i opiekę medyczną.</span>
                         </p>
                         <button class="button-slider" href="<?php echo esc_url( home_url( '/leczenie-uzaleznien' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
                     </div>          
@@ -66,11 +66,11 @@
   alt=""
   width="2600"
   height="1440"
-  class="transform-style: flat"
+  class="transform-flat"
 />
                     <div class="heroslider-content">
                         <h1>Kroplówki witaminowe</h1>
-                        <p class="slider-subtitle">Najlepszy sposób, by uzupełnić niedobory bezcennych witamin, niezbędnych składników odżywczych, zwiększyć wydajność organizmu i&nbsp;wesprzeć naturalną odporność.</p>
+                        <p class="slider-subtitle">Najlepszy sposób, by uzupełnić niedobory bezcennych witamin<span class="hidden md:block">, niezbędnych składników odżywczych, zwiększyć wydajność organizmu</span> i&nbsp;wesprzeć naturalną odporność.</p>
                         <button class="button-slider" href="<?php echo esc_url( home_url( '/kroplowki-witaminowe' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
                     </div>          
                 </div>
@@ -88,8 +88,7 @@
                 
                     <div class="heroslider-content">
                         <h1>Ozonoterapia</h1>
-                        
-                        <p class="slider-subtitle">Skuteczna i efektywna metoda leczenia wielu schorzeń, zaburzeń i&nbsp;urazów. <span class="invisible md:visible">Poprawia parametry przepływu krwi, zwiększa uwalnianie tlenu z erytrocytów, korzystnie wpływa na układ odpornościowy.</span></p>
+                        <p class="slider-subtitle">Skuteczna i efektywna metoda leczenia wielu schorzeń, zaburzeń i&nbsp;urazów. <span class="hidden md:block"> Poprawia parametry przepływu krwi, zwiększa uwalnianie tlenu z erytrocytów, korzystnie wpływa na układ odpornościowy.</span></p>
                         <button class="button-slider" href="<?php echo esc_url( home_url( '/ozonoterapia' ) ); ?>"><div class="button-inner"> Dowiedz się więcej   </div></button>
                     </div>          
                 </div>

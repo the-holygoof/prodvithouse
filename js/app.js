@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize tilt/glare effects for cards
   if (window.initTiltGlare) {
-    initTiltGlare('.card', { 
+    initTiltGlare('.karta-outside', { 
       innerGlare: false,
       resumeDelayMs: 260,    // Longer pause after scroll
       glareRx: 180,          // Reduced glare size for performance

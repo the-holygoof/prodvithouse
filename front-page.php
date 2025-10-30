@@ -39,13 +39,13 @@
                        
                             <div class="flex flex-row-reverse md:flex-row items-center-safe justify-start-safe gap-8 md:pb-44">
                                 
-                                <div class="squircle cloth-small squircle-4xl squircle-smooth-md squircle-amber-100 squircle-border-1 squircle-border-amber-200  w-[140px] relative ">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover squircle-mask  squircle-4xl squircle-smooth-lg" style=" image-resolution: 2;">
+                                <div class="squircle cloth-small  w-[110px] md:w-[140px] relative ">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/orly-medycyny-logo-2-265x300.webp" alt="Kroplówki witaminowe Warszawa" width="265" height="300" class="relative object-cover cloth-small">
                                 </div>
 
 
                                 <a href="https://www.orlymedycyny.pl/profile-942794-vit-house-pl-sp-z-o-o" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/app_laureate_110_gold_113.webp" width="110" height="110" style="width:110px; height:110px; border:0;" alt="VIT-HOUSE.PL Sp. z o.o. - Warszawa" title="VIT-HOUSE.PL Sp. z o.o. - Warszawa">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/app_laureate_110_gold_113.webp" class="w-[90px] md:w-[109px] object-contain " width="109" height="113" style="aspect-ratio: 0.9646017699; border:0;" alt="VIT-HOUSE.PL Sp. z o.o. - Warszawa" title="VIT-HOUSE.PL Sp. z o.o. - Warszawa">
                                 </a>
                                     
                             </div>
@@ -366,7 +366,7 @@
         <div class="grid grid-cols-3 sm:grid-rows-5 grid-rows-15 gap-x-4 gap-y-3 items-center-safe justify-center-safe content-center-safe ">
 
 
-                                    <div class="card kolumna1-1 sm:col-span-1 col-span-3 sm:col-start-1 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start ">
+                                    <div class="karta-outside kolumna1-1 sm:col-span-1 col-span-3 sm:col-start-1 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start ">
                                             <div class="cloth-corner relative  cursor-pointer group ">
                                                 <a href="/leczenie-uzaleznien">
                                                     <div class="relative  transition-all duration-300">
@@ -395,7 +395,7 @@
                                     </div>
 
 
-                                    <div class="card kolumna1-2 sm:col-span-1 col-span-3 sm:col-start-1 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
+                                    <div class="karta-outside kolumna1-2 sm:col-span-1 col-span-3 sm:col-start-1 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
                                         <div class="cloth-corner relative  cursor-pointer group">
                                             <a href="/eliksir-mlodosci">
                                                 <div class="relative  transition-all duration-300">
@@ -423,7 +423,7 @@
                                     </div>
 
 
-                                    <div class="card kolumna2 sm:col-span-1 col-span-3 sm:col-start-2 row-span-2 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
+                                    <div class="karta-outside kolumna2 sm:col-span-1 col-span-3 sm:col-start-2 row-span-2 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
                                         <div class="cloth-corner relative cursor-pointer group">
                                             <a href="/wszywka-alkoholowa">
                                                 <div class="relative  transition-all duration-300">
@@ -451,7 +451,7 @@
                                         </div>
 
 
-                                        <div class="card kolumna3 sm:col-span-1 col-span-3 sm:col-start-2 row-span-3 sm:row-start-3 cloth-border-nobg flex items-center justify-center self-end">
+                                        <div class="karta-outside kolumna3 sm:col-span-1 col-span-3 sm:col-start-2 row-span-3 sm:row-start-3 cloth-border-nobg flex items-center justify-center self-end">
                                             <div class="cloth-corner relative  cursor-pointer group">
                                                 <a href="/leczenie-uzaleznien">
                                                     <div class="relative transition-all duration-300">
@@ -479,7 +479,7 @@
                                             </div>
 
 
-                                            <div class="card kolumna4 sm:col-span-1 col-span-3 sm:col-start-3 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
+                                            <div class="karta-outside kolumna4 sm:col-span-1 col-span-3 sm:col-start-3 row-span-3 sm:row-start-1 cloth-border-nobg flex items-center justify-center  self-start">
                                                 <div class="cloth-corner relative  cursor-pointer group">
                                                     <a href="/badania-laboratoryjne">
                                                         <div class="relative transition-all duration-300">
@@ -507,7 +507,7 @@
                                                 </div>
 
 
-                                                    <div class="card kolumna5 sm:col-span-1 col-span-3 sm:col-start-3 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
+                                                    <div class="karta-outside kolumna5 sm:col-span-1 col-span-3 sm:col-start-3 row-span-2 sm:row-start-4 cloth-border-nobg flex items-center justify-center self-end">
                                                         <div class="cloth-corner relative  cursor-pointer group">
                                                             <a href="/ozonoterapia">
                                                                 <div class="relative  transition-all duration-300">

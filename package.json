@@ -24,7 +24,7 @@
 
     "setup": "npm install && npm run build",
 
-    "wpnow": "npx @wp-now/wp-now start"
+    "wpnow": "npx @wp-now/wp-now start --blueprint=blueprint.json"
 
   },
 

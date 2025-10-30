@@ -162,14 +162,17 @@
 
                 </div>
 
-                <div class="drawer-side backdrop-blur-md bg-black/40 z-9999009999">
+                <div class="drawer-side mobile-drawer">
                 
-                
+                <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay "></label>   
+
                     
-                    
-                    <ul class="menu min-h-full w-fit justify-center  font-bold  transition-all duration-75  bg-surface/8">
+                <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay btn btn-circle btn-error z-9999 m-2">X</label>    
+
+                    <ul class="menu mobile-ul-drawer">
+                     
                         <li>
-                            <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay btn btn-circle btn-error ">X</label>    
+                            
                             <a href="https://vit-house.pl/leczenie-uzaleznien">Detoksykacje</a>
                             <ul class="menu">
                                 <li><a href="https://vit-house.pl/odtrucia-po-alkoholu">Odtrucia alkoholowe</a></li>

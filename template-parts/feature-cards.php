@@ -8,12 +8,12 @@
 <div class="benefits-wrapper my-auto md:pt-36 pb-32 md:pb-32 grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-8 md:px-6 ">
 
     <!-- krolowki witaminowe -->
-        <div class="card card-feature my-auto" tabindex="0">                                        
+        <div class="karta-outside card-feature my-auto" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="absolute inset-0 w-full h-full -z-1 bg-linear-135 from-40% to-70% from-[#8dffdf] to-[#8a70e1]"></div>
             <div class="karta bg-linear-135 from-primary to-secondary">                                            
-                <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-1/2 -z-1">                                                    
+                <div class="card-feature-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-6/7 sm:w-1/2 -z-1 opacity-100">                                                    
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M40 0C62.09 0 80 17.91 80 40C80 62.09 62.09 80 40 80C17.91 80 0 62.09 0 40C0 17.91 17.91 0 40 0Z" fill="url(#paint0_linear_1556_14)"/>
                             <path d="M40.5 12C56.2388 12 69 24.7612 69 40.5C69 56.2388 56.2388 69 40.5 69C24.7612 69 12 56.2388 12 40.5C12 24.7612 24.7612 12 40.5 12Z" stroke="url(#paint1_radial_1556_14)" stroke-opacity="0.7" stroke-width="20" stroke-miterlimit="1.41421"/>
@@ -41,12 +41,12 @@
     <!-- -->
 
     <!-- gwarancja poufnosci -->
-        <div class="card card-feature my-auto" tabindex="0">                                        
+        <div class="karta-outside card-feature my-auto" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="karta bg-card" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
             
-                <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-1/2 -z-1">                                                    
+                <div class="card-feature-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-6/7 sm:w-1/2 -z-1">                                                    
 
                     <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M40 0C62.09 0 80 17.91 80 40C80 62.09 62.09 80 40 80C17.91 80 0 62.09 0 40C0 17.91 17.91 0 40 0Z" fill="url(#paint0_linear_1556_9)"/>
@@ -83,12 +83,12 @@
     <!-- -->
 
     <!-- pobieranie krwi -->
-        <div class="card card-feature my-auto content-stretch" tabindex="0">                                        
+        <div class="karta-outside card-feature my-auto content-stretch" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="karta bg-card" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
             
-                <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-1/2 -z-1">                                                    
+                <div class="card-feature-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-6/7 sm:w-1/2 -z-1">                                                    
 
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M40 0C62.09 0 80 17.91 80 40C80 62.09 62.09 80 40 80C17.91 80 0 62.09 0 40C0 17.91 17.91 0 40 0Z" fill="url(#paint0_linear_1556_19)"/>
@@ -121,12 +121,12 @@
     <!-- -->
 
     <!-- nadzór -->
-        <div class="card card-feature my-auto items-stretch" tabindex="0">                                        
+        <div class="karta-outside card-feature my-auto items-stretch" tabindex="0">                                        
             <div class="glare pointer-events-none absolute inset-0 z-50 opacity-0 transition-all duration-150 ease-out" aria-hidden="true"></div>
             <div class="karta bg-card" style="background: linear-gradient(-40deg, var(--surface), var(--card));">
             
-                <div class="flex  items-center justify-center w-20 h-20 mx-auto mb-4">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-1/2 -z-1">                                                    
+                <div class="card-feature-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/shadow.webp" width="259" height="270" class="absolute inset-0 mx-auto mb-auto w-6/7 sm:w-1/2 -z-1">                                                    
 
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M40 1C61.5378 1 79 18.2384 79 39.5C79 60.7616 61.5378 78 40 78C18.4622 78 1 60.7616 1 39.5C1 18.2384 18.4622 1 40 1Z" fill="url(#paint0_linear_1556_4)"/>
