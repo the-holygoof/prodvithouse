@@ -264,15 +264,11 @@ clip-path: polygon(1.5em 0em, calc(100% - 1.5em) 0em, calc(100% - 1.416003em) 0.
 @utility blog-grid {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-auto-rows: minmax(120px, 1fr);
+    grid-template-columns: repeat(3, minmax(250px, auto));
+    grid-auto-rows: minmax(220px, 1fr);
     grid-auto-flow: columns;
     grid-row-gap: .5em;
     grid-column-gap: 1em;
-    ;
- & article {
-    @apply w-1/2; 
-}
 }
 @utility bg-bg {
 background-color: var(--bg);

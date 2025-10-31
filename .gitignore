@@ -2,7 +2,7 @@
 .git/
 database.sql.txt
 blueprint.json
-
+node_modules
 gtags.txt
 
 

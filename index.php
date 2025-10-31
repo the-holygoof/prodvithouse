@@ -22,10 +22,10 @@
 		$wp_query = new WP_Query(); $wp_query->query('posts_per_page=8' . '&paged='.$paged);
 		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 		
-		<div class="flex justify-center-safe gap-14 items-stretch content-between mb-16 bg-surface cloth-corner relative">
+		<div class="flex col-span-2 lg:col-span-1 justify-center-safe gap-14 items-stretch content-between mb-16 bg-surface cloth-corner relative">
 		<a href="<?php the_permalink(); ?>" title="Read more" class="absolute inset-0 size-full" style="background: linear-gradient(to right, var(--surface) 0%, transparent 70%);">
 		</a>
-			<a href="<?php the_permalink(); ?>" title="Read more"  class=" w-full featured_image  h-[300px]">
+			<a href="<?php the_permalink(); ?>" title="Read more"  class=" w-full featured_image min-h-[300px] max-h-[500px]">
 			<?php
 			if ( has_post_thumbnail() ) {
 			the_post_thumbnail( 'full', array( 'class' => 'w-full h-full object-cover' ) );
