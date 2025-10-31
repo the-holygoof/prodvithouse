@@ -143,7 +143,7 @@
 
                             <div tabindex="0" role="button" class="dropdown menu-top-link dropdown-hover  menupaddingbg group/dropdown">
                                 <div class="menuhoverbg opacity-0 group-hover/dropdown:opacity-100 squircle squircle-3xl squircle-smooth-md squircle-white/10"></div>                        
-                                <a href="https://vit-house.pl/kroplowki-witaminowe" class="menu-top-link">Kroplówki</a>
+                                <a href="https://vit-house.pl/witaminoterapia" class="menu-top-link">Kroplówki</a>
                                 <ul tabindex="-1" class="cloth-corner gap-0 dropdown-content menu min-w-max bg-white/8 backdrop-blur-xl hover:will-change-transform" >
                                     <li class="py-2 pl-4 pr-4 hover:scale-110 transition-all duration-350 ease-in-out group">
                                         <a href="https://vit-house.pl/witaminoterapia/dla-sportowcow" class="leading-6 cloth-small group-hover:bg-white/8">Dla sportowców</a>
@@ -194,7 +194,7 @@
 
                         <div class="flex-none z-9997 relative">
                             <a href="https://www.halodoctor.pl/lekarze/iwona-zaborowska-internista-warszawa" target="_blank" class="z-9999 cursor-pointer">
-                            <button class="button-nav-header " href="https://vit-house.pl/kroplowki-witaminowe">
+                            <button class="button-nav-header " href="https://vit-house.pl/witaminoterapia">
                                 <div class="button-inner"> Umów wizytę online   
                                 </div>
                             </button> 
