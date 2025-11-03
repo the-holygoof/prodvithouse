@@ -30,6 +30,8 @@
 
   "devDependencies": {
 
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+
     "@tailwindcss/cli": "^4.1.15",
 
     "@tailwindcss/upgrade": "^4.1.14",

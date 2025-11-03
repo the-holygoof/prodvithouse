@@ -51,6 +51,25 @@ function vithouse_enqueue_assets() {
 }
 add_action('wp_enqueue_scripts', 'vithouse_enqueue_assets');
 
+// Disable Gutenberg on the back end.
+add_filter( 'use_block_editor_for_post', '__return_false' );
+
+// Disable Gutenberg for widgets.
+add_filter( 'use_widgets_block_editor', '__return_false' );
+
+add_action( 'wp_enqueue_scripts', function() {
+    // Remove CSS on the front end.
+    wp_dequeue_style( 'wp-block-library' );
+
+    // Remove Gutenberg theme.
+    wp_dequeue_style( 'wp-block-library-theme' );
+
+    // Remove inline global CSS on the front end.
+    wp_dequeue_style( 'global-styles' );
+
+    // Remove classic-themes CSS for backwards compatibility for button blocks.
+    wp_dequeue_style( 'classic-theme-styles' );
+}, 20 );
 
 // //Remove Gutenberg Block Library CSS from loading on the frontend
 // function smartwp_remove_wp_block_library_css(){
@@ -66,12 +85,12 @@ add_action('wp_enqueue_scripts', 'vithouse_enqueue_assets');
  
 // add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
 
-// function remove_global_css() {
-//     // Paste the code here
-// 	remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
-// 	remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
-// }
-// add_action('init', 'remove_global_css');
+function remove_global_css() {
+    // Paste the code here
+	remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
+	remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
+}
+add_action('init', 'remove_global_css');
 
 
 function generate_smart_breadcrumbs() {
@@ -243,3 +262,6 @@ remove_action('wp_head', 'rest_output_link_wp_head', 10);
 
 // Disable REST API link in HTTP headers
 remove_action('template_redirect', 'rest_output_link_header', 11, 0);
+
+
+

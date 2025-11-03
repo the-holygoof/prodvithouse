@@ -27,10 +27,10 @@
   srcset="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-400w.webp 400w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-600w.webp 600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-800w.webp 800w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1000w.webp 1000w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1200w.webp 1200w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-1600w.webp 1600w, <?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci-2000w.webp 2000w"
   sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
   src="<?php echo get_template_directory_uri(); ?>/assets/hero/hero-zastrzyk-mlodosci.jpg"
-  alt=""
+  alt="Kroplówki witaminowe Warszawa"
   width="2600"
   height="1440"
-  class="object-bottom-right transform-flat"
+  class="object-bottom-right transform-flat" fetchpriority="high" 
 />
                     <div class="heroslider-content">
                         <h1>Eliksiry<br/>młodości</h1>

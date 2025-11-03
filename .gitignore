@@ -4,6 +4,10 @@ database.sql.txt
 blueprint.json
 node_modules
 gtags.txt
+/node_modules/
+.DS_Store
+.prettierignore
+.prettierrc
 
 
 

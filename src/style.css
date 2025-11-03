@@ -46,7 +46,6 @@
 }
 
 @plugin "daisyui";
-@source "../node_modules/daisyui";
 @plugin "daisyui/theme" {
   name: "vithouse";
   default: true;
@@ -60,7 +59,7 @@
   --noise: 0;
   --radius-box: 0;
 }
-@source "../node_modules/daisyui/";
+
 @layer base {
         @font-face {
         font-family: 'Satoshi';
@@ -172,7 +171,12 @@ backdrop-filter: blur(13px);
   }
 */
 
-
+@utility btn-circle {
+  @apply rounded-full;
+}
+@utility btn-error {
+  @apply bg-red-500 text-white;
+}
 @utility mobile-ul-drawer {
 @apply min-h-full w-fit justify-center font-bold text-lg;
 
@@ -270,6 +274,7 @@ clip-path: polygon(1.5em 0em, calc(100% - 1.5em) 0em, calc(100% - 1.416003em) 0.
     grid-row-gap: .5em;
     grid-column-gap: 1em;
 }
+
 @utility bg-bg {
 background-color: var(--bg);
 }
@@ -463,7 +468,7 @@ z-index: 141;
 scrollbar-gutter: stable both-edges;
 }
 @utility btn {
-@apply transition-all duration-200 ease-in-out bg-white/8 outline-1 outline-white/15 outline-offset-2 text-xl text-black/40;
+@apply transition-all duration-200 ease-in-out bg-bg-light outline-1 outline-white/15 outline-offset-2 text-xl text-black/40;
 
 @variant hover {
 @apply scale-105 bg-white/30 outline-offset-2 outline-2 outline-white/15 text-white/70;
